@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FC25 트레이딩 카드 – 시리즈·팩 오픈</title>
+<style>
+:root{
+  --gap: 16px;
+  --stage-pad: clamp(12px, 2vw, 24px);
+  --poster-w: min(26vmin, 220px);
+  --pack-w:  min(48vmin, 380px); /* 기본 크기 */
+  --card-w:  min(44vmin, 360px);
+  --accent: #10b981;
+  --bg: #0b0f17;
+  --surface: #121826;
+  --text: #eaf2ff;
+  --muted: #99a3b4;
+}
+
+/* === RARITY COLORS === */
+.badge.r-legend { background:#2a2012; border-color:#f59e0b; color:#ffefc6; }
+.badge.r-icon   { background:#111b2b; border-color:#60a5fa; color:#dbeafe; }
+.badge.r-elite  { background:#0f221a; border-color:#34d399; color:#dcfce7; }
+.badge.r-core   { background:#221a0f; border-color:#dcfc73; color:#faf8db; }
+.badge.r-common { background:#121722; border-color:#94a3b8; color:#e2e8f0; }
+
+/* 카드 테두리/글로우도 함께 */
+.result-card.r-legend { border-color:#f59e0b; box-shadow:0 18px 40px rgba(0,0,0,.45), 0 0 24px rgba(245,158,11,.32); }
+.result-card.r-icon   { border-color:#60a5fa; box-shadow:0 18px 40px rgba(0,0,0,.45), 0 0 24px rgba(96,165,250,.28); }
+.result-card.r-elite  { border-color:#34d399; box-shadow:0 18px 40px rgba(0,0,0,.45), 0 0 24px rgba(52,211,153,.28); }
+.result-card.r-core   { border-color:#dcfc73; box-shadow:0 18px 40px rgba(0,0,0,.45), 0 0 24px rgba(251,146,60,.25); }
+.result-card.r-common { border-color:#94a3b8; box-shadow:0 18px 40px rgba(0,0,0,.45), 0 0 18px rgba(148,163,184,.22); }
+
+.result-card.r-legend .rate { color:#f59e0b; }
+.result-card.r-icon   .rate { color:#93c5fd; }
+.result-card.r-elite  .rate { color:#6ee7b7; }
+.result-card.r-core   .rate { color:#dcfc73; }
+.result-card.r-common .rate { color:#cbd5e1; }
+
+
+/* Utility */
+*{box-sizing:border-box}
+html,body{height:100%; background: radial-gradient(1200px 800px at 20% -10%, #182033, #0b0f17) no-repeat fixed; color:var(--text); font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Inter,Apple SD Gothic Neo,Noto Sans KR,Arial,"Apple Color Emoji","Segoe UI Emoji";}
+a,button{cursor:pointer}
+button{border:0; background:#20283a; color:var(--text); padding:10px 14px; border-radius:10px;}
+button:hover{filter:brightness(1.1)}
+.hidden{display:none !important}
+.container{max-width:1200px; margin:0 auto; padding:var(--stage-pad)}
+.header{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:12px}
+.header h1{font-size:clamp(16px, 2.2vw, 22px); font-weight:700; letter-spacing:0.2px; margin:0}
+.toolbar{display:flex; align-items:center; gap:8px; flex-wrap:wrap}
+.toolbar .size-group button{background:#1a2130;padding:8px 10px}
+.toolbar .size-group button.active{outline:2px solid var(--accent)}
+.toolbar .ghost{background:transparent; border:1px solid #2a3243}
+.toolbar .pill{border-radius:999px}
+.grid{display:grid; gap:var(--gap)}
+.grid.series{grid-template-columns:repeat(auto-fill, minmax(var(--poster-w),1fr))}
+.grid.packs{grid-template-columns:repeat(auto-fill, minmax(min(30vmin,200px),1fr))}
+.card{background:linear-gradient(180deg, #141b2b, #0e1422); border:1px solid #2a3347; border-radius:16px; overflow:hidden; position:relative; box-shadow: 0 10px 24px rgba(0,0,0,.35); transition:transform .15s ease}
+.card:hover{transform:translateY(-2px)}
+.card .thumb{width:100%; aspect-ratio: 3/4; object-fit:cover; display:block}
+.card .meta{padding:10px 12px; display:flex; align-items:center; justify-content:space-between; gap:8px}
+.card .meta .name{font-weight:700; font-size:14px}
+.card .meta .tag{font-size:12px; color:var(--muted)}
+
+.stage{position:relative; min-height: calc(100dvh - 140px); border:1px solid #222a3a; background:linear-gradient(180deg,#0f1524 0%, #0c111d 100%); border-radius:18px; padding:clamp(16px,2vw,24px); display:flex; align-items:center; justify-content:center; overflow:visible;}
+.stage-inner{width:100%; height:100%; display:flex; align-items:center; justify-content:center; position:relative}
+
+.pack-area{position:relative; display:flex; align-items:center; justify-content:center; width:var(--pack-w); max-height: 80vh;}
+@media (max-width:520px){
+  :root{ --pack-w: min(72vmin, 320px); --card-w: min(68vmin, 300px); }
+}
+.size-s{ --pack-w: min(40vmin, 300px); --card-w: min(36vmin, 280px); }
+.size-m{ --pack-w: min(48vmin, 380px); --card-w: min(44vmin, 360px); }
+.size-l{ --pack-w: min(60vmin, 460px); --card-w: min(56vmin, 420px); }
+
+/* PACK display with two halves for tear */
+.pack-display{ position:relative; width:100%; aspect-ratio: 2/3; perspective: 1000px; }
+.pack-half{ position:absolute; inset:0; background: #1b2436; border:1px solid #2e3a54; border-radius: 12px; overflow:hidden; transform-origin: center; display:flex; align-items:center; justify-content:center; box-shadow: 0 18px 40px rgba(0,0,0,.45); }
+.pack-half img{ width:100%; height:100%; object-fit:cover; display:block; opacity:.98; }
+.pack-left{ clip-path: polygon(0 0, 52% 0, 52% 100%, 0 100%); }
+.pack-right{ clip-path: polygon(48% 0, 100% 0, 100% 100%, 48% 100%); }
+
+/* === refined SHINE: one-time, subtle, only on open === */
+.pack-gloss{
+  position:absolute; inset:0; pointer-events:none;
+  background: linear-gradient(110deg,
+    rgba(255,255,255,0) 35%,
+    rgba(255,255,255,.18) 50%,
+    rgba(255,255,255,0) 65%);
+  mix-blend-mode: screen;
+  opacity:0;
+  transform: translateX(-55%);
+}
+/* play only once per open */
+.shine .pack-gloss{ animation: glossOnce .48s ease-out forwards; }
+@keyframes glossOnce{
+  0%   { opacity:0; transform: translateX(-55%); }
+  18%  { opacity:.28; }
+  100% { opacity:0; transform: translateX(55%); }
+}
+
+/* subtle shake to hint click */
+.click-hint{ animation: shake 2s ease-in-out infinite both; }
+@keyframes shake{
+  0%,100%{ transform: translateX(0) }
+  15%{ transform: translateX(-2px) }
+  30%{ transform: translateX(2px) }
+  45%{ transform: translateX(-1px) }
+  60%{ transform: translateX(1px) }
+  75%{ transform: translateX(0) }
+}
+
+/* === CLASSIC RIP (earlier look) === */
+.pack-display::after{
+  content:""; position:absolute; top:0; bottom:0; left:50%; width:0;
+  transform: translateX(-50%);
+  pointer-events:none; opacity:0; mix-blend-mode:screen;
+  background:
+    radial-gradient(closest-side, rgba(255,255,255,.7), rgba(255,255,255,0) 65%) center/6px 90% no-repeat,
+    linear-gradient(180deg, rgba(255,255,255,.35), rgba(255,255,255,.05));
+  filter: drop-shadow(0 0 8px rgba(255,255,255,.25));
+}
+.rip .pack-display::after{ animation: ripBand .52s ease-out forwards; }
+@keyframes ripBand{
+  0%{ width:0; opacity:0; }
+  40%{ width:10px; opacity:.9; }
+  100%{ width:16px; opacity:.5; }
+}
+
+.rip .pack-left{ animation: classicLeft .52s cubic-bezier(.2,.7,.2,1) forwards; }
+.rip .pack-right{ animation: classicRight .52s cubic-bezier(.2,.7,.2,1) forwards; }
+@keyframes classicLeft{
+  0%{ transform: translateX(0) rotate(0deg); }
+  55%{ transform: translateX(-42%) rotate(-3deg); }
+  100%{ transform: translateX(-56%) rotate(-5deg); }
+}
+@keyframes classicRight{
+  0%{ transform: translateX(0) rotate(0deg); }
+  55%{ transform: translateX(42%) rotate(3deg); }
+  100%{ transform: translateX(56%) rotate(5deg); }
+}
+
+/* Player card revealed under the pack */
+.result-card{ position:absolute; width:var(--card-w); aspect-ratio: 63/88; border-radius:12px; border:1px solid #35415a; background:#0f172a; transform: translateY(8px) scale(.92); opacity:0; transition: transform .6s cubic-bezier(.2,.7,.2,1), opacity .6s; box-shadow: 0 18px 40px rgba(0,0,0,.45); overflow:hidden }
+.show-card .result-card{ transform: translateY(0) scale(1); opacity:1; }
+.result-img{ position:absolute; inset:0; object-fit:cover; width:100%; height:100%; filter: drop-shadow(0 6px 18px rgba(0,0,0,.45)); }
+.result-overlay{ position:absolute; inset:0; background: linear-gradient(180deg, rgba(9,12,20,0) 50%, rgba(9,12,20,.85) 80%, rgba(9,12,20,.95) 100%); }
+.badge{ position:absolute; top:10px; left:10px; background:#111827; border:1px solid #2a3347; color:#d1e2ff; padding:6px 10px; border-radius:999px; font-size:12px; }
+.card-meta{ position:absolute; bottom:10px; left:10px; right:10px; display:flex; align-items:center; justify-content:space-between; gap:8px; }
+.name{ font-weight:800; letter-spacing:.2px }
+.sub{ font-size:12px; color:#a5b4cf }
+.rate{ font-weight:900; font-size:20px; }
+
+/* Confetti */
+.confetti{ position:absolute; inset: -20vh -10vw; overflow:visible; pointer-events:none }
+.confetti i{ position:absolute; width:8px; height:14px; background:hsl(var(--h) 90% 60%); top:-5vh; left:var(--x); transform: rotate(var(--r)); animation: fall linear forwards; animation-duration: var(--d); opacity:.9; }
+@keyframes fall{
+  to{ transform: translateY(120vh) rotate(calc(var(--r) + 360deg)); }
+}
+
+.footer{margin-top:14px; display:flex; gap:8px; flex-wrap:wrap; align-items:center; justify-content:flex-end}
+
+.toast{position:fixed; left:50%; transform:translateX(-50%); bottom:16px; padding:10px 16px; background:#0e1525; border:1px solid #2a3347; color:#dbe7ff; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,.35); display:none}
+.toast.show{display:block}
+.visually-hidden{ position:absolute !important; height:1px; width:1px; overflow:hidden; clip:rect(1px, 1px, 1px, 1px); white-space:nowrap; }
+</style>
+</head>
+<body class="size-m">
+<div class="container">
+  <div class="header">
+    <h1>축구 트레이딩 카드 – 시리즈 & 팩 오픈</h1>
+    <div class="toolbar">
+      <div class="size-group">
+        <button class="pill ghost" data-size="size-s" title="작게">작게</button>
+        <button class="pill ghost active" data-size="size-m" title="보통">보통</button>
+        <button class="pill ghost" data-size="size-l" title="크게">크게</button>
+      </div>
+      <button id="btnImport" class="pill">데이터 불러오기(JSON)</button>
+      <button id="btnExport" class="pill ghost">데이터 내보내기</button>
+      <button id="btnHome" class="pill ghost">처음으로</button>
+    </div>
+  </div>
+
+  <!-- Screen: Series -->
+  <section id="screenSeries">
+    <div class="grid series" id="seriesGrid"></div>
+  </section>
+
+  <!-- Screen: Packs -->
+  <section id="screenPacks" class="hidden">
+    <div class="grid packs" id="packGrid"></div>
+  </section>
+
+  <!-- Screen: Open Stage -->
+  <section id="screenOpen" class="hidden">
+    <div class="stage">
+      <div class="stage-inner">
+        <div class="pack-area" id="packArea" aria-live="polite">
+          <div class="pack-display click-hint" id="packDisplay" role="button" tabindex="0" aria-label="팩 오픈하기">
+            <div class="pack-half pack-left"><img id="packLeftImg" alt="팩 이미지 (좌)" /></div>
+            <div class="pack-half pack-right"><img id="packRightImg" alt="팩 이미지 (우)" /></div>
+            <div class="pack-gloss"></div>
+          </div>
+          <div class="result-card" id="resultCard" aria-hidden="true">
+            <img class="result-img" id="playerImg" alt="선수 카드" />
+            <div class="result-overlay"></div>
+            <span class="badge" id="playerBadge">Legend</span>
+            <div class="card-meta">
+              <div>
+                <div class="name" id="playerName">Player</div>
+                <div class="sub" id="playerSub">POS · CLUB · NATION</div>
+              </div>
+              <div class="rate" id="playerRate">90</div>
+            </div>
+          </div>
+          <div class="confetti" id="confetti"></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <button id="btnOpen">팩 찢어서 오픈</button>
+      <button id="btnAgain" class="ghost">다시 뽑기</button>
+      <button id="btnBackToPacks" class="ghost">팩 선택으로</button>
+    </div>
+  </section>
+
+  <div class="toast" id="toast"></div>
+  <div class="visually-hidden" aria-live="polite" id="ariaLive"></div>
+</div>
+
+<script>
+function rarityKey(r){ // 문자열 정규화
+  const v=(r||'').toString().trim().toUpperCase();
+  return ['LEGEND','ICON','ELITE','CORE','COMMON'].includes(v)?v:'COMMON';
+}
+function rarityClass(r){ return 'r-' + rarityKey(r).toLowerCase(); }
+function applyRarityStyles(rarity){
+  const badge = qs('#playerBadge');
+  const card  = qs('#resultCard');
+  ['r-legend','r-icon','r-elite','r-core','r-common'].forEach(c=>{ badge.classList.remove(c); card.classList.remove(c); });
+  const cls = rarityClass(rarity);
+  badge.classList.add(cls);
+  card.classList.add(cls);
+}
+
+// --------- DATA (replace with your assets) ---------
+let DATA = {
+  series: [
+    {
+      id: "icon-match",
+      name: "Icon Match",
+      poster: "assets/posters/icon_match.jpg",
+      packs: [
+        {
+          id: "icon-aqua",
+          name: "Aqua Pack",
+          image: "assets/packs/icon_aqua.png",
+          players: [
+            { id:"kaka-89", name:"Kaká", rating:89, position:"CAM", club:"AC Milan", nation:"Brazil", image:"assets/players/kaka.png", rarity:"Legend" },
+            { id:"drogba-89", name:"Didier Drogba", rating:89, position:"ST", club:"Chelsea", nation:"Côte d'Ivoire", image:"assets/players/drogba.png", rarity:"Legend" }
+          ]
+        },
+        {
+          id: "icon-flame",
+          name: "Flame Pack",
+          image: "assets/packs/icon_flame.png",
+          players: [
+            { id:"pirlo-90", name:"Andrea Pirlo", rating:90, position:"CM", club:"Juventus", nation:"Italy", image:"assets/players/pirlo.png", rarity:"Legend" }
+          ]
+        }
+      ]
+    },
+    {
+      id: "taekguek",
+      name: "TaekGuek",
+      poster: "assets/posters/taekguek.jpg",
+      packs: [
+        {
+          id: "tg-blue",
+          name: "Blue Pack",
+          image: "assets/packs/tg_blue.png",
+          players: [
+            { id:"son-92", name:"Son Heung-min", rating:92, position:"LW", club:"Spurs", nation:"Korea", image:"assets/players/son.png", rarity:"Prime" }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+// --------- State ---------
+const qs = s=>document.querySelector(s);
+const qsa = s=>Array.from(document.querySelectorAll(s));
+let currentSeries = null;
+let currentPack = null;
+let opened = false;
+
+// --------- UI Helpers ---------
+function toast(msg, ms=1800){
+  const t = qs('#toast'); t.textContent = msg; t.classList.add('show');
+  setTimeout(()=> t.classList.remove('show'), ms);
+}
+function announce(msg){ qs('#ariaLive').textContent = msg; }
+
+function showScreen(id){
+  ['#screenSeries', '#screenPacks', '#screenOpen'].forEach(sel=>qs(sel).classList.add('hidden'));
+  qs(id).classList.remove('hidden');
+}
+
+function renderSeries(){
+  const grid = qs('#seriesGrid');
+  grid.innerHTML = '';
+  DATA.series.forEach(s=>{
+    const el = document.createElement('article');
+    el.className='card';
+    el.innerHTML = `
+      <img class="thumb" src="${s.poster}" alt="${s.name} 포스터" />
+      <div class="meta">
+        <div class="name">${s.name}</div>
+        <div class="tag">${s.packs?.length||0} 팩</div>
+      </div>`;
+    el.addEventListener('click', ()=>{
+      currentSeries = s;
+      renderPacks(s);
+      showScreen('#screenPacks');
+    });
+    grid.appendChild(el);
+  });
+}
+
+function renderPacks(series){
+  const grid = qs('#packGrid');
+  grid.innerHTML = '';
+  if(!series?.packs?.length){ toast('이 시리즈에 등록된 팩이 없습니다.'); return; }
+  series.packs.forEach(p=>{
+    const el = document.createElement('article');
+    el.className='card';
+    el.innerHTML = `
+      <img class="thumb" src="${p.image}" alt="${p.name} 팩" />
+      <div class="meta">
+        <div class="name">${p.name}</div>
+        <div class="tag">${p.players?.length||0} 선수</div>
+      </div>`;
+    el.addEventListener('click', ()=>{
+      currentPack = p;
+      setupOpenStage(p);
+      showScreen('#screenOpen');
+    });
+    grid.appendChild(el);
+  });
+}
+
+function setupOpenStage(pack){
+  opened = false;
+  const pd = qs('#packDisplay');
+  pd.classList.remove('rip','click-hint','shine');
+  setTimeout(()=>pd.classList.add('click-hint'), 50);
+
+  qs('#packLeftImg').src = pack.image;
+  qs('#packRightImg').src = pack.image;
+
+  // Hide result until opened
+  qs('#resultCard').setAttribute('aria-hidden','true');
+  qs('#screenOpen').classList.remove('show-card');
+
+  // Bind
+  const doOpen = ()=> openPack();
+  qs('#btnOpen').onclick = doOpen;
+  qs('#packDisplay').onclick = doOpen;
+  qs('#packDisplay').onkeypress = (e)=>{ if(e.key==='Enter') doOpen(); };
+
+  qs('#btnAgain').onclick = ()=>{
+    setupOpenStage(pack);
+  };
+  qs('#btnBackToPacks').onclick = ()=>{
+    showScreen('#screenPacks');
+  };
+}
+
+function pickRandomPlayer(pack){
+  if(!pack?.players?.length){ return null; }
+  const idx = Math.floor(Math.random()*pack.players.length);
+  return pack.players[idx];
+}
+
+function confettiBurst(){
+  const area = qs('#confetti');
+  area.innerHTML='';
+  for(let i=0;i<80;i++){
+    const piece = document.createElement('i');
+    piece.style.setProperty('--x', (Math.random()*100)+'%');
+    piece.style.setProperty('--h', Math.floor(Math.random()*360));
+    piece.style.setProperty('--r', (Math.random()*360)+'deg');
+    piece.style.setProperty('--d', (2.4 + Math.random()*1.6)+'s');
+    area.appendChild(piece);
+  }
+  setTimeout(()=> area.innerHTML='', 4000);
+}
+
+function openPack(){
+  if(opened){ return; }
+  opened = true;
+
+  const pd = qs('#packDisplay');
+  pd.classList.remove('click-hint');
+
+  // trigger a single subtle shine first, then rip
+  pd.classList.add('shine');
+  setTimeout(()=>{
+    pd.classList.remove('shine');
+    pd.classList.add('rip');
+  }, 120);
+
+  // Pick player
+  const player = pickRandomPlayer(currentPack);
+  if(!player){ toast('이 팩에 선수가 없습니다. DATA.players를 채워주세요.'); return; }
+
+  // Fill card
+  qs('#playerImg').src = player.image;
+  qs('#playerName').textContent = player.name || 'Player';
+  qs('#playerRate').textContent = player.rating ?? '';
+  qs('#playerSub').textContent = [player.position, player.club, player.nation].filter(Boolean).join(' · ');
+  const rarity = rarityKey(player.rarity || 'COMMON'); // 데이터에 rarity가 없으면 COMMON으로
+  qs('#playerBadge').textContent = rarity; applyRarityStyles(rarity);
+
+  // After rip anim, show card
+  setTimeout(()=>{
+    qs('#screenOpen').classList.add('show-card');
+    qs('#resultCard').removeAttribute('aria-hidden');
+    announce(`${player.name} 획득! 레이팅 ${player.rating}`);
+    confettiBurst();
+  }, 560);
+}
+
+// --------- Import/Export ---------
+qs('#btnExport').addEventListener('click', ()=>{
+  const blob = new Blob([JSON.stringify(DATA, null, 2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'fc25_data.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+});
+
+qs('#btnImport').addEventListener('click', ()=>{
+  const inp = document.createElement('input'); inp.type='file'; inp.accept='.json,application/json';
+  inp.addEventListener('change', ()=>{
+    const file = inp.files?.[0]; if(!file) return;
+    const reader = new FileReader();
+    reader.onload = ()=>{
+      try{
+        const parsed = JSON.parse(reader.result);
+        if(!parsed?.series){ throw new Error('series 키가 없습니다.'); }
+        DATA = parsed;
+        toast('데이터를 불러왔습니다.');
+        currentSeries = null; currentPack = null;
+        renderSeries();
+        showScreen('#screenSeries');
+      }catch(e){
+        toast('JSON 파싱 오류: ' + e.message);
+      }
+    };
+    reader.readAsText(file, 'utf-8');
+  });
+  inp.click();
+});
+
+// --------- Size toggles ---------
+qsa('.size-group button').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    qsa('.size-group button').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    document.body.classList.remove('size-s','size-m','size-l');
+    document.body.classList.add(btn.dataset.size);
+  });
+});
+
+// Home button
+qs('#btnHome').addEventListener('click', ()=>{
+  currentSeries = null; currentPack = null;
+  renderSeries();
+  showScreen('#screenSeries');
+});
+
+// ---- Init: 외부 JSON 자동 로드 후 렌더 ----
+(function init(){
+  fetch('data/fc25_data.json?t=' + Date.now(), { cache: 'no-store' })
+    .then(res => res.ok ? res.json() : Promise.reject('HTTP ' + res.status))
+    .then(json => { if (json && Array.isArray(json.series)) DATA = json; })
+    .catch(err => console.warn('외부 JSON 로드 실패 → 내장 DATA 사용', err))
+    .finally(() => { renderSeries(); showScreen('#screenSeries'); });
+})();
+</script>
+</body>
+</html>
