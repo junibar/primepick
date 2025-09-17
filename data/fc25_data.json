@@ -4,7 +4,7 @@
       "id": "series-y0cw9y",
       "name": "태극전사",
       "poster": "assets/posters/Packs_태극전사 시리즈 포스터.png",
-      "rarityWeights": { "LEGEND": 48, "ICON": 30, "ELITE": 22, "CORE": 0, "COMMON": 0 },
+      "rarityWeights": { "LEGEND": 55, "ICON": 30, "ELITE": 15, "CORE": 0, "COMMON": 0 },
       "packs": [
         {
           "id": "22",
