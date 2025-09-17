@@ -3,52 +3,38 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>FC 25 Draft & Trade League PrimePick</title>
+<title>PrimePick – 시리즈·팩 오픈</title>
 <style>
 :root{
   --gap: 16px;
   --stage-pad: clamp(12px, 2vw, 24px);
   --poster-w: min(26vmin, 220px);
-  --pack-w:  min(48vmin, 380px); /* 기본 크기 */
+  --pack-w:  min(48vmin, 380px);
   --card-w:  min(44vmin, 360px);
   --accent: #10b981;
   --bg: #0b0f17;
   --surface: #121826;
   --text: #eaf2ff;
   --muted: #99a3b4;
+
+  /* rarity colors */
+  --rar-legend:#EAB308; /* gold */
+  --rar-icon:#22D3EE;   /* cyan */
+  --rar-elite:#8B5CF6;  /* violet */
+  --rar-core:#3B82F6;   /* blue */
+  --rar-common:#9CA3AF; /* gray */
 }
 
-/* === RARITY COLORS === */
-.badge.r-legend { background:#2a2012; border-color:#f59e0b; color:#ffefc6; }
-.badge.r-icon   { background:#111b2b; border-color:#60a5fa; color:#dbeafe; }
-.badge.r-elite  { background:#0f221a; border-color:#34d399; color:#dcfce7; }
-.badge.r-core   { background:#221a0f; border-color:#dcfc73; color:#faf8db; }
-.badge.r-common { background:#121722; border-color:#94a3b8; color:#e2e8f0; }
-
-/* 카드 테두리/글로우도 함께 */
-.result-card.r-legend { border-color:#f59e0b; box-shadow:0 18px 40px rgba(0,0,0,.45), 0 0 24px rgba(245,158,11,.32); }
-.result-card.r-icon   { border-color:#60a5fa; box-shadow:0 18px 40px rgba(0,0,0,.45), 0 0 24px rgba(96,165,250,.28); }
-.result-card.r-elite  { border-color:#34d399; box-shadow:0 18px 40px rgba(0,0,0,.45), 0 0 24px rgba(52,211,153,.28); }
-.result-card.r-core   { border-color:#dcfc73; box-shadow:0 18px 40px rgba(0,0,0,.45), 0 0 24px rgba(251,146,60,.25); }
-.result-card.r-common { border-color:#94a3b8; box-shadow:0 18px 40px rgba(0,0,0,.45), 0 0 18px rgba(148,163,184,.22); }
-
-.result-card.r-legend .rate { color:#f59e0b; }
-.result-card.r-icon   .rate { color:#93c5fd; }
-.result-card.r-elite  .rate { color:#6ee7b7; }
-.result-card.r-core   .rate { color:#dcfc73; }
-.result-card.r-common .rate { color:#cbd5e1; }
-
-
-/* Utility */
+/* Base */
 *{box-sizing:border-box}
-html,body{height:100%; background: radial-gradient(1200px 800px at 20% -10%, #182033, #0b0f17) no-repeat fixed; color:var(--text); font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Inter,Apple SD Gothic Neo,Noto Sans KR,Arial,"Apple Color Emoji","Segoe UI Emoji";}
+html,body{height:100%; background: radial-gradient(1200px 800px at 20% -10%, #182033, #0b0f17) no-repeat fixed; color:var(--text); font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Inter,"Apple SD Gothic Neo","Noto Sans KR",Arial}
 a,button{cursor:pointer}
-button{border:0; background:#20283a; color:var(--text); padding:10px 14px; border-radius:10px;}
-button:hover{filter:brightness(1.1)}
+button{border:0; background:#20283a; color:var(--text); padding:10px 14px; border-radius:10px}
+button:hover{filter:brightness(1.08)}
 .hidden{display:none !important}
 .container{max-width:1200px; margin:0 auto; padding:var(--stage-pad)}
 .header{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:12px}
-.header h1{font-size:clamp(16px, 2.2vw, 22px); font-weight:700; letter-spacing:0.2px; margin:0}
+.header h1{font-size:clamp(16px, 2.2vw, 22px); margin:0}
 .toolbar{display:flex; align-items:center; gap:8px; flex-wrap:wrap}
 .toolbar .size-group button{background:#1a2130;padding:8px 10px}
 .toolbar .size-group button.active{outline:2px solid var(--accent)}
@@ -64,10 +50,10 @@ button:hover{filter:brightness(1.1)}
 .card .meta .name{font-weight:700; font-size:14px}
 .card .meta .tag{font-size:12px; color:var(--muted)}
 
+/* Stage */
 .stage{position:relative; min-height: calc(100dvh - 140px); border:1px solid #222a3a; background:linear-gradient(180deg,#0f1524 0%, #0c111d 100%); border-radius:18px; padding:clamp(16px,2vw,24px); display:flex; align-items:center; justify-content:center; overflow:visible;}
 .stage-inner{width:100%; height:100%; display:flex; align-items:center; justify-content:center; position:relative}
-
-.pack-area{position:relative; display:flex; align-items:center; justify-content:center; width:var(--pack-w); max-height: 80vh;}
+.pack-area{position:relative; display:flex; align-items:center; justify-content:center; width:var(--pack-w); max-height:80vh;}
 @media (max-width:520px){
   :root{ --pack-w: min(72vmin, 320px); --card-w: min(68vmin, 300px); }
 }
@@ -75,33 +61,36 @@ button:hover{filter:brightness(1.1)}
 .size-m{ --pack-w: min(48vmin, 380px); --card-w: min(44vmin, 360px); }
 .size-l{ --pack-w: min(60vmin, 460px); --card-w: min(56vmin, 420px); }
 
-/* PACK display with two halves for tear */
-.pack-display{ position:relative; width:100%; aspect-ratio: 2/3; perspective: 1000px; }
-.pack-half{ position:absolute; inset:0; background: #1b2436; border:1px solid #2e3a54; border-radius: 12px; overflow:hidden; transform-origin: center; display:flex; align-items:center; justify-content:center; box-shadow: 0 18px 40px rgba(0,0,0,.45); }
+/* Pack flip (오픈 전 구성 이미지 확인) */
+.pack-flip{ position:relative; width:100%; aspect-ratio:2/3; perspective:1200px; }
+.pack-side{ position:absolute; inset:0; border-radius:12px; overflow:hidden; backface-visibility:hidden; transform-style:preserve-3d; transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+.pack-front{ transform: rotateY(0); }
+.pack-back { transform: rotateY(180deg); background:#101827; border:1px solid #2e3a54; display:flex; align-items:center; justify-content:center; }
+.pack-back img{ width:100%; height:100%; object-fit:cover; display:block; }
+.is-flipped .pack-front{ transform: rotateY(180deg); }
+.is-flipped .pack-back { transform: rotateY(0); }
+
+/* Pack halves (tear animation on front) */
+.pack-display{ position:relative; width:100%; height:100%; perspective: 1000px; }
+.pack-half{ position:absolute; inset:0; background:#1b2436; border:1px solid #2e3a54; border-radius: 12px; overflow:hidden; transform-origin:center; display:flex; align-items:center; justify-content:center; box-shadow: 0 18px 40px rgba(0,0,0,.45); }
 .pack-half img{ width:100%; height:100%; object-fit:cover; display:block; opacity:.98; }
 .pack-left{ clip-path: polygon(0 0, 52% 0, 52% 100%, 0 100%); }
 .pack-right{ clip-path: polygon(48% 0, 100% 0, 100% 100%, 48% 100%); }
 
-/* === refined SHINE: one-time, subtle, only on open === */
+/* Subtle shine on click */
 .pack-gloss{
   position:absolute; inset:0; pointer-events:none;
-  background: linear-gradient(110deg,
-    rgba(255,255,255,0) 35%,
-    rgba(255,255,255,.18) 50%,
-    rgba(255,255,255,0) 65%);
-  mix-blend-mode: screen;
-  opacity:0;
-  transform: translateX(-55%);
+  background: linear-gradient(110deg, rgba(255,255,255,0) 35%, rgba(255,255,255,.18) 50%, rgba(255,255,255,0) 65%);
+  mix-blend-mode: screen; opacity:0; transform: translateX(-55%);
 }
-/* play only once per open */
 .shine .pack-gloss{ animation: glossOnce .48s ease-out forwards; }
 @keyframes glossOnce{
-  0%   { opacity:0; transform: translateX(-55%); }
-  18%  { opacity:.28; }
-  100% { opacity:0; transform: translateX(55%); }
+  0%{ opacity:0; transform: translateX(-55%); }
+  18%{ opacity:.28; }
+  100%{ opacity:0; transform: translateX(55%); }
 }
 
-/* subtle shake to hint click */
+/* Gentle click hint */
 .click-hint{ animation: shake 2s ease-in-out infinite both; }
 @keyframes shake{
   0%,100%{ transform: translateX(0) }
@@ -112,7 +101,7 @@ button:hover{filter:brightness(1.1)}
   75%{ transform: translateX(0) }
 }
 
-/* === CLASSIC RIP (earlier look) === */
+/* Classic rip */
 .pack-display::after{
   content:""; position:absolute; top:0; bottom:0; left:50%; width:0;
   transform: translateX(-50%);
@@ -128,7 +117,6 @@ button:hover{filter:brightness(1.1)}
   40%{ width:10px; opacity:.9; }
   100%{ width:16px; opacity:.5; }
 }
-
 .rip .pack-left{ animation: classicLeft .52s cubic-bezier(.2,.7,.2,1) forwards; }
 .rip .pack-right{ animation: classicRight .52s cubic-bezier(.2,.7,.2,1) forwards; }
 @keyframes classicLeft{
@@ -142,7 +130,24 @@ button:hover{filter:brightness(1.1)}
   100%{ transform: translateX(56%) rotate(5deg); }
 }
 
-/* Player card revealed under the pack */
+/* >>> Rarity-colored pack open glow <<< */
+.pack-display.glow{ position:relative; }
+.pack-display.glow::before{
+  content:""; position:absolute; inset:-8%;
+  border-radius:16px; pointer-events:none;
+  background: radial-gradient(closest-side, var(--glow-col, rgba(16,185,129,.55)) 0%, rgba(0,0,0,0) 70%);
+  filter: blur(14px);
+  opacity: 0;
+  transform: scale(.85);
+  animation: glowBurst .6s ease-out forwards;
+}
+@keyframes glowBurst{
+  0%   { opacity:0;   transform: scale(.85); }
+  40%  { opacity:.95; transform: scale(1.05); }
+  100% { opacity:0;   transform: scale(1.2); }
+}
+
+/* Result card */
 .result-card{ position:absolute; width:var(--card-w); aspect-ratio: 63/88; border-radius:12px; border:1px solid #35415a; background:#0f172a; transform: translateY(8px) scale(.92); opacity:0; transition: transform .6s cubic-bezier(.2,.7,.2,1), opacity .6s; box-shadow: 0 18px 40px rgba(0,0,0,.45); overflow:hidden }
 .show-card .result-card{ transform: translateY(0) scale(1); opacity:1; }
 .result-img{ position:absolute; inset:0; object-fit:cover; width:100%; height:100%; filter: drop-shadow(0 6px 18px rgba(0,0,0,.45)); }
@@ -151,14 +156,31 @@ button:hover{filter:brightness(1.1)}
 .card-meta{ position:absolute; bottom:10px; left:10px; right:10px; display:flex; align-items:center; justify-content:space-between; gap:8px; }
 .name{ font-weight:800; letter-spacing:.2px }
 .sub{ font-size:12px; color:#a5b4cf }
-.rate{ font-weight:900; font-size:20px; }
+.rate{ font-weight:900; font-size:20px }
 
-/* Confetti */
+/* Rarity visual: badge color */
+.badge[data-rarity="LEGEND"]{ color:#111; background:var(--rar-legend); border-color:#f8e08a; }
+.badge[data-rarity="ICON"]  { color:#08222a; background:var(--rar-icon); border-color:#8be9ff; }
+.badge[data-rarity="ELITE"] { color:#180a2a; background:var(--rar-elite); border-color:#cbb4ff; }
+.badge[data-rarity="CORE"]  { color:#0a1a32; background:var(--rar-core); border-color:#a3c5ff; }
+.badge[data-rarity="COMMON"]{ color:#0b0f17; background:var(--rar-common); border-color:#d6dbe3; }
+
+/* >>> Rarity visual: card border & rate color <<< */
+.result-card[data-rarity="LEGEND"]{ border-color:var(--rar-legend) }
+.result-card[data-rarity="ICON"]  { border-color:var(--rar-icon) }
+.result-card[data-rarity="ELITE"] { border-color:var(--rar-elite) }
+.result-card[data-rarity="CORE"]  { border-color:var(--rar-core) }
+.result-card[data-rarity="COMMON"]{ border-color:var(--rar-common) }
+.result-card[data-rarity="LEGEND"] .rate{ color:var(--rar-legend) }
+.result-card[data-rarity="ICON"]   .rate{ color:var(--rar-icon) }
+.result-card[data-rarity="ELITE"]  .rate{ color:var(--rar-elite) }
+.result-card[data-rarity="CORE"]   .rate{ color:var(--rar-core) }
+.result-card[data-rarity="COMMON"] .rate{ color:var(--rar-common) }
+
+/* Confetti + footer + a11y */
 .confetti{ position:absolute; inset: -20vh -10vw; overflow:visible; pointer-events:none }
 .confetti i{ position:absolute; width:8px; height:14px; background:hsl(var(--h) 90% 60%); top:-5vh; left:var(--x); transform: rotate(var(--r)); animation: fall linear forwards; animation-duration: var(--d); opacity:.9; }
-@keyframes fall{
-  to{ transform: translateY(120vh) rotate(calc(var(--r) + 360deg)); }
-}
+@keyframes fall{ to{ transform: translateY(120vh) rotate(calc(var(--r) + 360deg)); } }
 
 .footer{margin-top:14px; display:flex; gap:8px; flex-wrap:wrap; align-items:center; justify-content:flex-end}
 
@@ -170,7 +192,7 @@ button:hover{filter:brightness(1.1)}
 <body class="size-m">
 <div class="container">
   <div class="header">
-    <h1>PrimePick Series & Pack Open</h1>
+    <h1>PrimePick – 시리즈 & 팩 오픈</h1>
     <div class="toolbar">
       <div class="size-group">
         <button class="pill ghost" data-size="size-s" title="작게">작게</button>
@@ -198,15 +220,27 @@ button:hover{filter:brightness(1.1)}
     <div class="stage">
       <div class="stage-inner">
         <div class="pack-area" id="packArea" aria-live="polite">
-          <div class="pack-display click-hint" id="packDisplay" role="button" tabindex="0" aria-label="팩 오픈하기">
-            <div class="pack-half pack-left"><img id="packLeftImg" alt="팩 이미지 (좌)" /></div>
-            <div class="pack-half pack-right"><img id="packRightImg" alt="팩 이미지 (우)" /></div>
-            <div class="pack-gloss"></div>
+          <!-- 팩 앞/뒤 플립 (오픈 전 구성 확인) -->
+          <div class="pack-flip" id="packFlip">
+            <!-- 앞면(찢기 애니메이션 포함) -->
+            <div class="pack-side pack-front">
+              <div class="pack-display click-hint" id="packDisplay" role="button" tabindex="0" aria-label="팩 오픈하기">
+                <div class="pack-half pack-left"><img id="packLeftImg" alt="팩 이미지 (좌)" /></div>
+                <div class="pack-half pack-right"><img id="packRightImg" alt="팩 이미지 (우)" /></div>
+                <div class="pack-gloss"></div>
+              </div>
+            </div>
+            <!-- 뒷면(팩 구성 이미지) -->
+            <div class="pack-side pack-back">
+              <img id="packBackImg" alt="팩 뒷면(구성 안내)" />
+            </div>
           </div>
-          <div class="result-card" id="resultCard" aria-hidden="true">
+
+          <!-- 결과 카드(앞면만) -->
+          <div class="result-card" id="resultCard" aria-hidden="true" data-rarity="">
             <img class="result-img" id="playerImg" alt="선수 카드" />
             <div class="result-overlay"></div>
-            <span class="badge" id="playerBadge">Legend</span>
+            <span class="badge" id="playerBadge" data-rarity="">RARITY</span>
             <div class="card-meta">
               <div>
                 <div class="name" id="playerName">Player</div>
@@ -215,12 +249,14 @@ button:hover{filter:brightness(1.1)}
               <div class="rate" id="playerRate">90</div>
             </div>
           </div>
+
           <div class="confetti" id="confetti"></div>
         </div>
       </div>
     </div>
     <div class="footer">
-      <button id="btnOpen">팩 찢어서 오픈</button>
+      <button id="btnOpen">팩 뜯기</button>
+      <button id="btnFlip" class="ghost">팩 뒤집기</button>
       <button id="btnAgain" class="ghost">다시 뽑기</button>
       <button id="btnBackToPacks" class="ghost">팩 선택으로</button>
     </div>
@@ -231,84 +267,48 @@ button:hover{filter:brightness(1.1)}
 </div>
 
 <script>
-function rarityKey(r){ // 문자열 정규화
-  const v=(r||'').toString().trim().toUpperCase();
-  return ['LEGEND','ICON','ELITE','CORE','COMMON'].includes(v)?v:'COMMON';
-}
-function rarityClass(r){ return 'r-' + rarityKey(r).toLowerCase(); }
-function applyRarityStyles(rarity){
-  const badge = qs('#playerBadge');
-  const card  = qs('#resultCard');
-  ['r-legend','r-icon','r-elite','r-core','r-common'].forEach(c=>{ badge.classList.remove(c); card.classList.remove(c); });
-  const cls = rarityClass(rarity);
-  badge.classList.add(cls);
-  card.classList.add(cls);
-}
+/* ===== DATA (초기 빈 → ./data/fc25_data.json 자동 로드 시도) ===== */
+let DATA = { series: [] };
 
-// --------- DATA (replace with your assets) ---------
-let DATA = {
-  series: [
-    {
-      id: "icon-match",
-      name: "Icon Match",
-      poster: "assets/posters/icon_match.jpg",
-      packs: [
-        {
-          id: "icon-aqua",
-          name: "Aqua Pack",
-          image: "assets/packs/icon_aqua.png",
-          players: [
-            { id:"kaka-89", name:"Kaká", rating:89, position:"CAM", club:"AC Milan", nation:"Brazil", image:"assets/players/kaka.png", rarity:"Legend" },
-            { id:"drogba-89", name:"Didier Drogba", rating:89, position:"ST", club:"Chelsea", nation:"Côte d'Ivoire", image:"assets/players/drogba.png", rarity:"Legend" }
-          ]
-        },
-        {
-          id: "icon-flame",
-          name: "Flame Pack",
-          image: "assets/packs/icon_flame.png",
-          players: [
-            { id:"pirlo-90", name:"Andrea Pirlo", rating:90, position:"CM", club:"Juventus", nation:"Italy", image:"assets/players/pirlo.png", rarity:"Legend" }
-          ]
-        }
-      ]
-    },
-    {
-      id: "taekguek",
-      name: "TaekGuek",
-      poster: "assets/posters/taekguek.jpg",
-      packs: [
-        {
-          id: "tg-blue",
-          name: "Blue Pack",
-          image: "assets/packs/tg_blue.png",
-          players: [
-            { id:"son-92", name:"Son Heung-min", rating:92, position:"LW", club:"Spurs", nation:"Korea", image:"assets/players/son.png", rarity:"Prime" }
-          ]
-        }
-      ]
-    }
-  ]
-};
-
-// --------- State ---------
+/* ===== State ===== */
 const qs = s=>document.querySelector(s);
 const qsa = s=>Array.from(document.querySelectorAll(s));
 let currentSeries = null;
 let currentPack = null;
 let opened = false;
+const DEFAULT_PACK_BACK = 'assets/cards/pack_back_default.png';
+let packFlipped = false;
 
-// --------- UI Helpers ---------
-function toast(msg, ms=1800){
-  const t = qs('#toast'); t.textContent = msg; t.classList.add('show');
-  setTimeout(()=> t.classList.remove('show'), ms);
-}
+/* ===== Helpers ===== */
+function toast(msg, ms=1800){ const t = qs('#toast'); t.textContent = msg; t.classList.add('show'); setTimeout(()=> t.classList.remove('show'), ms); }
 function announce(msg){ qs('#ariaLive').textContent = msg; }
+function showScreen(id){ ['#screenSeries', '#screenPacks', '#screenOpen'].forEach(sel=>qs(sel).classList.add('hidden')); qs(id).classList.remove('hidden'); }
 
-function showScreen(id){
-  ['#screenSeries', '#screenPacks', '#screenOpen'].forEach(sel=>qs(sel).classList.add('hidden'));
-  qs(id).classList.remove('hidden');
+/* rarity utils */
+function rarityFromRating(r){
+  r = Number(r)||0;
+  if (r>=90) return 'LEGEND';
+  if (r>=87) return 'ICON';
+  if (r>=84) return 'ELITE';
+  if (r>=80) return 'CORE';
+  return 'COMMON';
+}
+function rarityGlowColor(r){
+  switch(String(r).toUpperCase()){
+    case 'LEGEND': return 'rgba(234,179,8,.65)';
+    case 'ICON':   return 'rgba(34,211,238,.60)';
+    case 'ELITE':  return 'rgba(139,92,246,.60)';
+    case 'CORE':   return 'rgba(59,130,246,.60)';
+    default:       return 'rgba(156,163,175,.60)';
+  }
+}
+function applyRarityBadge(r){
+  const badge = qs('#playerBadge');
+  badge.dataset.rarity = r;
+  badge.textContent = r;
 }
 
+/* ===== Render ===== */
 function renderSeries(){
   const grid = qs('#seriesGrid');
   grid.innerHTML = '';
@@ -352,39 +352,73 @@ function renderPacks(series){
   });
 }
 
+/* ===== Open Stage ===== */
 function setupOpenStage(pack){
   opened = false;
-  const pd = qs('#packDisplay');
-  pd.classList.remove('rip','click-hint','shine');
-  setTimeout(()=>pd.classList.add('click-hint'), 50);
+  packFlipped = false;
 
-  qs('#packLeftImg').src = pack.image;
+  // pack images
+  qs('#packLeftImg').src  = pack.image;
   qs('#packRightImg').src = pack.image;
+  qs('#packBackImg').src  = pack.cardBack || DEFAULT_PACK_BACK;
 
-  // Hide result until opened
+  // reset anims
+  const pd = qs('#packDisplay');
+  pd.classList.remove('rip','click-hint','shine','glow');
+  setTimeout(()=>pd.classList.add('click-hint'), 50);
+  qs('#packFlip').classList.remove('is-flipped');
+
+  // hide result
   qs('#resultCard').setAttribute('aria-hidden','true');
   qs('#screenOpen').classList.remove('show-card');
 
-  // Bind
+  // bind open
   const doOpen = ()=> openPack();
   qs('#btnOpen').onclick = doOpen;
-  qs('#packDisplay').onclick = doOpen;
-  qs('#packDisplay').onkeypress = (e)=>{ if(e.key==='Enter') doOpen(); };
+  pd.onclick = doOpen;
+  pd.onkeypress = (e)=>{ if(e.key==='Enter') doOpen(); };
 
-  qs('#btnAgain').onclick = ()=>{
-    setupOpenStage(pack);
+  // flip (open 전용)
+  const flipBtn = qs('#btnFlip');
+  flipBtn.classList.remove('hidden');
+  flipBtn.disabled = false;
+  flipBtn.onclick = ()=>{
+    packFlipped = !packFlipped;
+    qs('#packFlip').classList.toggle('is-flipped', packFlipped);
   };
-  qs('#btnBackToPacks').onclick = ()=>{
-    showScreen('#screenPacks');
-  };
+
+  // again / back
+  qs('#btnAgain').onclick = ()=> setupOpenStage(pack);
+  qs('#btnBackToPacks').onclick = ()=> showScreen('#screenPacks');
 }
 
-function pickRandomPlayer(pack){
-  if(!pack?.players?.length){ return null; }
-  const idx = Math.floor(Math.random()*pack.players.length);
-  return pack.players[idx];
+/* weighted pick (선수별 weight > rarityWeights > 기본값) */
+function rarityKey(s){ return String(s||'').toUpperCase(); }
+function pickWeightedPlayer(pack){
+  const players = pack?.players || [];
+  if (!players.length) return null;
+
+  const DEFAULT_RW = { LEGEND:24, ICON:32, ELITE:44, CORE:0, COMMON:0 };
+  const rw = pack.rarityWeights || DEFAULT_RW;
+
+  const weights = players.map(p=>{
+    const rar = p.rarity ? rarityKey(p.rarity) : rarityFromRating(p.rating);
+    const base = Number(rw[rar] ?? 1);
+    const w = Number(p.weight ?? base);
+    return isNaN(w) || w<=0 ? 0 : w;
+  });
+  const total = weights.reduce((a,b)=>a+b,0);
+  if (total<=0) return players[Math.floor(Math.random()*players.length)];
+
+  let r = Math.random()*total;
+  for(let i=0;i<players.length;i++){
+    r -= weights[i];
+    if (r<=0) return players[i];
+  }
+  return players[players.length-1];
 }
 
+/* confetti */
 function confettiBurst(){
   const area = qs('#confetti');
   area.innerHTML='';
@@ -400,41 +434,56 @@ function confettiBurst(){
 }
 
 function openPack(){
-  if(opened){ return; }
+  if(opened) return;
   opened = true;
+
+  // flip back to front if needed
+  if (packFlipped) {
+    qs('#packFlip').classList.remove('is-flipped');
+    packFlipped = false;
+  }
 
   const pd = qs('#packDisplay');
   pd.classList.remove('click-hint');
-
-  // trigger a single subtle shine first, then rip
   pd.classList.add('shine');
-  setTimeout(()=>{
-    pd.classList.remove('shine');
-    pd.classList.add('rip');
-  }, 120);
 
-  // Pick player
-  const player = pickRandomPlayer(currentPack);
+  // pick
+  const player = pickWeightedPlayer(currentPack);
   if(!player){ toast('이 팩에 선수가 없습니다. DATA.players를 채워주세요.'); return; }
+  const rarity = player.rarity ? String(player.rarity).toUpperCase() : rarityFromRating(player.rating);
 
-  // Fill card
+  // rarity-colored pack glow (짧은 버스트)
+  pd.style.setProperty('--glow-col', rarityGlowColor(rarity));
+  pd.classList.add('glow');
+  setTimeout(()=> pd.classList.remove('glow'), 650);
+
+  // run tear after shine
+  setTimeout(()=>{ pd.classList.remove('shine'); pd.classList.add('rip'); }, 120);
+
+  // fill card
   qs('#playerImg').src = player.image;
   qs('#playerName').textContent = player.name || 'Player';
   qs('#playerRate').textContent = player.rating ?? '';
   qs('#playerSub').textContent = [player.position, player.club, player.nation].filter(Boolean).join(' · ');
-  const rarity = rarityKey(player.rarity || 'COMMON'); // 데이터에 rarity가 없으면 COMMON으로
-  qs('#playerBadge').textContent = rarity; applyRarityStyles(rarity);
+  applyRarityBadge(rarity);
+  qs('#resultCard').dataset.rarity = rarity; // 테두리/능력치 색 적용
 
-  // After rip anim, show card
+  // reveal after tear
   setTimeout(()=>{
     qs('#screenOpen').classList.add('show-card');
     qs('#resultCard').removeAttribute('aria-hidden');
-    announce(`${player.name} 획득! 레이팅 ${player.rating}`);
+
+    // 오픈 후에는 플립 비활성/숨김
+    const flipBtn = qs('#btnFlip');
+    flipBtn.disabled = true;
+    flipBtn.classList.add('hidden');
+
+    announce(`${player.name} (${rarity}) 획득!`);
     confettiBurst();
   }, 560);
 }
 
-// --------- Import/Export ---------
+/* ===== Import/Export ===== */
 qs('#btnExport').addEventListener('click', ()=>{
   const blob = new Blob([JSON.stringify(DATA, null, 2)], {type:'application/json'});
   const a = document.createElement('a');
@@ -467,7 +516,7 @@ qs('#btnImport').addEventListener('click', ()=>{
   inp.click();
 });
 
-// --------- Size toggles ---------
+/* ===== Size toggles ===== */
 qsa('.size-group button').forEach(btn=>{
   btn.addEventListener('click', ()=>{
     qsa('.size-group button').forEach(b=>b.classList.remove('active'));
@@ -477,21 +526,26 @@ qsa('.size-group button').forEach(btn=>{
   });
 });
 
-// Home button
+/* Home button */
 qs('#btnHome').addEventListener('click', ()=>{
   currentSeries = null; currentPack = null;
   renderSeries();
   showScreen('#screenSeries');
 });
 
-// ---- Init: 외부 JSON 자동 로드 후 렌더 ----
-(function init(){
-  fetch('data/fc25_data.json?t=' + Date.now(), { cache: 'no-store' })
-    .then(res => res.ok ? res.json() : Promise.reject('HTTP ' + res.status))
-    .then(json => { if (json && Array.isArray(json.series)) DATA = json; })
-    .catch(err => console.warn('외부 JSON 로드 실패 → 내장 DATA 사용', err))
-    .finally(() => { renderSeries(); showScreen('#screenSeries'); });
-})();
+/* ===== Init (auto-load ./data/fc25_data.json) ===== */
+async function init(){
+  try{
+    const res = await fetch('./data/fc25_data.json', {cache:'no-cache'});
+    if (res.ok){
+      const json = await res.json();
+      if (json?.series) DATA = json;
+    }
+  }catch(e){ /* 로컬 미배포 환경이면 조용히 무시 */ }
+  renderSeries();
+  showScreen('#screenSeries');
+}
+init();
 </script>
 </body>
 </html>
