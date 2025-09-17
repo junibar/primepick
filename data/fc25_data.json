@@ -6,8 +6,8 @@
       "poster": "assets/posters/Packs_태극전사 시리즈 포스터.png",
       "packs": [
         {
-          "id": "태극-스탠다드-23",
-          "name": "태극 스탠다드 23",
+          "id": "태극-스탠다드-22",
+          "name": "태극 스탠다드 22",
           "image": "assets/packs/1_TGS.png",
           "players": [
             {
@@ -233,8 +233,8 @@
           ]
         },
         {
-          "id": "태극-프라임-23",
-          "name": "태극 프라임 23",
+          "id": "태극-프라임-22",
+          "name": "태극 프라임 22",
           "image": "assets/packs/1_TGP.png",
           "players": [
             {
