@@ -191,16 +191,6 @@
               "rarity": "ELITE"
             },
             {
-              "id": "김두현",
-              "name": "김두현",
-              "rating": 85,
-              "position": "MF",
-              "club": "웨스트 브롬위치 알비온",
-              "nation": "대한민국",
-              "image": "assets/players/김두현.jpg",
-              "rarity": "ELITE"
-            },
-            {
               "id": "이동국",
               "name": "이동국",
               "rating": 85,
@@ -395,16 +385,6 @@
               "club": "울산 현대",
               "nation": "대한민국",
               "image": "assets/players/김영권.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "조원희",
-              "name": "조원희",
-              "rating": 85,
-              "position": "DF",
-              "club": "수원 삼성",
-              "nation": "대한민국",
-              "image": "assets/players/조원희.jpg",
               "rarity": "ELITE"
             },
             {
