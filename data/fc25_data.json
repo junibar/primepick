@@ -1,17 +1,19 @@
 {
   "series": [
     {
-      "id": "태극전사",
+      "id": "series-y0cw9y",
       "name": "태극전사",
       "poster": "assets/posters/Packs_태극전사 시리즈 포스터.png",
+      "rarityWeights": { "LEGEND": 48, "ICON": 30, "ELITE": 22, "CORE": 0, "COMMON": 0 },
       "packs": [
         {
-          "id": "태극-스탠다드-22",
+          "id": "22",
           "name": "태극 스탠다드 22",
           "image": "assets/packs/1_TGS.png",
+          "cardBack": "assets/packs/1_TGS_back.png",
           "players": [
             {
-              "id": "차범근",
+              "id": "pl-2v5soy",
               "name": "차범근",
               "rating": 90,
               "position": "FW",
@@ -21,7 +23,7 @@
               "rarity": "LEGEND"
             },
             {
-              "id": "김민재",
+              "id": "pl-13m52z",
               "name": "김민재",
               "rating": 90,
               "position": "DF",
@@ -31,7 +33,7 @@
               "rarity": "LEGEND"
             },
             {
-              "id": "김병지",
+              "id": "pl-8u99n3",
               "name": "김병지",
               "rating": 88,
               "position": "GK",
@@ -41,7 +43,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "유상철",
+              "id": "pl-zchf6e",
               "name": "유상철",
               "rating": 88,
               "position": "MF",
@@ -51,7 +53,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "황선홍",
+              "id": "pl-df8l31",
               "name": "황선홍",
               "rating": 88,
               "position": "FW",
@@ -61,7 +63,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "이영표",
+              "id": "pl-72ney3",
               "name": "이영표",
               "rating": 87,
               "position": "DF",
@@ -71,7 +73,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "이청용",
+              "id": "pl-zgjhvc",
               "name": "이청용",
               "rating": 87,
               "position": "MF",
@@ -81,7 +83,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "이강인",
+              "id": "pl-b53wm2",
               "name": "이강인",
               "rating": 87,
               "position": "MF",
@@ -91,7 +93,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "이재성",
+              "id": "pl-lbpaln",
               "name": "이재성",
               "rating": 87,
               "position": "MF",
@@ -101,7 +103,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "안정환",
+              "id": "pl-c7uind",
               "name": "안정환",
               "rating": 87,
               "position": "FW",
@@ -111,7 +113,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "조현우",
+              "id": "pl-gq9hhl",
               "name": "조현우",
               "rating": 86,
               "position": "GK",
@@ -121,7 +123,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "최진철",
+              "id": "pl-wonkwn",
               "name": "최진철",
               "rating": 86,
               "position": "DF",
@@ -131,7 +133,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "황인범",
+              "id": "pl-govmwi",
               "name": "송종국",
               "rating": 86,
               "position": "MF",
@@ -141,7 +143,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "김남일",
+              "id": "pl-gg11yv",
               "name": "김남일",
               "rating": 86,
               "position": "MF",
@@ -151,7 +153,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "홍정호",
+              "id": "pl-72hjmn",
               "name": "홍정호",
               "rating": 85,
               "position": "DF",
@@ -161,7 +163,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "김진수",
+              "id": "pl-vjxbce",
               "name": "김진수",
               "rating": 85,
               "position": "DF",
@@ -171,7 +173,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "김문환",
+              "id": "pl-ktsv9f",
               "name": "김문환",
               "rating": 85,
               "position": "DF",
@@ -181,7 +183,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "이승우",
+              "id": "pl-ougft1",
               "name": "이승우",
               "rating": 85,
               "position": "MF",
@@ -191,7 +193,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "이동국",
+              "id": "pl-56vys2",
               "name": "이동국",
               "rating": 85,
               "position": "FW",
@@ -201,7 +203,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "설영우",
+              "id": "pl-2h2upp",
               "name": "설영우",
               "rating": 84,
               "position": "DF",
@@ -211,7 +213,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "조규성",
+              "id": "pl-48phg8",
               "name": "조규성",
               "rating": 84,
               "position": "FW",
@@ -221,7 +223,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "오현규",
+              "id": "pl-golv0o",
               "name": "오현규",
               "rating": 84,
               "position": "FW",
@@ -233,12 +235,13 @@
           ]
         },
         {
-          "id": "태극-프라임-22",
+          "id": "22",
           "name": "태극 프라임 22",
           "image": "assets/packs/1_TGP.png",
+          "cardBack": "assets/packs/1_TGP_back.png",
           "players": [
             {
-              "id": "박지성",
+              "id": "pl-9fnlx2",
               "name": "박지성",
               "rating": 90,
               "position": "MF",
@@ -248,7 +251,7 @@
               "rarity": "LEGEND"
             },
             {
-              "id": "손흥민",
+              "id": "pl-ho2im8",
               "name": "손흥민",
               "rating": 90,
               "position": "FW",
@@ -258,7 +261,7 @@
               "rarity": "LEGEND"
             },
             {
-              "id": "홍명보",
+              "id": "pl-e1asvu",
               "name": "홍명보",
               "rating": 89,
               "position": "DF",
@@ -268,7 +271,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "이운재",
+              "id": "pl-w7g8ec",
               "name": "이운재",
               "rating": 88,
               "position": "GK",
@@ -278,7 +281,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "차두리",
+              "id": "pl-oa6duc",
               "name": "차두리",
               "rating": 87,
               "position": "DF",
@@ -288,7 +291,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "기성용",
+              "id": "pl-5hfsvz",
               "name": "기성용",
               "rating": 87,
               "position": "MF",
@@ -298,7 +301,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "구자철",
+              "id": "pl-7fe0st",
               "name": "구자철",
               "rating": 87,
               "position": "MF",
@@ -308,7 +311,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "황희찬",
+              "id": "pl-2tsxey",
               "name": "황희찬",
               "rating": 87,
               "position": "FW",
@@ -318,7 +321,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "박주영",
+              "id": "pl-dc5djo",
               "name": "박주영",
               "rating": 87,
               "position": "FW",
@@ -328,7 +331,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "설기현",
+              "id": "pl-nzj4f8",
               "name": "설기현",
               "rating": 87,
               "position": "FW",
@@ -338,7 +341,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "김승규",
+              "id": "pl-jkaeku",
               "name": "김승규",
               "rating": 86,
               "position": "GK",
@@ -348,7 +351,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "김태영",
+              "id": "pl-ylyuu2",
               "name": "김태영",
               "rating": 86,
               "position": "DF",
@@ -358,7 +361,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "황인범",
+              "id": "pl-33wzh3",
               "name": "황인범",
               "rating": 86,
               "position": "MF",
@@ -368,7 +371,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "이천수",
+              "id": "pl-wx3bho",
               "name": "이천수",
               "rating": 86,
               "position": "FW",
@@ -378,7 +381,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "김영권",
+              "id": "pl-fvpas8",
               "name": "김영권",
               "rating": 85,
               "position": "DF",
@@ -388,7 +391,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "백승호",
+              "id": "pl-iasp79",
               "name": "백승호",
               "rating": 85,
               "position": "MF",
@@ -398,7 +401,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "홍현석",
+              "id": "pl-4l7v2h",
               "name": "홍현석",
               "rating": 85,
               "position": "MF",
@@ -408,7 +411,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "지동원",
+              "id": "pl-e3mqdh",
               "name": "지동원",
               "rating": 85,
               "position": "FW",
@@ -418,7 +421,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "이을용",
+              "id": "pl-x7layn",
               "name": "이을용",
               "rating": 85,
               "position": "MF",
@@ -428,7 +431,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "박주호",
+              "id": "pl-s3rg6m",
               "name": "박주호",
               "rating": 84,
               "position": "DF",
@@ -438,7 +441,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "황의조",
+              "id": "pl-69cn7h",
               "name": "황의조",
               "rating": 84,
               "position": "FW",
@@ -448,7 +451,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "양민혁",
+              "id": "pl-7451ks",
               "name": "양민혁",
               "rating": 84,
               "position": "FW",
@@ -470,6 +473,7 @@
           "id": "flair-masters-10",
           "name": "FLAIR MASTERS 10",
           "image": "assets/packs/2_FM.png",
+          "cardBack": "assets/packs/2_FM_back.png",
           "players": [
             {
               "id": "ronaldinho",
@@ -574,9 +578,10 @@
           ]
         },
         {
-          "id": "power-&-pace",
+          "id": "power-pace",
           "name": "POWER & PACE",
           "image": "assets/packs/2_PP.png",
+          "cardBack": "assets/packs/2_PP_back.png",
           "players": [
             {
               "id": "thierry-henry",
@@ -684,6 +689,7 @@
           "id": "iron-curtain-10",
           "name": "IRON CURTAIN 10",
           "image": "assets/packs/2_IC.png",
+          "cardBack": "assets/packs/2_IC_back.png",
           "players": [
             {
               "id": "gianluigi-buffon",
@@ -791,6 +797,7 @@
           "id": "engine-room-10",
           "name": "ENGINE ROOM 10",
           "image": "assets/packs/2_ER.png",
+          "cardBack": "assets/packs/2_ER_back.png",
           "players": [
             {
               "id": "andrea-pirlo",
@@ -905,6 +912,7 @@
           "id": "vhs-flair-17",
           "name": "VHS FLAIR 17",
           "image": "assets/packs/3_VHS.png",
+          "cardBack": "assets/packs/3_VHS_back.png",
           "players": [
             {
               "id": "lionel-messi",
@@ -917,7 +925,7 @@
               "rarity": "LEGEND"
             },
             {
-              "id": "neymar-jr.",
+              "id": "neymar-jr",
               "name": "Neymar Jr.",
               "rating": 91,
               "position": "FW",
@@ -967,7 +975,7 @@
               "rarity": "ICON"
             },
             {
-              "id": "samuel-eto'o",
+              "id": "samuel-eto-o",
               "name": "Samuel Eto'o",
               "rating": 89,
               "position": "FW",
@@ -1082,6 +1090,7 @@
           "id": "turbo-strike-17",
           "name": "TURBO STRIKE 17",
           "image": "assets/packs/3_TS.png",
+          "cardBack": "assets/packs/3_TS_back.png",
           "players": [
             {
               "id": "cristiano-ronaldo",
@@ -1259,6 +1268,7 @@
           "id": "arcade-guardians-17",
           "name": "ARCADE GUARDIANS 17",
           "image": "assets/packs/3_AG.png",
+          "cardBack": "assets/packs/3_AG_back.png",
           "players": [
             {
               "id": "franco-baresi",
@@ -1436,6 +1446,7 @@
           "id": "synthwave-architects-17",
           "name": "SYNTHWAVE ARCHITECTS 17",
           "image": "assets/packs/3_SA.png",
+          "cardBack": "assets/packs/3_SA_back.png",
           "players": [
             {
               "id": "roberto-baggio",
@@ -1615,18 +1626,13 @@
       "id": "elemental-command",
       "name": "ELEMENTAL COMMAND",
       "poster": "assets/posters/Packs_ELEMENTAL COMMAND 포스터.png",
+      "rarityWeights": { "LEGEND": 10, "ICON": 40, "ELITE": 50, "CORE": 0, "COMMON": 0 },      
       "packs": [
         {
           "id": "solar-ember-25",
           "name": "SOLAR EMBER 25",
           "image": "assets/packs/4_SE.png",
-          "rarityWeights": {
-            "LEGEND": 0.4,
-            "ICON": 1,
-            "ELITE": 1,
-            "CORE": 0,
-            "COMMON": 0
-          },
+          "cardBack": "assets/packs/4_SE_back.png",
           "players": [
             {
               "id": "diego-maradona",
@@ -1884,13 +1890,7 @@
           "id": "tide-rift-25",
           "name": "TIDE RIFT 25",
           "image": "assets/packs/4_TR.png",
-          "rarityWeights": {
-            "LEGEND": 0.4,
-            "ICON": 1,
-            "ELITE": 1,
-            "CORE": 0,
-            "COMMON": 0
-          },
+          "cardBack": "assets/packs/4_TR_back.png",
           "players": [
             {
               "id": "pele",
