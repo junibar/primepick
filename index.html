@@ -398,7 +398,7 @@ function pickWeightedPlayer(pack){
   const players = pack?.players || [];
   if (!players.length) return null;
 
-  const DEFAULT_RW = { LEGEND:24, ICON:32, ELITE:44, CORE:0, COMMON:0 };
+  const DEFAULT_RW = { LEGEND: 13, ICON:13, ELITE:25, CORE:0, COMMON:0 };
   const seriesRW   = currentSeries?.rarityWeights;
   const rw = pack.rarityWeights || seriesRW || DEFAULT_RW;
 
