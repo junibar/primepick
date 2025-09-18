@@ -468,7 +468,7 @@ function openPack(){
   pd.classList.add('shine');
 
   // pick
-  const player = pickWeightedPlayer(currentPack);
+  const player = pickWeightedPlayer(currentPack,currentSeries);
   if(!player){ toast('이 팩에 선수가 없습니다. DATA.players를 채워주세요.'); return; }
   const rarity = player.rarity ? String(player.rarity).toUpperCase() : rarityFromRating(player.rating);
 
