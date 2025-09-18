@@ -392,31 +392,50 @@ function setupOpenStage(pack){
   qs('#btnBackToPacks').onclick = ()=> showScreen('#screenPacks');
 }
 
-/* weighted pick (선수별 weight > rarityWeights > 기본값) */
-function rarityKey(s){ return String(s||'').toUpperCase(); }
-function pickWeightedPlayer(pack){
+/* weighted pick (player.weight > rarityWeights > default) */
+function rarityKey(s){ return String(s || '').toUpperCase(); }
+
+const DEFAULT_RW = { LEGEND: 16, ICON: 28, ELITE: 36, CORE: 0, COMMON: 0 }; // 4:7:9(≈20/35/45)
+
+function getRarityWeights(pack, series){
+  // 단수/복수 키 모두 허용
+  const packRW   = pack?.rarityWeights   || pack?.rarityWeight;
+  const seriesRW = series?.rarityWeights || series?.rarityWeight;
+
+  // 선택: 팩 > 시리즈 > 디폴트
+  const base = packRW || seriesRW || DEFAULT_RW;
+
+  // 키 대소문자 정규화 + 숫자화
+  const norm = {};
+  for (const [k, v] of Object.entries(base)) {
+    norm[rarityKey(k)] = Number(v) || 0;
+  }
+  return norm;
+}
+
+function pickWeightedPlayer(pack, series){   // ← series를 인자로 넘기거나 내부에서 조회
   const players = pack?.players || [];
   if (!players.length) return null;
 
-  const DEFAULT_RW = { LEGEND: 13, ICON:13, ELITE:25, CORE:0, COMMON:0 };
-  const seriesRW   = currentSeries?.rarityWeights;
-  const rw = pack.rarityWeights || seriesRW || DEFAULT_RW;
+  const rw = getRarityWeights(pack, series);
 
-  const weights = players.map(p=>{
-    const rar = p.rarity ? rarityKey(p.rarity) : rarityFromRating(p.rating);
-    const base = Number(rw[rar] ?? 1);
-    const w = Number(p.weight ?? base);
-    return isNaN(w) || w<=0 ? 0 : w;
+  // 가중치 합
+  let total = 0;
+  const weights = players.map(p => {
+    const r = rarityKey(p.rarity);
+    const w = Number(p.weight) || rw[r] || 0;  // 선수별 weight가 있으면 우선
+    total += w;
+    return w;
   });
-  const total = weights.reduce((a,b)=>a+b,0);
-  if (total<=0) return players[Math.floor(Math.random()*players.length)];
+  if (!total) return null;
 
-  let r = Math.random()*total;
-  for(let i=0;i<players.length;i++){
-    r -= weights[i];
-    if (r<=0) return players[i];
+  // 가중 랜덤
+  let t = Math.random() * total;
+  for (let i = 0; i < players.length; i++) {
+    t -= weights[i];
+    if (t <= 0) return players[i];
   }
-  return players[players.length-1];
+  return players.at(-1);
 }
 
 /* confetti */
