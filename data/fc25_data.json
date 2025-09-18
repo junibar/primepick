@@ -4,6 +4,7 @@
       "id": "series-y0cw9y",
       "name": "태극전사",
       "poster": "assets/posters/Packs_태극전사 시리즈 포스터.png",
+      "rarityWeight": { "LEGEND": 16, "ICON": 7,  "ELITE": 6 },
       "packs": [
         {
           "id": "22",
@@ -473,6 +474,7 @@
           "name": "FLAIR MASTERS 10",
           "image": "assets/packs/2_FM.png",
           "cardBack": "assets/packs/2_FM_back.png",
+          "rarityWeight": { "LEGEND": 1, "ICON": 1, "ELITE": 0 },
           "players": [
             {
               "id": "ronaldinho",
@@ -581,6 +583,7 @@
           "name": "POWER & PACE",
           "image": "assets/packs/2_PP.png",
           "cardBack": "assets/packs/2_PP_back.png",
+          "rarityWeight": { "LEGEND": 12, "ICON": 7, "ELITE": 27 },
           "players": [
             {
               "id": "thierry-henry",
@@ -689,6 +692,7 @@
           "name": "IRON CURTAIN 10",
           "image": "assets/packs/2_IC.png",
           "cardBack": "assets/packs/2_IC_back.png",
+          "rarityWeight": { "LEGEND": 10, "ICON": 5, "ELITE": 45 },
           "players": [
             {
               "id": "gianluigi-buffon",
@@ -797,6 +801,7 @@
           "name": "ENGINE ROOM 10",
           "image": "assets/packs/2_ER.png",
           "cardBack": "assets/packs/2_ER_back.png",
+          "rarityWeight": { "LEGEND": 80, "ICON": 28, "ELITE": 45 },
           "players": [
             {
               "id": "andrea-pirlo",
@@ -906,13 +911,14 @@
       "id": "newtro-icons",
       "name": "NEWTRO ICONS",
       "poster": "assets/posters/Packs_NEWTRO ICONS 포스터.png",
-     "rarityWeights": { "LEGEND": 13, "ICON": 12, "ELITE": 0, "CORE": 0, "COMMON": 0 },
+      "rarityWeight": { "LEGEND": 13, "ICON": 16, "ELITE": 0 },
       "packs": [
         {
           "id": "vhs-flair-17",
           "name": "VHS FLAIR 17",
           "image": "assets/packs/3_VHS.png",
           "cardBack": "assets/packs/3_VHS_back.png",
+          "rarityWeight": { "LEGEND": 7, "ICON": 6, "ELITE": 0 },
           "players": [
             {
               "id": "lionel-messi",
@@ -1447,6 +1453,7 @@
           "name": "SYNTHWAVE ARCHITECTS 17",
           "image": "assets/packs/3_SA.png",
           "cardBack": "assets/packs/3_SA_back.png",
+          "rarityWeight": { "LEGEND": 3, "ICON": 5, "ELITE": 0 },
           "players": [
             {
               "id": "roberto-baggio",
@@ -1626,6 +1633,7 @@
       "id": "elemental-command",
       "name": "ELEMENTAL COMMAND",
       "poster": "assets/posters/Packs_ELEMENTAL COMMAND 포스터.png",  
+      "rarityWeight": { "LEGEND": 9, "ICON": 20, "ELITE": 51 },
       "packs": [
         {
           "id": "solar-ember-25",
