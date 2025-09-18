@@ -1626,7 +1626,7 @@
       "id": "elemental-command",
       "name": "ELEMENTAL COMMAND",
       "poster": "assets/posters/Packs_ELEMENTAL COMMAND 포스터.png",
-      "rarityWeights": { "LEGEND": 18, "ICON": 41, "ELITE": 41, "CORE": 0, "COMMON": 0 },      
+      "rarityWeights": { "LEGEND": 8, "ICON": 46, "ELITE": 46, "CORE": 0, "COMMON": 0 },      
       "packs": [
         {
           "id": "solar-ember-25",
