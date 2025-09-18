@@ -906,6 +906,7 @@
       "id": "newtro-icons",
       "name": "NEWTRO ICONS",
       "poster": "assets/posters/Packs_NEWTRO ICONS 포스터.png",
+     "rarityWeights": { "LEGEND": 13, "ICON": 12, "ELITE": 0, "CORE": 0, "COMMON": 0 },
       "packs": [
         {
           "id": "vhs-flair-17",
