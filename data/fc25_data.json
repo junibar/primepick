@@ -2904,6 +2904,16 @@
           "cardBack": "assets/packs/6_FF_back.png",
           "players": [
             {
+              "id": "vinicius-junior",
+              "name": "Vinicius Junior",
+              "rating": 92,
+              "position": "FW",
+              "club": "Real Madrid",
+              "nation": "Brazil",
+              "image": "assets/players/Vinicius Junior.jpg",
+              "rarity": "LEGEND"
+            },
+            {
               "id": "florian-wirtz",
               "name": "Florian Wirtz",
               "rating": 91,
@@ -2911,26 +2921,6 @@
               "club": "Liverpool FC",
               "nation": "Germany",
               "image": "assets/players/Florian Wirtz.jpg",
-              "rarity": "LEGEND"
-            },
-            {
-              "id": "rodrygo",
-              "name": "Rodrygo",
-              "rating": 91,
-              "position": "FW",
-              "club": "Real Madrid",
-              "nation": "Brazil",
-              "image": "assets/players/Rodrygo.jpg",
-              "rarity": "LEGEND"
-            },
-            {
-              "id": "jamal-musiala",
-              "name": "Jamal Musiala",
-              "rating": 90,
-              "position": "MF",
-              "club": "Bayern Munich",
-              "nation": "Germany",
-              "image": "assets/players/Jamal Musiala.jpg",
               "rarity": "LEGEND"
             },
             {
@@ -2944,6 +2934,26 @@
               "rarity": "LEGEND"
             },
             {
+              "id": "jamal-musiala",
+              "name": "Jamal Musiala",
+              "rating": 90,
+              "position": "MF",
+              "club": "Bayern Munich",
+              "nation": "Germany",
+              "image": "assets/players/Jamal Musiala.jpg",
+              "rarity": "LEGEND"
+            },
+            {
+              "id": "rodrygo",
+              "name": "Rodrygo",
+              "rating": 90,
+              "position": "FW",
+              "club": "Real Madrid",
+              "nation": "Brazil",
+              "image": "assets/players/Rodrygo.jpg",
+              "rarity": "LEGEND"
+            },
+            {
               "id": "piero-hincapie",
               "name": "Piero Hincapie",
               "rating": 89,
@@ -2951,16 +2961,6 @@
               "club": "Bayer Leverkusen",
               "nation": "Ecuador",
               "image": "assets/players/Piero Hincapie.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "conor-bradley",
-              "name": "Conor Bradley",
-              "rating": 89,
-              "position": "DF",
-              "club": "Liverpool FC",
-              "nation": "Northern Ireland",
-              "image": "assets/players/Conor Bradley.jpg",
               "rarity": "ICON"
             },
             {
@@ -2994,6 +2994,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "conor-bradley",
+              "name": "Conor Bradley",
+              "rating": 88,
+              "position": "DF",
+              "club": "Liverpool FC",
+              "nation": "Northern Ireland",
+              "image": "assets/players/Conor Bradley.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "rayan-cherki",
               "name": "Rayan Cherki",
               "rating": 88,
@@ -3001,16 +3011,6 @@
               "club": "Olympique Lyonnais",
               "nation": "France",
               "image": "assets/players/Rayan Cherki.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "jamie-bynoe-gittens",
-              "name": "Jamie Bynoe-Gittens",
-              "rating": 88,
-              "position": "MF",
-              "club": "Borussia Dortmund",
-              "nation": "England",
-              "image": "assets/players/Jamie Bynoe-Gittens.jpg",
               "rarity": "ICON"
             },
             {
