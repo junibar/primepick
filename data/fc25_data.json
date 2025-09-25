@@ -918,11 +918,7 @@
           "name": "VHS FLAIR 17",
           "image": "assets/packs/3_VHS.png",
           "cardBack": "assets/packs/3_VHS_back.png",
-          "rarityWeight": {
-            "LEGEND": 7,
-            "ICON": 6,
-            "ELITE": 0
-          },
+          "rarityWeight": {"LEGEND": 7, "ICON": 6, "ELITE": 0 },
           "players": [
             {
               "id": "lionel-messi",
@@ -2902,6 +2898,7 @@
           "name": "FINAL FORM 22",
           "image": "assets/packs/6_FF.png",
           "cardBack": "assets/packs/6_FF_back.png",
+          "rarityWeight": { "LEGEND": 88, "ICON": 70, "ELITE": 165 },
           "players": [
             {
               "id": "vinicius-junior",
