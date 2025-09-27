@@ -3158,13 +3158,13 @@
     {
       "id": "architecture-series",
       "name": "ARCHITECTURE SERIES",
-      "poster": "",
+      "poster": "assets/posters/Packs_ARCHITECTURE SERIES 포스터.png",
       "packs": [
         {
           "id": "blueprint-20",
           "name": "BLUEPRINT 20",
           "image": "assets/packs/5_BLP.png",
-          "cardBack": "assets/backs/5_BLP_back.png",
+          "cardBack": "assets/packs/5_BLP_back.png",
           "rarityWeight": { "LEGEND": 88, "ICON": 42, "ELITE": 99},
           "players": [
             {
@@ -3373,7 +3373,7 @@
           "id": "architecture-20",
           "name": "ARCHITECTURE 20",
           "image": "assets/packs/5_ARC.png",
-          "cardBack": "assets/backs/5_ARC_back.png",
+          "cardBack": "assets/packs/5_ARC_back.png",
           "rarityWeight": { "LEGEND": 24, "ICON": 7, "ELITE": 18},
           "players": [
             {
@@ -3582,7 +3582,7 @@
           "id": "monuments-20",
           "name": "MONUMENTS 20",
           "image": "assets/packs/5_MNT.png",
-          "cardBack": "assets/backs/5_MNT_back.png",
+          "cardBack": "assets/packs/5_MNT_back.png",
           "rarityWeight": { "LEGEND": 88, "ICON": 42, "ELITE": 99},
           "players": [
             {
@@ -3791,7 +3791,7 @@
           "id": "modular-20",
           "name": "MODULAR 20",
           "image": "assets/packs/5_MOD.png",
-          "cardBack": "assets/backs/5_MOD_back.png",
+          "cardBack": "assets/packs/5_MOD_back.png",
           "rarityWeight": { "LEGEND": 154, "ICON": 49, "ELITE": 99},
           "players": [
             {
