@@ -2207,13 +2207,13 @@
       "id": "future-stars",
       "name": "FUTURE STARS",
       "poster": "assets/posters/Packs_FUTURE STARS 포스터.png",
-      "rarityWeight": { "LEGEND": 12, "ICON": 7, "ELITE": 18 },
       "packs": [
         {
           "id": "origin-arc-22",
           "name": "ORIGIN ARC 22",
           "image": "assets/packs/6_ORA.png",
           "cardBack": "assets/packs/6_ORA_back.png",
+          "rarityWeight": { "LEGEND": 12, "ICON": 7, "ELITE": 18 },
           "players": [
             {
               "id": "lamine-yamal",
@@ -2442,6 +2442,7 @@
           "name": "POWER-UP RUSH 22",
           "image": "assets/packs/6_PUR.png",
           "cardBack": "assets/packs/6_PUR_back.png",
+          "rarityWeight": { "LEGEND": 12, "ICON": 7, "ELITE": 18 },
           "players": [
             {
               "id": "jude-bellingham",
@@ -2670,6 +2671,7 @@
           "name": "RIVAL MODE 22",
           "image": "assets/packs/6_RM.png",
           "cardBack": "assets/packs/6_RM_back.png",
+          "rarityWeight": { "LEGEND": 12, "ICON": 7, "ELITE": 18 },
           "players": [
             {
               "id": "cole-palmer",
