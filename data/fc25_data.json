@@ -3666,16 +3666,6 @@
               "rarity": "ICON"
             },
             {
-              "id": "klaus-augenthaler",
-              "name": "Klaus Augenthaler",
-              "rating": 88,
-              "position": "DF",
-              "club": "Bayern Munich",
-              "nation": "Germany",
-              "image": "assets/players/Klaus Augenthaler.jpg",
-              "rarity": "ICON"
-            },
-            {
               "id": "gabriel-batistuta",
               "name": "Gabriel Batistuta",
               "rating": 88,
@@ -3683,6 +3673,16 @@
               "club": "Fiorentina",
               "nation": "Argentina",
               "image": "assets/players/Gabriel Batistuta.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "klaus-augenthaler",
+              "name": "Klaus Augenthaler",
+              "rating": 88,
+              "position": "DF",
+              "club": "Bayern Munich",
+              "nation": "Germany",
+              "image": "assets/players/Klaus Augenthaler.jpg",
               "rarity": "ICON"
             },
             {
