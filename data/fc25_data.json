@@ -3655,17 +3655,7 @@
               "image": "assets/players/Giuseppe Bergomi.jpg",
               "rarity": "ICON"
             },
-            {
-              "id": "javier-zanetti",
-              "name": "Javier Zanetti",
-              "rating": 89,
-              "position": "DF",
-              "club": "Inter",
-              "nation": "Italy",
-              "image": "assets/players/Javier Zanetti.jpg",
-              "rarity": "ICON"
-            },
-            {
+                        {
               "id": "dino-zoff",
               "name": "Dino Zoff",
               "rating": 89,
@@ -3673,6 +3663,16 @@
               "club": "Juventus",
               "nation": "Italy",
               "image": "assets/players/Dino Zoff.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "klaus-augenthaler",
+              "name": "Klaus Augenthaler",
+              "rating": 88,
+              "position": "DF",
+              "club": "Bayern Munich",
+              "nation": "Germany",
+              "image": "assets/players/Klaus Augenthaler.jpg",
               "rarity": "ICON"
             },
             {
