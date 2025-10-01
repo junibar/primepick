@@ -10,7 +10,11 @@
           "name": "태극 스탠다드 22",
           "image": "assets/packs/1_TGS.png",
           "cardBack": "assets/packs/1_TGS_back.png",
-          "rarityWeight": {"LEGEND": 16, "ICON": 7, "ELITE": 6},          
+          "rarityWeight": {
+            "LEGEND": 16,
+            "ICON": 7,
+            "ELITE": 6
+          },
           "players": [
             {
               "id": "pl-2v5soy",
@@ -239,7 +243,11 @@
           "name": "태극 프라임 22",
           "image": "assets/packs/1_TGP.png",
           "cardBack": "assets/packs/1_TGP_back.png",
-          "rarityWeight": {"LEGEND": 16, "ICON": 7, "ELITE": 6},
+          "rarityWeight": {
+            "LEGEND": 16,
+            "ICON": 7,
+            "ELITE": 6
+          },
           "players": [
             {
               "id": "pl-9fnlx2",
@@ -459,6 +467,342 @@
               "club": "토트넘 홋스퍼",
               "nation": "대한민국",
               "image": "assets/players/양민혁.jpg",
+              "rarity": "ELITE"
+            }
+          ]
+        },
+        {
+          "id": "best-of-k-league-16",
+          "name": "Best of K League 16",
+          "image": "assets/packs/1_BOK.png",
+          "cardBack": "assets/packs/1_BOK_back.png",
+          "players": [
+            {
+              "id": "야잔",
+              "name": "야잔",
+              "rating": 87,
+              "position": "DF",
+              "club": "FC 서울",
+              "nation": "요르단",
+              "image": "assets/players/야잔.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "안데르손",
+              "name": "안데르손",
+              "rating": 87,
+              "position": "MF",
+              "club": "FC 서울",
+              "nation": "브라질",
+              "image": "assets/players/안데르손.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "송범근",
+              "name": "송범근",
+              "rating": 86,
+              "position": "GK",
+              "club": "전북 현대",
+              "nation": "대한민국",
+              "image": "assets/players/송범근.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "세징야",
+              "name": "세징야",
+              "rating": 86,
+              "position": "FW",
+              "club": "울산 HD",
+              "nation": "브라질",
+              "image": "assets/players/세징야.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "전진우",
+              "name": "전진우",
+              "rating": 86,
+              "position": "FW",
+              "club": "전북 현대",
+              "nation": "대한민국",
+              "image": "assets/players/전진우.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "완델손",
+              "name": "완델손",
+              "rating": 85,
+              "position": "DF",
+              "club": "포항 스틸러스",
+              "nation": "브라질",
+              "image": "assets/players/완델손.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "박승욱",
+              "name": "박승욱",
+              "rating": 84,
+              "position": "DF",
+              "club": "포항 스틸러스",
+              "nation": "대한민국",
+              "image": "assets/players/박승욱.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "박진섭",
+              "name": "박진섭",
+              "rating": 84,
+              "position": "DF",
+              "club": "전북 현대",
+              "nation": "대한민국",
+              "image": "assets/players/박진섭.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "마테우스",
+              "name": "마테우스",
+              "rating": 84,
+              "position": "MF",
+              "club": "FC 안양",
+              "nation": "브라질",
+              "image": "assets/players/마테우스.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "루빅손",
+              "name": "루빅손",
+              "rating": 84,
+              "position": "MF",
+              "club": "울산 HD",
+              "nation": "스웨덴",
+              "image": "assets/players/루빅손.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "김봉수",
+              "name": "김봉수",
+              "rating": 84,
+              "position": "MF",
+              "club": "대전 하나시티즌",
+              "nation": "대한민국",
+              "image": "assets/players/김봉수.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "고승범",
+              "name": "고승범",
+              "rating": 84,
+              "position": "MF",
+              "club": "울산 HD",
+              "nation": "대한민국",
+              "image": "assets/players/고승범.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "김진규",
+              "name": "김진규",
+              "rating": 84,
+              "position": "MF",
+              "club": "전북 현대",
+              "nation": "대한민국",
+              "image": "assets/players/김진규.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "엄원상",
+              "name": "엄원상",
+              "rating": 84,
+              "position": "MF",
+              "club": "울산 HD",
+              "nation": "대한민국",
+              "image": "assets/players/엄원상.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "모타",
+              "name": "모타",
+              "rating": 84,
+              "position": "FW",
+              "club": "FC 안양",
+              "nation": "브라질",
+              "image": "assets/players/모타.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "콤파뇨",
+              "name": "콤파뇨",
+              "rating": 84,
+              "position": "FW",
+              "club": "전북 현대",
+              "nation": "이탈리아",
+              "image": "assets/players/콤파뇨.jpg",
+              "rarity": "ELITE"
+            }
+          ]
+        },
+        {
+          "id": "prime-of-k-league-16",
+          "name": "Prime of K League 16",
+          "image": "assets/packs/1_POK.png",
+          "cardBack": "assets/packs/1_POK_back.png",
+          "players": [
+            {
+              "id": "이동경",
+              "name": "이동경",
+              "rating": 87,
+              "position": "MF",
+              "club": "김천 상무",
+              "nation": "대한민국",
+              "image": "assets/players/이동경.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "오베르단",
+              "name": "오베르단",
+              "rating": 87,
+              "position": "MF",
+              "club": "포항 스틸러스",
+              "nation": "브라질",
+              "image": "assets/players/오베르단.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "이창근",
+              "name": "이창근",
+              "rating": 86,
+              "position": "GK",
+              "club": "대전 하나시티즌",
+              "nation": "대한민국",
+              "image": "assets/players/이창근.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "린가드",
+              "name": "린가드",
+              "rating": 86,
+              "position": "MF",
+              "club": "FC 서울",
+              "nation": "잉글랜드",
+              "image": "assets/players/린가드.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "주민규",
+              "name": "주민규",
+              "rating": 86,
+              "position": "FW",
+              "club": "대전 하나시티즌",
+              "nation": "대한민국",
+              "image": "assets/players/주민규.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "보야니치",
+              "name": "보야니치",
+              "rating": 85,
+              "position": "MF",
+              "club": "울산 HD",
+              "nation": "스웨덴",
+              "image": "assets/players/보야니치.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "카이오",
+              "name": "카이오",
+              "rating": 84,
+              "position": "DF",
+              "club": "대구 FC",
+              "nation": "브라질",
+              "image": "assets/players/카이오.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "전민광",
+              "name": "전민광",
+              "rating": 84,
+              "position": "DF",
+              "club": "포항 스틸러스",
+              "nation": "대한민국",
+              "image": "assets/players/전민광.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "정승현",
+              "name": "정승현",
+              "rating": 84,
+              "position": "DF",
+              "club": "울산 HD",
+              "nation": "대한민국",
+              "image": "assets/players/정승현.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "황재원",
+              "name": "황재원",
+              "rating": 84,
+              "position": "DF",
+              "club": "대구 FC",
+              "nation": "대한민국",
+              "image": "assets/players/황재원.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "정승원",
+              "name": "정승원",
+              "rating": 84,
+              "position": "MF",
+              "club": "FC 서울",
+              "nation": "대한민국",
+              "image": "assets/players/정승원.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "이탈로",
+              "name": "이탈로",
+              "rating": 84,
+              "position": "MF",
+              "club": "제주 유나이티드",
+              "nation": "브라질",
+              "image": "assets/players/이탈로.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "송민규",
+              "name": "송민규",
+              "rating": 84,
+              "position": "MF",
+              "club": "전북 현대",
+              "nation": "대한민국",
+              "image": "assets/players/송민규.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "말컹",
+              "name": "말컹",
+              "rating": 84,
+              "position": "FW",
+              "club": "울산 HD",
+              "nation": "브라질",
+              "image": "assets/players/말컹.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "이호재",
+              "name": "이호재",
+              "rating": 84,
+              "position": "FW",
+              "club": "포항 스틸러스",
+              "nation": "대한민국",
+              "image": "assets/players/이호재.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "싸박",
+              "name": "싸박",
+              "rating": 84,
+              "position": "FW",
+              "club": "수원FC",
+              "nation": "시리아",
+              "image": "assets/players/싸박.jpg",
               "rarity": "ELITE"
             }
           ]
@@ -1668,7 +2012,11 @@
           "name": "SOLAR EMBER 18",
           "image": "assets/packs/4_SE.png",
           "cardBack": "assets/packs/4_SE_back.png",
-          "rarityWeight": {"LEGEND": 4, "ICON": 7, "ELITE": 36},
+          "rarityWeight": {
+            "LEGEND": 4,
+            "ICON": 7,
+            "ELITE": 36
+          },
           "players": [
             {
               "id": "diego-maradona",
@@ -1857,7 +2205,11 @@
           "name": "TIDE RIFT 18",
           "image": "assets/packs/4_TR.png",
           "cardBack": "assets/packs/4_TR_back.png",
-          "rarityWeight": {"LEGEND": 32, "ICON": 49, "ELITE": 168},
+          "rarityWeight": {
+            "LEGEND": 32,
+            "ICON": 49,
+            "ELITE": 168
+          },
           "players": [
             {
               "id": "pele",
@@ -2046,7 +2398,11 @@
           "name": "TEMPEST WING 18",
           "image": "assets/packs/4_TW.png",
           "cardBack": "assets/packs/4_TW_back.png",
-          "rarityWeight": {"LEGEND": 1, "ICON": 2, "ELITE": 6},
+          "rarityWeight": {
+            "LEGEND": 1,
+            "ICON": 2,
+            "ELITE": 6
+          },
           "players": [
             {
               "id": "ronaldo",
@@ -2242,7 +2598,11 @@
           "name": "ORIGIN ARC 22",
           "image": "assets/packs/6_ORA.png",
           "cardBack": "assets/packs/6_ORA_back.png",
-          "rarityWeight": {"LEGEND": 12, "ICON": 7, "ELITE": 18},
+          "rarityWeight": {
+            "LEGEND": 12,
+            "ICON": 7,
+            "ELITE": 18
+          },
           "players": [
             {
               "id": "lamine-yamal",
@@ -2471,7 +2831,11 @@
           "name": "POWER-UP RUSH 22",
           "image": "assets/packs/6_PUR.png",
           "cardBack": "assets/packs/6_PUR_back.png",
-          "rarityWeight": {"LEGEND": 12, "ICON": 7, "ELITE": 18},
+          "rarityWeight": {
+            "LEGEND": 12,
+            "ICON": 7,
+            "ELITE": 18
+          },
           "players": [
             {
               "id": "jude-bellingham",
@@ -2700,7 +3064,11 @@
           "name": "RIVAL MODE 22",
           "image": "assets/packs/6_RM.png",
           "cardBack": "assets/packs/6_RM_back.png",
-          "rarityWeight": { "LEGEND": 12, "ICON": 7, "ELITE": 18},
+          "rarityWeight": {
+            "LEGEND": 12,
+            "ICON": 7,
+            "ELITE": 18
+          },
           "players": [
             {
               "id": "cole-palmer",
@@ -2929,7 +3297,11 @@
           "name": "FINAL FORM 22",
           "image": "assets/packs/6_FF.png",
           "cardBack": "assets/packs/6_FF_back.png",
-          "rarityWeight": { "LEGEND": 88, "ICON": 70, "ELITE": 165},
+          "rarityWeight": {
+            "LEGEND": 88,
+            "ICON": 70,
+            "ELITE": 165
+          },
           "players": [
             {
               "id": "vinicius-junior",
@@ -3165,7 +3537,11 @@
           "name": "BLUEPRINT 20",
           "image": "assets/packs/5_BLP.png",
           "cardBack": "assets/packs/5_BLP_back.png",
-          "rarityWeight": { "LEGEND": 88, "ICON": 42, "ELITE": 99},
+          "rarityWeight": {
+            "LEGEND": 88,
+            "ICON": 42,
+            "ELITE": 99
+          },
           "players": [
             {
               "id": "giuseppe-meazza",
@@ -3374,7 +3750,11 @@
           "name": "ARCHITECTURE 20",
           "image": "assets/packs/5_ARC.png",
           "cardBack": "assets/packs/5_ARC_back.png",
-          "rarityWeight": { "LEGEND": 24, "ICON": 7, "ELITE": 18},
+          "rarityWeight": {
+            "LEGEND": 24,
+            "ICON": 7,
+            "ELITE": 18
+          },
           "players": [
             {
               "id": "alfredo-di-stefano",
@@ -3583,7 +3963,11 @@
           "name": "MONUMENTS 20",
           "image": "assets/packs/5_MNT.png",
           "cardBack": "assets/packs/5_MNT_back.png",
-          "rarityWeight": { "LEGEND": 88, "ICON": 42, "ELITE": 99},
+          "rarityWeight": {
+            "LEGEND": 88,
+            "ICON": 42,
+            "ELITE": 99
+          },
           "players": [
             {
               "id": "raul-gonzalez",
@@ -3655,7 +4039,7 @@
               "image": "assets/players/Giuseppe Bergomi.jpg",
               "rarity": "ICON"
             },
-                        {
+            {
               "id": "dino-zoff",
               "name": "Dino Zoff",
               "rating": 89,
@@ -3763,7 +4147,7 @@
               "club": "Napoli",
               "nation": "Slovakia",
               "image": "assets/players/Marek Hamsik.jpg",
-              "rarity": "COMMON"
+              "rarity": "ELITE"
             },
             {
               "id": "patrice-evra",
@@ -3792,7 +4176,11 @@
           "name": "MODULAR 20",
           "image": "assets/packs/5_MOD.png",
           "cardBack": "assets/packs/5_MOD_back.png",
-          "rarityWeight": { "LEGEND": 154, "ICON": 49, "ELITE": 99},
+          "rarityWeight": {
+            "LEGEND": 154,
+            "ICON": 49,
+            "ELITE": 99
+          },
           "players": [
             {
               "id": "michel-platini",
@@ -3995,6 +4383,41 @@
               "rarity": "ELITE"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "persona",
+      "name": "PERSONA",
+      "poster": "",
+      "packs": [
+        {
+          "id": "mystic-fighter-25",
+          "name": "MYSTIC FIGHTER 25",
+          "image": "",
+          "cardBack": "",
+          "players": []
+        },
+        {
+          "id": "rogue-pitcher-25",
+          "name": "ROGUE PITCHER 25",
+          "image": "",
+          "cardBack": "",
+          "players": []
+        },
+        {
+          "id": "elite-fower-25",
+          "name": "ELITE FOWER 25",
+          "image": "",
+          "cardBack": "",
+          "players": []
+        },
+        {
+          "id": "street-leader-25",
+          "name": "STREET LEADER 25",
+          "image": "",
+          "cardBack": "",
+          "players": []
         }
       ]
     }
