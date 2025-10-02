@@ -5184,7 +5184,7 @@
           "id": "street-leader-25",
           "name": "STREET LEADER 25",
           "image": "assets/packs/7_STR.png",
-          "cardBack": "assets/packs/7_STR_back .png",
+          "cardBack": "assets/packs/7_STR_back.png",
           "rarityWeight": {
             "LEGEND": 75,
             "ICON": 12,
