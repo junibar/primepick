@@ -4394,8 +4394,8 @@
         {
           "id": "mystic-fighter-25",
           "name": "MYSTIC FIGHTER 25",
-          "image": "",
-          "cardBack": "",
+          "image": "assets/packs/7_MST.png",
+          "cardBack": "assets/packs/7_MST_back.png",
           "rarityWeight": {
             "LEGEND": 75,
             "ICON": 12,
@@ -4657,8 +4657,8 @@
         {
           "id": "rogue-pitcher-25",
           "name": "ROGUE PITCHER 25",
-          "image": "",
-          "cardBack": "",
+          "image": "assets/packs/7_ROG.png",
+          "cardBack": "assets/packs/7_ROG_back.png",
           "rarityWeight": {
             "LEGEND": 75,
             "ICON": 12,
@@ -4920,8 +4920,8 @@
         {
           "id": "elite-fower-25",
           "name": "ELITE FOWER 25",
-          "image": "",
-          "cardBack": "",
+          "image": "assets/packs/7_ELT.png",
+          "cardBack": "assets/packs/7_ELT_back.png",
           "rarityWeight": {
             "LEGEND": 75,
             "ICON": 12,
@@ -5183,8 +5183,8 @@
         {
           "id": "street-leader-25",
           "name": "STREET LEADER 25",
-          "image": "",
-          "cardBack": "",
+          "image": "assets/packs/7_STR.png",
+          "cardBack": "assets/packs/7_STR_back .png",
           "rarityWeight": {
             "LEGEND": 75,
             "ICON": 12,
