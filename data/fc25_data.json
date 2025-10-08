@@ -2614,6 +2614,16 @@
               "image": "assets/players/Lamine Yamal.jpg",
               "rarity": "LEGEND"
             },
+           {
+              "id": "pedri",
+              "name": "Pedri",
+              "rating": 92,
+              "position": "MF",
+              "club": "FC Barcelona",
+              "nation": "Spain",
+              "image": "assets/players/Pedri.jpg",
+              "rarity": "LEGEND"
+            },
             {
               "id": "pau-cubarsi",
               "name": "Pau Cubarsi",
@@ -2624,16 +2634,7 @@
               "image": "assets/players/Pau Cubarsi.jpg",
               "rarity": "LEGEND"
             },
-            {
-              "id": "pedri",
-              "name": "Pedri",
-              "rating": 90,
-              "position": "MF",
-              "club": "FC Barcelona",
-              "nation": "Spain",
-              "image": "assets/players/Pedri.jpg",
-              "rarity": "LEGEND"
-            },
+
             {
               "id": "bukayo-saka",
               "name": "Bukayo Saka",
@@ -2848,6 +2849,16 @@
               "rarity": "LEGEND"
             },
             {
+              "id": "khvicha-kvaratskhelia",
+              "name": "Khvicha Kvaratskhelia",
+              "rating": 91,
+              "position": "FW",
+              "club": "Paris Saint-Germain",
+              "nation": "Georgia",
+              "image": "assets/players/Khvicha Kvaratskhelia.jpg",
+              "rarity": "LEGEND"
+            },
+            {
               "id": "amad-diallo",
               "name": "Amad Diallo",
               "rating": 90,
@@ -2865,16 +2876,6 @@
               "club": "Manchester United",
               "nation": "France",
               "image": "assets/players/Leny Yoro.jpg",
-              "rarity": "LEGEND"
-            },
-            {
-              "id": "khvicha-kvaratskhelia",
-              "name": "Khvicha Kvaratskhelia",
-              "rating": 90,
-              "position": "FW",
-              "club": "Paris Saint-Germain",
-              "nation": "Georgia",
-              "image": "assets/players/Khvicha Kvaratskhelia.jpg",
               "rarity": "LEGEND"
             },
             {
@@ -3101,6 +3102,16 @@
               "rarity": "LEGEND"
             },
             {
+              "id": "joao-neves",
+              "name": "Joao Neves",
+              "rating": 90,
+              "position": "MF",
+              "club": "Paris Saint-Germain",
+              "nation": "Portugal",
+              "image": "assets/players/Joao Neves.jpg",
+              "rarity": "LEGEND"
+            },
+            {
               "id": "willian-pacho",
               "name": "Willian Pacho",
               "rating": 90,
@@ -3128,16 +3139,6 @@
               "club": "Liverpool FC",
               "nation": "Hungary",
               "image": "assets/players/Dominik Szoboszlai.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "joao-neves",
-              "name": "Joao Neves",
-              "rating": 89,
-              "position": "MF",
-              "club": "Paris Saint-Germain",
-              "nation": "Portugal",
-              "image": "assets/players/Joao Neves.jpg",
               "rarity": "ICON"
             },
             {
