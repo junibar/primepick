@@ -2832,9 +2832,9 @@
           "image": "assets/packs/6_PUR.png",
           "cardBack": "assets/packs/6_PUR_back.png",
           "rarityWeight": {
-            "LEGEND": 12,
-            "ICON": 7,
-            "ELITE": 18
+            "LEGEND": 40,
+            "ICON": 32,
+            "ELITE": 75
           },
           "players": [
             {
@@ -3065,9 +3065,9 @@
           "image": "assets/packs/6_RM.png",
           "cardBack": "assets/packs/6_RM_back.png",
           "rarityWeight": {
-            "LEGEND": 12,
-            "ICON": 7,
-            "ELITE": 18
+            "LEGEND": 40,
+            "ICON": 32,
+            "ELITE": 75
           },
           "players": [
             {
@@ -3298,9 +3298,9 @@
           "image": "assets/packs/6_FF.png",
           "cardBack": "assets/packs/6_FF_back.png",
           "rarityWeight": {
-            "LEGEND": 88,
-            "ICON": 70,
-            "ELITE": 165
+            "LEGEND": 44,
+            "ICON": 32,
+            "ELITE": 99
           },
           "players": [
             {
