@@ -292,7 +292,7 @@
             {
               "id": "pl-oa6duc",
               "name": "차두리",
-              "rating": 88,
+              "rating": 87,
               "position": "DF",
               "club": "아인트라흐트 프랑크푸르트",
               "nation": "대한민국",
@@ -2614,16 +2614,6 @@
               "image": "assets/players/Lamine Yamal.jpg",
               "rarity": "LEGEND"
             },
-           {
-              "id": "pedri",
-              "name": "Pedri",
-              "rating": 92,
-              "position": "MF",
-              "club": "FC Barcelona",
-              "nation": "Spain",
-              "image": "assets/players/Pedri.jpg",
-              "rarity": "LEGEND"
-            },
             {
               "id": "pau-cubarsi",
               "name": "Pau Cubarsi",
@@ -2634,7 +2624,16 @@
               "image": "assets/players/Pau Cubarsi.jpg",
               "rarity": "LEGEND"
             },
-
+            {
+              "id": "pedri",
+              "name": "Pedri",
+              "rating": 90,
+              "position": "MF",
+              "club": "FC Barcelona",
+              "nation": "Spain",
+              "image": "assets/players/Pedri.jpg",
+              "rarity": "LEGEND"
+            },
             {
               "id": "bukayo-saka",
               "name": "Bukayo Saka",
@@ -2849,16 +2848,6 @@
               "rarity": "LEGEND"
             },
             {
-              "id": "khvicha-kvaratskhelia",
-              "name": "Khvicha Kvaratskhelia",
-              "rating": 91,
-              "position": "FW",
-              "club": "Paris Saint-Germain",
-              "nation": "Georgia",
-              "image": "assets/players/Khvicha Kvaratskhelia.jpg",
-              "rarity": "LEGEND"
-            },
-            {
               "id": "amad-diallo",
               "name": "Amad Diallo",
               "rating": 90,
@@ -2878,7 +2867,17 @@
               "image": "assets/players/Leny Yoro.jpg",
               "rarity": "LEGEND"
             },
-           {
+            {
+              "id": "khvicha-kvaratskhelia",
+              "name": "Khvicha Kvaratskhelia",
+              "rating": 90,
+              "position": "FW",
+              "club": "Paris Saint-Germain",
+              "nation": "Georgia",
+              "image": "assets/players/Khvicha Kvaratskhelia.jpg",
+              "rarity": "LEGEND"
+            },
+            {
               "id": "nuno-mendes",
               "name": "Nuno Mendes",
               "rating": 90,
@@ -3102,16 +3101,6 @@
               "rarity": "LEGEND"
             },
             {
-              "id": "joao-neves",
-              "name": "Joao Neves",
-              "rating": 90,
-              "position": "MF",
-              "club": "Paris Saint-Germain",
-              "nation": "Portugal",
-              "image": "assets/players/Joao Neves.jpg",
-              "rarity": "LEGEND"
-            },
-            {
               "id": "willian-pacho",
               "name": "Willian Pacho",
               "rating": 90,
@@ -3139,6 +3128,16 @@
               "club": "Liverpool FC",
               "nation": "Hungary",
               "image": "assets/players/Dominik Szoboszlai.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "joao-neves",
+              "name": "Joao Neves",
+              "rating": 89,
+              "position": "MF",
+              "club": "Paris Saint-Germain",
+              "nation": "Portugal",
+              "image": "assets/players/Joao Neves.jpg",
               "rarity": "ICON"
             },
             {
@@ -3326,12 +3325,12 @@
             },
             {
               "id": "william-saliba",
-              "name": "William Saliba",
+              "name": "Willam Saliba",
               "rating": 90,
               "position": "DF",
               "club": "Arsenal FC",
               "nation": "France",
-              "image": "assets/players/William Saliba.jpg",
+              "image": "assets/players/Willam Saliba.jpg",
               "rarity": "LEGEND"
             },
             {
@@ -3355,6 +3354,16 @@
               "rarity": "LEGEND"
             },
             {
+              "id": "piero-hincapie",
+              "name": "Piero Hincapie",
+              "rating": 89,
+              "position": "DF",
+              "club": "Bayer Leverkusen",
+              "nation": "Ecuador",
+              "image": "assets/players/Piero Hincapie.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "jeremie-frimpong",
               "name": "Jeremie Frimpong",
               "rating": 89,
@@ -3362,16 +3371,6 @@
               "club": "Liverpool FC",
               "nation": "Netherlands",
               "image": "assets/players/Jeremie Frimpong.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "piero-hincapie",
-              "name": "Piero Hincapie",
-              "rating": 89,
-              "position": "DF",
-              "club": "Arsenal FC",
-              "nation": "Ecuador",
-              "image": "assets/players/Piero Hincapie.jpg",
               "rarity": "ICON"
             },
             {
@@ -3523,7 +3522,7 @@
               "nation": "Colombia",
               "image": "assets/players/Jhon Duran.jpg",
               "rarity": "ELITE"
-            },
+            }
           ]
         }
       ]
@@ -4390,7 +4389,7 @@
     {
       "id": "persona",
       "name": "PERSONA",
-      "poster": "assets/posters/Packs_PERSONA 포스터.png",
+      "poster": "",
       "packs": [
         {
           "id": "mystic-fighter-25",
@@ -5185,7 +5184,7 @@
           "id": "street-leader-25",
           "name": "STREET LEADER 25",
           "image": "assets/packs/7_STR.png",
-          "cardBack": "assets/packs/7_STR_back.png",
+          "cardBack": "assets/packs/7_STR_back .png",
           "rarityWeight": {
             "LEGEND": 75,
             "ICON": 12,
