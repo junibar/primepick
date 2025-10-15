@@ -2878,15 +2878,15 @@
               "image": "assets/players/Leny Yoro.jpg",
               "rarity": "LEGEND"
             },
-            {
-              "id": "jeremie-frimpong",
-              "name": "Jeremie Frimpong",
-              "rating": 89,
+           {
+              "id": "nuno-mendes",
+              "name": "Nuno Mendes",
+              "rating": 90,
               "position": "DF",
-              "club": "Liverpool FC",
-              "nation": "Netherlands",
-              "image": "assets/players/Jeremie Frimpong.jpg",
-              "rarity": "ICON"
+              "club": "Paris Saint-Germain",
+              "nation": "Portugal",
+              "image": "assets/players/Nuno Mendes.jpg",
+              "rarity": "LEGEND"
             },
             {
               "id": "ryan-gravenberch",
@@ -3282,13 +3282,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "ivan-ilic",
-              "name": "Ivan Ilic",
+              "id": "andrey-santos",
+              "name": "Andrey Santos",
               "rating": 85,
               "position": "MF",
-              "club": "Torino",
-              "nation": "Serbia",
-              "image": "assets/players/Ivan Ilic.jpg",
+              "club": "Chelsea FC",
+              "nation": "Brazil",
+              "image": "assets/players/Andrey Santos.jpg",
               "rarity": "ELITE"
             }
           ]
@@ -3325,13 +3325,13 @@
               "rarity": "LEGEND"
             },
             {
-              "id": "nuno-mendes",
-              "name": "Nuno Mendes",
+              "id": "william-saliba",
+              "name": "William Saliba",
               "rating": 90,
               "position": "DF",
-              "club": "Paris Saint-Germain",
-              "nation": "Portugal",
-              "image": "assets/players/Nuno Mendes.jpg",
+              "club": "Arsenal FC",
+              "nation": "France",
+              "image": "assets/players/William Saliba.jpg",
               "rarity": "LEGEND"
             },
             {
@@ -3355,11 +3355,21 @@
               "rarity": "LEGEND"
             },
             {
+              "id": "jeremie-frimpong",
+              "name": "Jeremie Frimpong",
+              "rating": 89,
+              "position": "DF",
+              "club": "Liverpool FC",
+              "nation": "Netherlands",
+              "image": "assets/players/Jeremie Frimpong.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "piero-hincapie",
               "name": "Piero Hincapie",
               "rating": 89,
               "position": "DF",
-              "club": "Bayer Leverkusen",
+              "club": "Arsenal FC",
               "nation": "Ecuador",
               "image": "assets/players/Piero Hincapie.jpg",
               "rarity": "ICON"
@@ -3514,16 +3524,6 @@
               "image": "assets/players/Jhon Duran.jpg",
               "rarity": "ELITE"
             },
-            {
-              "id": "andrey-santos",
-              "name": "Andrey Santos",
-              "rating": 85,
-              "position": "MF",
-              "club": "Chelsea FC",
-              "nation": "Brazil",
-              "image": "assets/players/Andrey Santos.jpg",
-              "rarity": "ELITE"
-            }
           ]
         }
       ]
