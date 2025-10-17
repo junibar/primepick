@@ -2599,9 +2599,9 @@
           "image": "assets/packs/6_ORA.png",
           "cardBack": "assets/packs/6_ORA_back.png",
           "rarityWeight": {
-            "LEGEND": 12,
-            "ICON": 7,
-            "ELITE": 18
+            "LEGEND": 40,
+            "ICON": 32,
+            "ELITE": 75
           },
           "players": [
             {
@@ -2627,7 +2627,7 @@
             {
               "id": "pedri",
               "name": "Pedri",
-              "rating": 92,
+              "rating": 90,
               "position": "MF",
               "club": "FC Barcelona",
               "nation": "Spain",
@@ -2642,6 +2642,16 @@
               "club": "Arsenal FC",
               "nation": "England",
               "image": "assets/players/Bukayo Saka.jpg",
+              "rarity": "LEGEND"
+            },
+            {
+              "id": "moises-caicedo",
+              "name": "Moises Caicedo",
+              "rating": 90,
+              "position": "MF",
+              "club": "Chelsea FC",
+              "nation": "Ecuador",
+              "image": "assets/players/Moises Caicedo.jpg",
               "rarity": "LEGEND"
             },
             {
@@ -2662,16 +2672,6 @@
               "club": "Bayern Munich",
               "nation": "France",
               "image": "assets/players/Michael Olise.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "kobbie-mainoo",
-              "name": "Kobbie Mainoo",
-              "rating": 89,
-              "position": "MF",
-              "club": "Manchester United",
-              "nation": "England",
-              "image": "assets/players/Kobbie Mainoo.jpg",
               "rarity": "ICON"
             },
             {
@@ -2832,9 +2832,9 @@
           "image": "assets/packs/6_PUR.png",
           "cardBack": "assets/packs/6_PUR_back.png",
           "rarityWeight": {
-            "LEGEND": 40,
-            "ICON": 32,
-            "ELITE": 75
+            "LEGEND": 12,
+            "ICON": 7,
+            "ELITE": 18
           },
           "players": [
             {
@@ -3065,9 +3065,9 @@
           "image": "assets/packs/6_RM.png",
           "cardBack": "assets/packs/6_RM_back.png",
           "rarityWeight": {
-            "LEGEND": 40,
-            "ICON": 32,
-            "ELITE": 75
+            "LEGEND": 12,
+            "ICON": 7,
+            "ELITE": 18
           },
           "players": [
             {
@@ -3325,12 +3325,12 @@
             },
             {
               "id": "william-saliba",
-              "name": "William Saliba",
+              "name": "Willam Saliba",
               "rating": 90,
               "position": "DF",
               "club": "Arsenal FC",
               "nation": "France",
-              "image": "assets/players/William Saliba.jpg",
+              "image": "assets/players/Willam Saliba.jpg",
               "rarity": "LEGEND"
             },
             {
@@ -3374,13 +3374,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "moises-caicedo",
-              "name": "Moises Caicedo",
+              "id": "kobbie-mainoo",
+              "name": "Kobbie Mainoo",
               "rating": 89,
               "position": "MF",
-              "club": "Chelsea FC",
-              "nation": "Ecuador",
-              "image": "assets/players/Moises Caicedo.jpg",
+              "club": "Manchester United",
+              "nation": "England",
+              "image": "assets/players/Kobbie Mainoo.jpg",
               "rarity": "ICON"
             },
             {
@@ -4389,7 +4389,7 @@
     {
       "id": "persona",
       "name": "PERSONA",
-      "poster": "assets/posters/Packs_PERSONA 포스터.png",
+      "poster": "",
       "packs": [
         {
           "id": "mystic-fighter-25",
