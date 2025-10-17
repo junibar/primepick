@@ -3101,6 +3101,16 @@
               "rarity": "LEGEND"
             },
             {
+              "id": "joao-neves",
+              "name": "Joao Neves",
+              "rating": 90,
+              "position": "MF",
+              "club": "Paris Saint-Germain",
+              "nation": "Portugal",
+              "image": "assets/players/Joao Neves.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "willian-pacho",
               "name": "Willian Pacho",
               "rating": 90,
@@ -3128,16 +3138,6 @@
               "club": "Liverpool FC",
               "nation": "Hungary",
               "image": "assets/players/Dominik Szoboszlai.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "joao-neves",
-              "name": "Joao Neves",
-              "rating": 89,
-              "position": "MF",
-              "club": "Paris Saint-Germain",
-              "nation": "Portugal",
-              "image": "assets/players/Joao Neves.jpg",
               "rarity": "ICON"
             },
             {
