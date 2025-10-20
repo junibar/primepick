@@ -5454,7 +5454,7 @@
           "id": "ruby-veil",
           "name": "RUBY VEIL",
           "image": "assets/packs/8_RBV.png",
-          "cardBack": "assets/packs/8_RBV_back copy.png",
+          "cardBack": "assets/packs/8_RBV_back.png",
           "players": [
             {
               "id": "eberechi-eze",
@@ -5682,7 +5682,7 @@
           "id": "sapphire-drift",
           "name": "SAPPHIRE DRIFT",
           "image": "assets/packs/8_SPD.png",
-          "cardBack": "assets/packs/8_SPD_back copy.png",
+          "cardBack": "assets/packs/8_SPD_back.png",
           "players": [
             {
               "id": "julian-brandt",
@@ -5910,7 +5910,7 @@
           "id": "emerald-haze",
           "name": "EMERALD HAZE",
           "image": "assets/packs/8_EMH.png",
-          "cardBack": "assets/packs/8_EMH_back copy.png",
+          "cardBack": "assets/packs/8_EMH_back.png",
           "players": [
             {
               "id": "antonio-rudiger",
@@ -6138,7 +6138,7 @@
           "id": "diamond-ghost",
           "name": "DIAMOND GHOST",
           "image": "assets/packs/8_DMG.png",
-          "cardBack": "assets/packs/8_DMG_back copy.png",
+          "cardBack": "assets/packs/8_DMG_back.png",
           "players": [
             {
               "id": "nico-schlotterbeck",
