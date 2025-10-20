@@ -5895,13 +5895,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "maghnes-akilouche",
-              "name": "Maghnes Akilouche",
+              "id": "maghnes-akliouche",
+              "name": "Maghnes Akliouche",
               "rating": 84,
               "position": "MF",
               "club": "AS Monaco",
               "nation": "France",
-              "image": "assets/players/Maghnes Akilouche.jpg",
+              "image": "assets/players/Maghnes Akliouche.jpg",
               "rarity": "ELITE"
             }
           ]
