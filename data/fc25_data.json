@@ -5597,6 +5597,16 @@
               "rarity": "ELITE"
             },
             {
+              "id": "delay-blind",
+              "name": "Delay Blind",
+              "rating": 86,
+              "position": "DF",
+              "club": "Girona FC",
+              "nation": "Netherlands",
+              "image": "assets/players/Delay Blind.jpg",
+              "rarity": "ELITE"
+            },
+            {
               "id": "ferran-torres",
               "name": "Ferran Torres",
               "rating": 86,
@@ -5895,6 +5905,16 @@
               "rarity": "ELITE"
             },
             {
+              "id": "jack-grealish",
+              "name": "Jack Grealish",
+              "rating": 85,
+              "position": "MF",
+              "club": "Everton",
+              "nation": "English",
+              "image": "assets/players/Jack Grealish.jpg",
+              "rarity": "ELITE"
+            },
+            {
               "id": "maghnes-akliouche",
               "name": "Maghnes Akliouche",
               "rating": 84,
@@ -6020,6 +6040,16 @@
               "club": "Newcastle United",
               "nation": "Brazil",
               "image": "assets/players/Bruno Guimaraes.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "aaron-wan-bissaka",
+              "name": "Aaron Wan-Bissaka",
+              "rating": 87,
+              "position": "DF",
+              "club": "Westham United",
+              "nation": "England",
+              "image": "assets/players/Aaron Wan-Bissaka.jpg",
               "rarity": "ICON"
             },
             {
@@ -6231,6 +6261,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "alex-baena",
+              "name": "Alex Baena",
+              "rating": 87,
+              "position": "MF",
+              "club": "Villareal CF",
+              "nation": "Spain",
+              "image": "assets/players/Alex Baena.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "casemiro",
               "name": "Casemiro",
               "rating": 87,
@@ -6406,6 +6446,16 @@
               "club": "Manchester United",
               "nation": "Netherlands",
               "image": "assets/players/Matthijs de Ligt.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "hakan-calhanoglu",
+              "name": "Hakan Calhanoglu",
+              "rating": 88,
+              "position": "MF",
+              "club": "Inter Milan",
+              "nation": "Turkey",
+              "image": "assets/players/Hakan Calhanoglu.jpg",
               "rarity": "ICON"
             },
             {
@@ -6764,6 +6814,16 @@
               "club": "Inter Milan",
               "nation": "Croatia",
               "image": "assets/players/Marcelo Brozovic.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "richarlison",
+              "name": "Richarlison",
+              "rating": 86,
+              "position": "FW",
+              "club": "Tottenham Hotspur",
+              "nation": "Brazil",
+              "image": "assets/players/Richarlison.jpg",
               "rarity": "ELITE"
             },
             {
