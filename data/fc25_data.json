@@ -5597,13 +5597,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "delay-blind",
-              "name": "Delay Blind",
+              "id": "daley-blind",
+              "name": "Daley Blind",
               "rating": 86,
               "position": "DF",
               "club": "Girona FC",
               "nation": "Netherlands",
-              "image": "assets/players/Delay Blind.jpg",
+              "image": "assets/players/Daley Blind.jpg",
               "rarity": "ELITE"
             },
             {
@@ -6053,13 +6053,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "marc-cucullela",
-              "name": "Marc Cucullela",
+              "id": "marc-cucurella",
+              "name": "Marc Cucurella",
               "rating": 86,
               "position": "DF",
               "club": "Chelsea FC",
               "nation": "Spain",
-              "image": "assets/players/Marc Cucullela.jpg",
+              "image": "assets/players/Marc Cucurella.jpg",
               "rarity": "ELITE"
             },
             {
@@ -6780,7 +6780,7 @@
               "id": "olivier-giroud",
               "name": "Olivier Giroud",
               "rating": 86,
-              "position": "DF",
+              "position": "FW",
               "club": "Arsenal",
               "nation": "France",
               "image": "assets/players/Olivier Giroud.jpg",
