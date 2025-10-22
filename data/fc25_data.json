@@ -5467,13 +5467,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "leroy-sane",
-              "name": "Leroy Sane",
+              "id": "jeremy-doku",
+              "name": "Jeremy Doku",
               "rating": 89,
               "position": "MF",
-              "club": "Bayern Munich",
-              "nation": "Germany",
-              "image": "assets/players/Leroy Sane.jpg",
+              "club": "Manchester City",
+              "nation": "Belgium",
+              "image": "assets/players/Jeremy Doku.jpg",
               "rarity": "ICON"
             },
             {
@@ -5547,13 +5547,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "ante-budimir",
-              "name": "Ante Budimir",
+              "id": "matias-soule",
+              "name": "Matias Soule",
               "rating": 87,
-              "position": "FW",
-              "club": "CA Osasuna",
-              "nation": "Croatia",
-              "image": "assets/players/Ante Budimir.jpg",
+              "position": "MF",
+              "club": "AS Roma",
+              "nation": "Argentina",
+              "image": "assets/players/Matias Soule.jpg",
               "rarity": "ICON"
             },
             {
