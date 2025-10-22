@@ -6470,13 +6470,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "christian-gunter",
-              "name": "Christian Gunter",
+              "id": "david-raum",
+              "name": "David Raum",
               "rating": 84,
               "position": "DF",
-              "club": "SC Freiburg",
+              "club": "RB Leipzig",
               "nation": "Germany",
-              "image": "assets/players/Christian Gunter.jpg",
+              "image": "assets/players/David Raum.jpg",
               "rarity": "ELITE"
             }
           ]
