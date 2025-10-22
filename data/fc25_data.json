@@ -5607,16 +5607,6 @@
               "rarity": "ELITE"
             },
             {
-              "id": "daley-blind",
-              "name": "Daley Blind",
-              "rating": 86,
-              "position": "DF",
-              "club": "Girona FC",
-              "nation": "Netherlands",
-              "image": "assets/players/Daley Blind.jpg",
-              "rarity": "ELITE"
-            },
-            {
               "id": "ferran-torres",
               "name": "Ferran Torres",
               "rating": 86,
@@ -5704,6 +5694,16 @@
               "club": "Como",
               "nation": "Argentina",
               "image": "assets/players/Nicolas Paz.jpg",
+              "rarity": "ELITE"
+            }
+            {
+              "id": "joao-felix",
+              "name": "Joao Felix",
+              "rating": 84,
+              "position": "FW",
+              "club": "Chelsea FC",
+              "nation": "Portugal",
+              "image": "assets/players/Joao Felix.jpg",
               "rarity": "ELITE"
             }
           ]
@@ -6538,13 +6538,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "fabian-luiz",
-              "name": "Fabian Luiz",
+              "id": "fabian-Ruiz",
+              "name": "Fabian Ruiz",
               "rating": 88,
               "position": "MF",
               "club": "Paris Saint-Germain",
               "nation": "Spain",
-              "image": "assets/players/Fabian Luiz.jpg",
+              "image": "assets/players/Fabian Ruiz.jpg",
               "rarity": "ICON"
             },
             {
@@ -6756,13 +6756,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "joao-felix",
-              "name": "Joao Felix",
+              "id": "paulo-dybala",
+              "name": "Paulo Dybala",
               "rating": 89,
               "position": "FW",
-              "club": "Chelsea FC",
-              "nation": "Portugal",
-              "image": "assets/players/Joao Felix.jpg",
+              "club": "AS Roma",
+              "nation": "Argentina",
+              "image": "assets/players/Paulo Dybala.jpg",
               "rarity": "ICON"
             },
             {
