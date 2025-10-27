@@ -6538,13 +6538,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "fabian-Ruiz",
-              "name": "Fabian Ruiz",
+              "id": "inaki-williams",
+              "name": "Inaki Williams",
               "rating": 88,
               "position": "MF",
-              "club": "Paris Saint-Germain",
-              "nation": "Spain",
-              "image": "assets/players/Fabian Ruiz.jpg",
+              "club": "Athletic Club",
+              "nation": "Ghana",
+              "image": "assets/players/Inaki Williams.jpg",
               "rarity": "ICON"
             },
             {
@@ -6668,13 +6668,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "inaki-williams",
-              "name": "Inaki Williams",
+              "id": "jorginho",
+              "name": "Jorginho",
               "rating": 86,
               "position": "MF",
-              "club": "Athletic Club",
-              "nation": "Ghana",
-              "image": "assets/players/Inaki Williams.jpg",
+              "club": "Arsenal",
+              "nation": "Italy",
+              "image": "assets/players/Jorginho.jpg",
               "rarity": "ELITE"
             },
             {
