@@ -2559,7 +2559,7 @@
               "name": "Freddie Ljungberg",
               "rating": 86,
               "position": "MF",
-              "club": "Arsenal FC",
+              "club": "Arsenal",
               "nation": "Sweden",
               "image": "assets/players/Freddie Ljungberg.jpg",
               "rarity": "ELITE"
@@ -2639,7 +2639,7 @@
               "name": "Bukayo Saka",
               "rating": 90,
               "position": "FW",
-              "club": "Arsenal FC",
+              "club": "Arsenal",
               "nation": "England",
               "image": "assets/players/Bukayo Saka.jpg",
               "rarity": "LEGEND"
@@ -2932,7 +2932,7 @@
               "name": "Riccardo Calafiori",
               "rating": 88,
               "position": "DF",
-              "club": "Arsenal FC",
+              "club": "Arsenal",
               "nation": "Italy",
               "image": "assets/players/Riccardo Calafiori.jpg",
               "rarity": "ICON"
@@ -3012,7 +3012,7 @@
               "name": "Jurrien Timber",
               "rating": 86,
               "position": "DF",
-              "club": "Arsenal FC",
+              "club": "Arsenal",
               "nation": "Netherlands",
               "image": "assets/players/Jurrien Timber.jpg",
               "rarity": "ELITE"
@@ -3032,7 +3032,7 @@
               "name": "Ethan Nwaneri",
               "rating": 86,
               "position": "FW",
-              "club": "Arsenal FC",
+              "club": "Arsenal",
               "nation": "England",
               "image": "assets/players/Ethan Nwaneri.jpg",
               "rarity": "ELITE"
@@ -3328,7 +3328,7 @@
               "name": "William Saliba",
               "rating": 90,
               "position": "DF",
-              "club": "Arsenal FC",
+              "club": "Arsenal",
               "nation": "France",
               "image": "assets/players/William Saliba.jpg",
               "rarity": "LEGEND"
@@ -4423,13 +4423,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "gary-lineker",
-              "name": "Gary Lineker",
+              "id": "denis-bergkamp",
+              "name": "Denis Bergkamp",
               "rating": 89,
               "position": "FW",
-              "club": "Tottenham Hotspur",
-              "nation": "England",
-              "image": "assets/players/Gary Lineker.jpg",
+              "club": "Arsenal",
+              "nation": "Netherlands",
+              "image": "assets/players/Denis Bergkamp.jpg",
               "rarity": "ICON"
             },
             {
@@ -4686,13 +4686,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "florian-albert",
-              "name": "Florian Albert",
+              "id": "gary-lineker",
+              "name": "Gary Lineker",
               "rating": 89,
               "position": "FW",
-              "club": "Ferencvarosi TC",
-              "nation": "Hungary",
-              "image": "assets/players/Florian Albert.jpg",
+              "club": "Tottenham Hotspur",
+              "nation": "England",
+              "image": "assets/players/Gary Lineker.jpg",
               "rarity": "ICON"
             },
             {
@@ -5222,13 +5222,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "fernando-redondo",
-              "name": "Fernando Redondo",
+              "id": "patrick-vieira",
+              "name": "Patrick Vieira",
               "rating": 88,
               "position": "MF",
-              "club": "Real Madrid",
-              "nation": "Argentina",
-              "image": "assets/players/Fernando Redondo.jpg",
+              "club": "Arsenal",
+              "nation": "France",
+              "image": "assets/players/Patrick Vieira.jpg",
               "rarity": "ICON"
             },
             {
