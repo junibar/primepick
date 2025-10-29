@@ -493,10 +493,15 @@ function openPack(){
     qs('#screenOpen').classList.add('show-card');
     qs('#resultCard').removeAttribute('aria-hidden');
 
-    // 오픈 후에는 플립 비활성/숨김
+    // 오픈 후에는 플립과 팩 오 비활성/숨김
     const flipBtn = qs('#btnFlip');
     flipBtn.disabled = true;
     flipBtn.classList.add('hidden');
+
+   const openBtn = qs('#btnOpen');
+    openBtn.disabled = true;
+    openBtn.classList.add('hidden');  // [팩 뜯기] 버튼 숨김
+
 
     announce(`${player.name} (${rarity}) 획득!`);
     confettiBurst();
