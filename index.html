@@ -378,6 +378,12 @@ function setupOpenStage(pack){
   pd.onclick = doOpen;
   pd.onkeypress = (e)=>{ if(e.key==='Enter') doOpen(); };
 
+   // reset [팩 뜯기] 버튼 상태 (다시 뽑기 눌렀을 때 복구)
+  const openBtn = qs('#btnOpen');
+  openBtn.disabled = false;
+  openBtn.classList.remove('hidden');
+  openBtn.textContent = '팩 뜯기'; // 이전에 '오픈 완료'로 바꿨다면 원복
+
   // flip (open 전용)
   const flipBtn = qs('#btnFlip');
   flipBtn.classList.remove('hidden');
