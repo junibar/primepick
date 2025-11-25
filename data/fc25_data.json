@@ -7025,13 +7025,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "danilo",
-              "name": "Danilo",
+              "id": "murilloo",
+              "name": "Murillo",
               "rating": 88,
               "position": "DF",
-              "club": "Juventus",
+              "club": "Nottingham Forest",
               "nation": "Brazil",
-              "image": "assets/players/Danilo.jpg",
+              "image": "assets/players/Murillo.jpg",
               "rarity": "ICON"
             },
             {
@@ -8382,13 +8382,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "roberto-firmino",
-              "name": "Roberto Firmino",
+              "id": "joshua-Zirkzee",
+              "name": "Joshua Zirkzee",
               "rating": 86,
               "position": "FW",
-              "club": "Liverpool",
-              "nation": "Brazil",
-              "image": "assets/players/Roberto Firmino.jpg",
+              "club": "Manchester United",
+              "nation": "Netherlands",
+              "image": "assets/players/Joshua Zirkzee.jpg",
               "rarity": "ELITE"
             },
             {
