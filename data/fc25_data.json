@@ -7245,13 +7245,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "hamza-igamane",
-              "name": "Hamza Igamane",
+              "id": "samu-omorodion",
+              "name": "Samu Omorodion",
               "rating": 84,
               "position": "FW",
-              "club": "LOSC Lille",
-              "nation": "Morocco",
-              "image": "assets/players/Hamza Igamane.jpg",
+              "club": "Porto",
+              "nation": "Spain",
+              "image": "assets/players/Samu Omorodion.jpg",
               "rarity": "ELITE"
             }
           ]
