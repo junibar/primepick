@@ -5507,13 +5507,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "yannick-carrasco",
-              "name": "Yannick Carrasco",
+              "id": "georginio-rutter",
+              "name": "Georginio Rutter",
               "rating": 88,
               "position": "FW",
-              "club": "Al Shabab",
-              "nation": "Belgium",
-              "image": "assets/players/Yannick Carrasco.jpg",
+              "club": "Brighton & Hove Albion",
+              "nation": "France",
+              "image": "assets/players/Georginio Rutter.jpg",
               "rarity": "ICON"
             },
             {
@@ -5745,13 +5745,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "georginio-rutter",
-              "name": "Georginio Rutter",
+              "id": "pedro-neto",
+              "name": "Pedro Neto",
               "rating": 88,
               "position": "FW",
-              "club": "Brighton & Hove Albion",
-              "nation": "France",
-              "image": "assets/players/Georginio Rutter.jpg",
+              "club": "Chelsea FC",
+              "nation": "Portugal",
+              "image": "assets/players/Pedro Neto.jpg",
               "rarity": "ICON"
             },
             {
@@ -6241,13 +6241,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "pedro-neto",
-              "name": "Pedro Neto",
+              "id": "viktor-gyokeres",
+              "name": "Viktor Gyokeres",
               "rating": 89,
               "position": "FW",
-              "club": "Chelsea FC",
-              "nation": "Portugal",
-              "image": "assets/players/Pedro Neto.jpg",
+              "club": "Arsenal FC",
+              "nation": "Sweden",
+              "image": "assets/players/Viktor Gyokeres.jpg",
               "rarity": "ICON"
             },
             {
@@ -7503,13 +7503,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "abdulaziz-al-othman",
-              "name": "Abdulaziz Al Othman",
+              "id": "hamza-igamane",
+              "name": "Hamza Igamane",
               "rating": 84,
               "position": "FW",
-              "club": "Al Shabab",
-              "nation": "Saudi Arabia",
-              "image": "assets/players/Abdulaziz Al Othman.jpg",
+              "club": "LOSE Lille",
+              "nation": "Morocco",
+              "image": "assets/players/Hamza Igamane.jpg",
               "rarity": "ELITE"
             }
           ]
