@@ -6529,13 +6529,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "mauro-icardi",
-              "name": "Mauro Icardi",
+              "id": "lorenzo-lucca",
+              "name": "Lorenzo Lucca",
               "rating": 88,
               "position": "FW",
-              "club": "Galatasaray",
-              "nation": "Argentina",
-              "image": "assets/players/Mauro Icardi.jpg",
+              "club": "Napoli",
+              "nation": "Italy",
+              "image": "assets/players/Lorenzo Lucca.jpg",
               "rarity": "ICON"
             },
             {
@@ -7313,6 +7313,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "amine-gouiri",
+              "name": "Amine Gouiri",
+              "rating": 88,
+              "position": "FW",
+              "club": "Olympique de Marseille",
+              "nation": "Algeria",
+              "image": "assets/players/Amine Gouiri.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "antoine-semenyo",
               "name": "Antoine Semenyo",
               "rating": 88,
@@ -7320,16 +7330,6 @@
               "club": "AFC Bournemouth",
               "nation": "Ghana",
               "image": "assets/players/Antoine Semenyo.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "wilfried-zaha",
-              "name": "Wilfried Zaha",
-              "rating": 88,
-              "position": "MF",
-              "club": "Charlotte FC",
-              "nation": "England",
-              "image": "assets/players/Wilfried Zaha.jpg",
               "rarity": "ICON"
             },
             {
