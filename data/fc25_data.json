@@ -6679,13 +6679,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "granit-xhaka",
-              "name": "Granit Xhaka",
+              "id": "manu-kone",
+              "name": "Manu Kone",
               "rating": 86,
               "position": "MF",
-              "club": "Sunderland FC",
-              "nation": "Switzerland",
-              "image": "assets/players/Granit Xhaka.jpg",
+              "club": "AS Roma",
+              "nation": "Cote d'Ivoire",
+              "image": "assets/players/Manu Kone.jpg",
               "rarity": "ELITE"
             },
             {
@@ -8838,13 +8838,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "manu-kone",
-              "name": "Manu Kone",
+              "id": "declan-rice",
+              "name": "Declan Rice",
               "rating": 89,
               "position": "MF",
-              "club": "AS Roma",
-              "nation": "Cote d'Ivoire",
-              "image": "assets/players/Manu Kone.jpg",
+              "club": "Arsenal FC",
+              "nation": "England",
+              "image": "assets/players/Declan Rice.jpg",
               "rarity": "ICON"
             },
             {
@@ -9136,13 +9136,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "declan-rice",
-              "name": "Declan Rice",
+              "id": "granit-xhaka",
+              "name": "Granit Xhaka",
               "rating": 88,
               "position": "MF",
-              "club": "Arsenal FC",
-              "nation": "England",
-              "image": "assets/players/Declan Rice.jpg",
+              "club": "Sunderland FC",
+              "nation": "Switzerland",
+              "image": "assets/players/Granit Xhaka.jpg",
               "rarity": "ICON"
             },
             {
