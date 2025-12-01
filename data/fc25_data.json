@@ -5805,13 +5805,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "iago-aspas",
-              "name": "Iago Aspas",
+              "id": "mattia-zaccagni",
+              "name": "Mattia Zaccagni",
               "rating": 87,
               "position": "FW",
-              "club": "Celta Vigo",
-              "nation": "Spain",
-              "image": "assets/players/Iago Aspas.jpg",
+              "club": "Lazio",
+              "nation": "Italy",
+              "image": "assets/players/Mattia Zaccagni.jpg",
               "rarity": "ICON"
             },
             {
@@ -6471,13 +6471,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "mingueza",
-              "name": "Mingueza",
+              "id": "yuri-berchiche",
+              "name": "Yuri Berchiche",
               "rating": 84,
               "position": "DF",
-              "club": "Celta Vigo",
+              "club": "Athletic Club",
               "nation": "Spain",
-              "image": "assets/players/Mingueza.jpg",
+              "image": "assets/players/Yuri Berchiche.jpg",
               "rarity": "ELITE"
             }
           ]
