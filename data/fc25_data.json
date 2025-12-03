@@ -2615,6 +2615,16 @@
               "rarity": "LEGEND"
             },
             {
+              "id": "pedri",
+              "name": "Pedri",
+              "rating": 92,
+              "position": "MF",
+              "club": "FC Barcelona",
+              "nation": "Spain",
+              "image": "assets/players/Pedri.jpg",
+              "rarity": "LEGEND"
+            },
+             {
               "id": "pau-cubarsi",
               "name": "Pau Cubarsi",
               "rating": 90,
@@ -2622,16 +2632,6 @@
               "club": "FC Barcelona",
               "nation": "Spain",
               "image": "assets/players/Pau Cubarsi.jpg",
-              "rarity": "LEGEND"
-            },
-            {
-              "id": "pedri",
-              "name": "Pedri",
-              "rating": 90,
-              "position": "MF",
-              "club": "FC Barcelona",
-              "nation": "Spain",
-              "image": "assets/players/Pedri.jpg",
               "rarity": "LEGEND"
             },
             {
