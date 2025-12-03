@@ -5687,13 +5687,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "tanguy-ndombele",
-              "name": "Tanguy Ndombele",
+              "id": "tajon-buchanan",
+              "name": "Tajon Buchanan",
               "rating": 85,
               "position": "MF",
-              "club": "OGC Nice",
-              "nation": "France",
-              "image": "assets/players/Tanguy Ndombele.jpg",
+              "club": "Villarreal FC",
+              "nation": "Canada",
+              "image": "assets/players/Tajon Buchanan.jpg",
               "rarity": "ELITE"
             },
             {
@@ -9236,13 +9236,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "nathan-collins",
-              "name": "Nathan Collins",
+              "id": "josha-vagnoman",
+              "name": "Josha Vagnoman",
               "rating": 85,
               "position": "DF",
-              "club": "Brentford",
-              "nation": "Republic of Ireland",
-              "image": "assets/players/Nathan Collins.jpg",
+              "club": "VfB Stuttgart",
+              "nation": "Germany",
+              "image": "assets/players/Josha Vagnoman.jpg",
               "rarity": "ELITE"
             },
             {
