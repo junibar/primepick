@@ -5507,13 +5507,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "georginio-rutter",
-              "name": "Georginio Rutter",
+              "id": "dani-parejo",
+              "name": "Dani Parejo",
               "rating": 88,
-              "position": "FW",
-              "club": "Brighton & Hove Albion",
-              "nation": "France",
-              "image": "assets/players/Georginio Rutter.jpg",
+              "position": "DF",
+              "club": "Villarreal CF",
+              "nation": "Spain",
+              "image": "assets/players/Dani Parejo.jpg",
               "rarity": "ICON"
             },
             {
@@ -5597,13 +5597,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "nacho-fernandez",
-              "name": "Nacho Fernandez",
+              "id": "inigo-martinez",
+              "name": "Inigo Martinez",
               "rating": 86,
               "position": "DF",
-              "club": "Real Madrid",
+              "club": "Al Nassr",
               "nation": "Spain",
-              "image": "assets/players/Nacho Fernandez.jpg",
+              "image": "assets/players/Inigo Martinez.jpg",
               "rarity": "ELITE"
             },
             {
@@ -6213,13 +6213,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "stefan-posch",
-              "name": "Stefan Posch",
+              "id": "lennart-karl",
+              "name": "Lennart Karl",
               "rating": 84,
-              "position": "DF",
-              "club": "Como",
-              "nation": "Austria",
-              "image": "assets/players/Stefan Posch.jpg",
+              "position": "MF",
+              "club": "Bayern Munich",
+              "nation": "Germany",
+              "image": "assets/players/Lennart Karl.jpg",
               "rarity": "ELITE"
             }
           ]
@@ -6987,13 +6987,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "ivan-romero-de-avila",
-              "name": "Ivan Romero de Avila",
+              "id": "harney-barnes",
+              "name": "Harvey Barnes",
               "rating": 84,
               "position": "FW",
-              "club": "Levante UD",
-              "nation": "Spain",
-              "image": "assets/players/Ivan Romero de Avila.jpg",
+              "club": "Newcastle United",
+              "nation": "England",
+              "image": "assets/players/Harvey Barnes.jpg",
               "rarity": "ELITE"
             }
           ]
@@ -7085,13 +7085,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "alex-oxlade-chamberlain",
-              "name": "Alex Oxlade-Chamberlain",
+              "id": "ayoze",
+              "name": "Ayoze",
               "rating": 87,
               "position": "FW",
-              "club": "Besiktas",
-              "nation": "England",
-              "image": "assets/players/Alex Oxlade-Chamberlain.jpg",
+              "club": "Villarreal CF",
+              "nation": "Spain",
+              "image": "assets/players/Ayoze.jpg",
               "rarity": "ICON"
             },
             {
@@ -7718,13 +7718,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "kenneth-taylor",
-              "name": "Kenneth Taylor",
+              "id": "pablo-fornals",
+              "name": "Pablo Fornals",
               "rating": 85,
               "position": "MF",
-              "club": "Ajax",
-              "nation": "Netherlands",
-              "image": "assets/players/Kenneth Taylor.jpg",
+              "club": "Real Betis",
+              "nation": "Spain",
+              "image": "assets/players/Pablo Fornals.jpg",
               "rarity": "ELITE"
             },
             {
@@ -8740,13 +8740,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "dani-parejo",
-              "name": "Dani Parejo",
+              "id": "serge-gnabry",
+              "name": "Serge Gnabry",
               "rating": 85,
               "position": "MF",
-              "club": "Valencia CF",
-              "nation": "Spain",
-              "image": "assets/players/Dani Parejo.jpg",
+              "club": "Bayern Munich",
+              "nation": "Germany",
+              "image": "assets/players/Serge Gnabry.jpg",
               "rarity": "ELITE"
             },
             {
@@ -9316,13 +9316,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "rafa",
-              "name": "Rafa",
+              "id": "moleiro",
+              "name": "Moleiro",
               "rating": 84,
               "position": "MF",
-              "club": "Besiktas",
-              "nation": "Portugal",
-              "image": "assets/players/Rafa.jpg",
+              "club": "Villarreal CF",
+              "nation": "Spain",
+              "image": "assets/players/Moleiro.jpg",
               "rarity": "ELITE"
             }
           ]
