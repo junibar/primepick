@@ -5667,13 +5667,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "anis-hadj-moussa",
-              "name": "Anis Hadj-Moussa",
+              "id": "mika-biereth",
+              "name": "Mika Biereth",
               "rating": 85,
               "position": "FW",
-              "club": "Feyenoord",
-              "nation": "Algeria",
-              "image": "assets/players/Anis Hadj-Moussa.jpg",
+              "club": "AS Monaco",
+              "nation": "Denmark",
+              "image": "assets/players/Mika Biereth.jpg",
               "rarity": "ELITE"
             },
             {
@@ -6183,13 +6183,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "alisson",
-              "name": "Alisson",
-              "rating": 85,
-              "position": "FW",
-              "club": "Sporting CP",
-              "nation": "Brazil",
-              "image": "assets/players/Alisson.jpg",
+              "id": "jan-oblak",
+              "name": "Jan Oblak",
+              "rating": 89,
+              "position": "GK",
+              "club": "Atletico Madrid",
+              "nation": "Slovenia",
+              "image": "assets/players/Jan Oblak.jpg",
               "rarity": "ELITE"
             },
             {
@@ -6987,7 +6987,7 @@
               "rarity": "ELITE"
             },
             {
-              "id": "harney-barnes",
+              "id": "harvey-barnes",
               "name": "Harvey Barnes",
               "rating": 84,
               "position": "FW",
@@ -8394,7 +8394,7 @@
             {
               "id": "david-de-gea",
               "name": "David de Gea",
-              "rating": 87,
+              "rating": 88,
               "position": "GK",
               "club": "Fiorentina",
               "nation": "Spain",
@@ -8730,13 +8730,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "lukas-hradecky",
-              "name": "Lukas Hradecky",
-              "rating": 85,
+              "id": "guglielmo-vicario",
+              "name": "Guglielmo Vicario",
+              "rating": 88,
               "position": "GK",
-              "club": "AS Monaco",
-              "nation": "Finland",
-              "image": "assets/players/Lukas Hradecky.jpg",
+              "club": "Tottenham Hotspur",
+              "nation": "Italy",
+              "image": "assets/players/Guglielmo Vicario.jpg",
               "rarity": "ELITE"
             },
             {
@@ -9048,13 +9048,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "geronimo-rulli",
-              "name": "Geronimo Rulli",
-              "rating": 84,
+              "id": "emiliano-martinez",
+              "name": "Emiliano Martinez",
+              "rating": 88,
               "position": "GK",
-              "club": "Olympique de Marseille",
+              "club": "Emiliano Martinez",
               "nation": "Argentina",
-              "image": "assets/players/Geronimo Rulli.jpg",
+              "image": "assets/players/Emiliano Martinez.jpg",
               "rarity": "ELITE"
             },
             {
