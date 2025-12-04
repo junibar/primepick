@@ -7363,13 +7363,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "luis-rioja",
-              "name": "Luis Rioja",
+              "id": "abner-vinicius",
+              "name": "Abner Vinicius",
               "rating": 87,
-              "position": "FW",
-              "club": "Valencia CF",
-              "nation": "Spain",
-              "image": "assets/players/Luis Rioja.jpg",
+              "position": "DF",
+              "club": "Lyon",
+              "nation": "Brazil",
+              "image": "assets/players/Abner Vinicius.jpg",
               "rarity": "ICON"
             },
             {
