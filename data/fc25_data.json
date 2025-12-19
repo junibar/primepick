@@ -5835,13 +5835,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "richard-rios",
-              "name": "Richard Rios",
+              "id": "oleksandr-zinchenko",
+              "name": "Oleksandr Zinchenko",
               "rating": 87,
               "position": "MF",
-              "club": "Benfica",
-              "nation": "Colombia",
-              "image": "assets/players/Richard Rios.jpg",
+              "club": "Nottingham Forest",
+              "nation": "Ukraine",
+              "image": "assets/players/Oleksandr Zinchenko.jpg",
               "rarity": "ICON"
             },
             {
@@ -7910,7 +7910,7 @@
               "name": "Jordan Henderson",
               "rating": 86,
               "position": "MF",
-              "club": "Liverpool",
+              "club": "Brentford",
               "nation": "England",
               "image": "assets/players/Jordan Henderson.jpg",
               "rarity": "ELITE"
@@ -8532,13 +8532,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "gabri-veiga",
-              "name": "Gabri Veiga",
+              "id": "alex-berenguer",
+              "name": "Alex Berenguer",
               "rating": 84,
               "position": "MF",
-              "club": "Porto",
+              "club": "Athletic Club",
               "nation": "Spain",
-              "image": "assets/players/Gabri Veiga.jpg",
+              "image": "assets/players/Alex Berenguer.jpg",
               "rarity": "ELITE"
             },
             {
@@ -9464,23 +9464,23 @@
               "rarity": "ELITE"
             },
             {
-              "id": "pedro-goncalves",
+              "id": "nabil-bentaleb",
               "name": "Pedro Goncalves",
               "rating": 86,
               "position": "MF",
-              "club": "Sporting CP",
-              "nation": "Portugal",
-              "image": "assets/players/Pedro Goncalves.jpg",
+              "club": "LOSC Lille",
+              "nation": "Algeria",
+              "image": "assets/players/Nabil Bentaleb.jpg",
               "rarity": "ELITE"
             },
             {
-              "id": "stephen-eustaquio",
-              "name": "Stephen Eustaquio",
+              "id": "david-brooks",
+              "name": "David Brooks",
               "rating": 86,
               "position": "MF",
-              "club": "Porto",
-              "nation": "Canada",
-              "image": "assets/players/Stephen Eustaquio.jpg",
+              "club": "AFC Bournmout",
+              "nation": "Wales",
+              "image": "assets/players/David Brooks.jpg",
               "rarity": "ELITE"
             },
             {
