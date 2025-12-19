@@ -7045,13 +7045,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "giacomo-raspadori",
-              "name": "Giacomo Raspadori",
-              "rating": 88,
-              "position": "FW",
-              "club": "Napoli",
-              "nation": "Italy",
-              "image": "assets/players/Giacomo Raspadori.jpg",
+              "id": "ibrahima-konate",
+              "name": "Ibrahima Konate",
+              "rating": 89,
+              "position": "DF",
+              "club": "Liverpool",
+              "nation": "France",
+              "image": "assets/players/Ibrahima Konate.jpg",
               "rarity": "ICON"
             },
             {
@@ -7538,13 +7538,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "ibrahima-konate",
-              "name": "Ibrahima Konate",
+              "id": "gregor-koBel",
+              "name": "Gregor Kobel",
               "rating": 89,
-              "position": "DF",
-              "club": "Liverpool",
-              "nation": "France",
-              "image": "assets/players/Ibrahima Konate.jpg",
+              "position": "GK",
+              "club": "Borussia Dortmund",
+              "nation": "Switzerlands",
+              "image": "assets/players/Gregor Kobel.jpg",
               "rarity": "ICON"
             },
             {
