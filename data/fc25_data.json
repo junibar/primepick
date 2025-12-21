@@ -6033,19 +6033,19 @@
               "rarity": "ICON"
             },
             {
-              "id": "marco-grull",
-              "name": "Marco Grull",
-              "rating": 88,
-              "position": "MF",
-              "club": "SV Werder Bremen",
-              "nation": "Austria",
-              "image": "assets/players/Marco Grull.jpg",
+              "id": "benjamin-white",
+              "name": "Benjamin White",
+              "rating": 87,
+              "position": "DF",
+              "club": "Arsenal FC",
+              "nation": "England",
+              "image": "assets/players/Benjamin White.jpg",
               "rarity": "ICON"
             },
             {
               "id": "eder-militao",
               "name": "Eder Militao",
-              "rating": 87,
+              "rating": 88,
               "position": "DF",
               "club": "Real Madrid",
               "nation": "Brazil",
