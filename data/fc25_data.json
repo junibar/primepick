@@ -7698,13 +7698,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "arnaut-danjuma",
-              "name": "Arnaut Danjuma",
-              "rating": 85,
-              "position": "FW",
-              "club": "Girona FC",
-              "nation": "Netherlands",
-              "image": "assets/players/Arnaut Danjuma.jpg",
+              "id": "kevin-schade",
+              "name": "Kevin Schade",
+              "rating": 88,
+              "position": "MF",
+              "club": "Brentford",
+              "nation": "Germany",
+              "image": "assets/players/Kevin Schade.jpg",
               "rarity": "ELITE"
             },
             {
@@ -7926,13 +7926,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "nicolas-otamendi",
-              "name": "Nicolas Otamendi",
+              "id": "nordi-mukiele",
+              "name": "Nordi Mukiele",
               "rating": 85,
               "position": "DF",
-              "club": "Benfica",
-              "nation": "Argentina",
-              "image": "assets/players/Nicolas Otamendi.jpg",
+              "club": "Sunderland FC",
+              "nation": "France",
+              "image": "assets/players/Nordi Mukiele.jpg",
               "rarity": "ELITE"
             },
             {
@@ -8224,13 +8224,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "donny-van-de-beek",
-              "name": "Donny van de Beek",
-              "rating": 85,
+              "id": "alexis-mac-allister",
+              "name": "Alexis Mac Allister",
+              "rating": 89,
               "position": "MF",
-              "club": "Girona FC",
-              "nation": "Netherlands",
-              "image": "assets/players/Donny van de Beek.jpg",
+              "club": "Liverpool",
+              "nation": "Alexis Mac Allister",
+              "image": "assets/players/Alexis Mac Allister.jpg",
               "rarity": "ELITE"
             },
             {
@@ -8622,7 +8622,7 @@
             {
               "id": "jorrel-hato",
               "name": "Jorrel Hato",
-              "rating": 87,
+              "rating": 84,
               "position": "DF",
               "club": "Chelsea FC",
               "nation": "Netherlands",
@@ -8792,7 +8792,7 @@
             {
               "id": "mohammed-kudus",
               "name": "Mohammed Kudus",
-              "rating": 84,
+              "rating": 87,
               "position": "FW",
               "club": "Tottenham Hotspur",
               "nation": "Ghana",
@@ -9464,13 +9464,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "nabil-bentaleb",
-              "name": "Nabil Bentaleb",
-              "rating": 86,
-              "position": "MF",
-              "club": "LOSC Lille",
-              "nation": "Algeria",
-              "image": "assets/players/Nabil Bentaleb.jpg",
+              "id": "geronimo-rulli",
+              "name": "Geronimo Rulli",
+              "rating": 87,
+              "position": "GK",
+              "club": "Olympique de Marseille",
+              "nation": "Argentina",
+              "image": "assets/players/Geronimo Rulli.jpg",
               "rarity": "ELITE"
             },
             {
