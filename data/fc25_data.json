@@ -6943,7 +6943,7 @@
               "name": "Dodi Lukebakio",
               "rating": 86,
               "position": "MF",
-              "club": "Sevilla",
+              "club": "Benfica",
               "nation": "Belgium",
               "image": "assets/players/Dodi Lukebakio.jpg",
               "rarity": "ELITE"
@@ -9708,13 +9708,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "ruben-vargas",
-              "name": "Ruben Vargas",
+              "id": "richard-rios",
+              "name": "Richard Rios",
               "rating": 87,
               "position": "MF",
-              "club": "Sevilla",
-              "nation": "Switzerlands",
-              "image": "assets/players/Ruben Vargas.jpg",
+              "club": "Benfica",
+              "nation": "Colombia",
+              "image": "assets/players/Richard Rios.jpg",
               "rarity": "ICON"
             },
             {
