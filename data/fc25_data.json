@@ -6203,6 +6203,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "david-raum",
+              "name": "David Raum",
+              "rating": 87,
+              "position": "DF",
+              "club": "RB Leipzig",
+              "nation": "Germany",
+              "image": "assets/players/David Raum.jpg",
+              "rarity": "ELITE"
+            },
+            {
               "id": "pierre-emerick-aubameyang",
               "name": "Pierre-Emerick Aubameyang",
               "rating": 87,
@@ -6250,16 +6260,6 @@
               "club": "Newcastle United",
               "nation": "Brazil",
               "image": "assets/players/Joelinton.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "wilfried-gnonto",
-              "name": "Wilfried Gnonto",
-              "rating": 87,
-              "position": "MF",
-              "club": "Leeds United",
-              "nation": "Italy",
-              "image": "assets/players/Wilfried Gnonto.jpg",
               "rarity": "ICON"
             },
             {
@@ -8278,14 +8278,14 @@
               "rarity": "ELITE"
             },
             {
-              "id": "david-raum",
-              "name": "David Raum",
+              "id": "wilfried-gnonto",
+              "name": "Wilfried Gnonto",
               "rating": 84,
-              "position": "DF",
-              "club": "RB Leipzig",
-              "nation": "Germany",
-              "image": "assets/players/David Raum.jpg",
-              "rarity": "ELITE"
+              "position": "MF",
+              "club": "Leeds United",
+              "nation": "Italy",
+              "image": "assets/players/Wilfried Gnonto.jpg",
+              "rarity": "ICON"
             },
             {
               "id": "james-ward-prowse",
@@ -9761,7 +9761,7 @@
               "id": "allan-saint-maximin",
               "name": "Allan Saint-Maximin",
               "rating": 86,
-              "position": "MF",
+              "position": "FW",
               "club": "Fenerbahce",
               "nation": "France",
               "image": "assets/players/Allan Saint-Maximin.jpg",
