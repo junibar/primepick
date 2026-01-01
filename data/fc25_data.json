@@ -8356,6 +8356,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "reece-james",
+              "name": "Reece James",
+              "rating": 88,
+              "position": "DF",
+              "club": "Chelsea FC",
+              "nation": "England",
+              "image": "assets/players/Reece James.jpg",
+              "rarity": "ELITE"
+            },
+            {
               "id": "marcus-thuram",
               "name": "Marcus Thuram",
               "rating": 88,
@@ -8433,16 +8443,6 @@
               "club": "Olympique de Marseille",
               "nation": "France",
               "image": "assets/players/Benjamin Pavard.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "reece-james",
-              "name": "Reece James",
-              "rating": 86,
-              "position": "DF",
-              "club": "Chelsea FC",
-              "nation": "England",
-              "image": "assets/players/Reece James.jpg",
               "rarity": "ELITE"
             },
             {
