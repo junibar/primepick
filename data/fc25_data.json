@@ -8118,6 +8118,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "lucas-paqueta",
+              "name": "Lucas Paqueta",
+              "rating": 87,
+              "position": "MF",
+              "club": "West Ham United",
+              "nation": "Brazil",
+              "image": "assets/players/Lucas Paqueta.jpg",
+              "rarity": "ELITE"
+            },
+            {
               "id": "leonardo-balerdi",
               "name": "Leonardo Balerdi",
               "rating": 86,
@@ -8295,16 +8305,6 @@
               "club": "West Ham United",
               "nation": "England",
               "image": "assets/players/James Ward-Prowse.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "lucas-paqueta",
-              "name": "Lucas Paqueta",
-              "rating": 84,
-              "position": "MF",
-              "club": "West Ham United",
-              "nation": "Brazil",
-              "image": "assets/players/Lucas Paqueta.jpg",
               "rarity": "ELITE"
             },
             {
