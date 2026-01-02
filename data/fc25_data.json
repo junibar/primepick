@@ -8329,6 +8329,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "jordan-pickford",
+              "name": "Jordan Pickford",
+              "rating": 89,
+              "position": "GK",
+              "club": "Everton",
+              "nation": "England",
+              "image": "assets/players/Jordan Pickford.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "sergi-roberto",
               "name": "Sergi Roberto",
               "rating": 89,
@@ -8477,16 +8487,6 @@
               "nation": "England",
               "image": "assets/players/Noni Madueke.jpg",
               "rarity": "ELITE"
-            },
-            {
-              "id": "jordan-pickford",
-              "name": "Jordan Pickford",
-              "rating": 89,
-              "position": "GK",
-              "club": "Everton",
-              "nation": "England",
-              "image": "assets/players/Jordan Pickford.jpg",
-              "rarity": "ICON"
             },
             {
               "id": "osame-sahraoui",
