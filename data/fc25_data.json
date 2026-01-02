@@ -11526,6 +11526,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "domenico-berardi",
+              "name": "Domenico Berardi",
+              "rating": 89,
+              "position": "FW",
+              "club": "Sassuolo",
+              "nation": "Italy",
+              "image": "assets/players/Domenico Berardi.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "diego-carlos",
               "name": "Diego Carlos",
               "rating": 88,
@@ -11644,16 +11654,6 @@
               "nation": "Bosnia Herzegovina",
               "image": "assets/players/Tarik Muharemovic.jpg",
               "rarity": "ELITE"
-            },
-            {
-              "id": "domenico-berardi",
-              "name": "Domenico Berardi",
-              "rating": 89,
-              "position": "FW",
-              "club": "Sassuolo",
-              "nation": "Italy",
-              "image": "assets/players/Domenico Berardi.jpg",
-              "rarity": "ICON"
             },
             {
               "id": "vangelis-pavlidis",
