@@ -11822,7 +11822,7 @@
     {
       "id": "match-weather",
       "name": "MATCH WEATHER",
-      "poster": "",
+      "poster": "assets/posters/Packs_MATCH WEATHER 포스터.png",
       "packs": [
         {
           "id": "blossom-bloom-spring",
@@ -12901,7 +12901,7 @@
     {
       "id": "the-last-icon",
       "name": "THE LAST ICON",
-      "poster": "",
+      "poster": "assets/posters/Packs_THE LAST ICON 포스터.png",
       "packs": [
         {
           "id": "curtain-call",
