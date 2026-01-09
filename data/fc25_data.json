@@ -472,8 +472,8 @@
           ]
         },
         {
-          "id": "best-of-k-league-16",
-          "name": "Best of K League 16",
+          "id": "best-of-k-league",
+          "name": "Best of K League",
           "image": "assets/packs/1_BOK.png",
           "cardBack": "assets/packs/1_BOK_back.png",
           "players": [
@@ -640,8 +640,8 @@
           ]
         },
         {
-          "id": "prime-of-k-league-16",
-          "name": "Prime of K League 16",
+          "id": "prime-of-k-league",
+          "name": "Prime of K League",
           "image": "assets/packs/1_POK.png",
           "cardBack": "assets/packs/1_POK_back.png",
           "players": [
