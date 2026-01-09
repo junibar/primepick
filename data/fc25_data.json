@@ -538,6 +538,26 @@
               "rarity": "ELITE"
             },
             {
+              "id": "이상헌",
+              "name": "이상헌",
+              "rating": 85,
+              "position": "FW",
+              "club": "강원 FC",
+              "nation": "대한민국",
+              "image": "assets/players/이상헌.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "윤도영",
+              "name": "윤도영",
+              "rating": 85,
+              "position": "MF",
+              "club": "대전 하나시티즌",
+              "nation": "대한민국",
+              "image": "assets/players/윤도.jpg",
+              "rarity": "ELITE"
+            },
+            {
               "id": "박승욱",
               "name": "박승욱",
               "rating": 84,
@@ -696,6 +716,16 @@
               "rarity": "ELITE"
             },
             {
+              "id": "에릭",
+              "name": "에릭",
+              "rating": 85,
+              "position": "FW",
+              "club": "울산 HD",
+              "nation": "브라질",
+              "image": "assets/players/에릭.jpg",
+              "rarity": "ELITE"
+            },
+            {
               "id": "보야니치",
               "name": "보야니치",
               "rating": 85,
@@ -703,6 +733,16 @@
               "club": "울산 HD",
               "nation": "스웨덴",
               "image": "assets/players/보야니치.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "이승원",
+              "name": "이승원",
+              "rating": 85,
+              "position": "MF",
+              "club": "강원 FC",
+              "nation": "대한민국",
+              "image": "assets/players/이승원.jpg",
               "rarity": "ELITE"
             },
             {
