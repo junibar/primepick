@@ -473,7 +473,7 @@
         },
         {
           "id": "best-of-k-league",
-          "name": "Best of K League",
+          "name": "BEST of K LEAGUE",
           "image": "assets/packs/1_BOK.png",
           "cardBack": "assets/packs/1_BOK_back.png",
           "players": [
@@ -554,7 +554,7 @@
               "position": "MF",
               "club": "대전 하나시티즌",
               "nation": "대한민국",
-              "image": "assets/players/윤도.jpg",
+              "image": "assets/players/윤도영.jpg",
               "rarity": "ELITE"
             },
             {
@@ -661,7 +661,7 @@
         },
         {
           "id": "prime-of-k-league",
-          "name": "Prime of K League",
+          "name": "PRIME of K LEAGUE",
           "image": "assets/packs/1_POK.png",
           "cardBack": "assets/packs/1_POK_back.png",
           "players": [
@@ -843,6 +843,382 @@
               "club": "수원FC",
               "nation": "시리아",
               "image": "assets/players/싸박.jpg",
+              "rarity": "ELITE"
+            }
+          ]
+        },
+        {
+          "id": "hottest-drops-k-league",
+          "name": "HOTTEST DROPS K LEAGUE",
+          "image": "assets/packs/1_HDK.png",
+          "cardBack": "assets/packs/1_HDK_back.png",
+          "players": [
+            {
+              "id": "일류첸코",
+              "name": "일류첸코",
+              "rating": 87,
+              "position": "FW",
+              "club": "FC 서울",
+              "nation": "독일",
+              "image": "assets/players/일류첸코.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "남태희",
+              "name": "남태희",
+              "rating": 87,
+              "position": "MF",
+              "club": "제주 유나이티드",
+              "nation": "대한민국",
+              "image": "assets/players/남태희.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "윤일록",
+              "name": "윤일록",
+              "rating": 86,
+              "position": "DF",
+              "club": "강원 FC",
+              "nation": "대한민국",
+              "image": "assets/players/윤일록.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "이태석",
+              "name": "이태석",
+              "rating": 86,
+              "position": "DF",
+              "club": "포항 스틸러스",
+              "nation": "대한민국",
+              "image": "assets/players/이태석.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "문선민",
+              "name": "문선민",
+              "rating": 86,
+              "position": "FW",
+              "club": "FC 서울",
+              "nation": "대한민국",
+              "image": "assets/players/문선민.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "제르소",
+              "name": "제르소",
+              "rating": 86,
+              "position": "FW",
+              "club": "인천 유나이티드",
+              "nation": "포르투갈",
+              "image": "assets/players/제르소.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "김경민",
+              "name": "김경민",
+              "rating": 86,
+              "position": "GK",
+              "club": "광주 FC",
+              "nation": "대한민국",
+              "image": "assets/players/김경민.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "김태환",
+              "name": "김태환",
+              "rating": 85,
+              "position": "DF",
+              "club": "전북 현대",
+              "nation": "대한민국",
+              "image": "assets/players/김태환.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "이명재",
+              "name": "이명재",
+              "rating": 85,
+              "position": "DF",
+              "club": "대전 하나시티즌",
+              "nation": "대한민국",
+              "image": "assets/players/이명재.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "윌리안",
+              "name": "윌리안",
+              "rating": 85,
+              "position": "FW",
+              "club": "수원 FC",
+              "nation": "브라질",
+              "image": "assets/players/윌리안.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "유리",
+              "name": "유리",
+              "rating": 85,
+              "position": "FW",
+              "club": "제주 유나이티드",
+              "nation": "브라질",
+              "image": "assets/players/유리.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "강상윤",
+              "name": "강상윤",
+              "rating": 85,
+              "position": "MF",
+              "club": "전북 현대",
+              "nation": "대한민국",
+              "image": "assets/players/강상윤.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "김대원",
+              "name": "김대원",
+              "rating": 85,
+              "position": "MF",
+              "club": "강원 FC",
+              "nation": "대한민국",
+              "image": "assets/players/김대원.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "안톤",
+              "name": "안톤",
+              "rating": 84,
+              "position": "DF",
+              "club": "대전 하나시티즌",
+              "nation": "우크라이나",
+              "image": "assets/players/안톤.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "최준",
+              "name": "최준",
+              "rating": 84,
+              "position": "DF",
+              "club": "FC 서울",
+              "nation": "대한민국",
+              "image": "assets/players/최준.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "김승섭",
+              "name": "김승섭",
+              "rating": 84,
+              "position": "MF",
+              "club": "전북 현대",
+              "nation": "대한민국",
+              "image": "assets/players/김승섭.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "모재현",
+              "name": "모재현",
+              "rating": 84,
+              "position": "MF",
+              "club": "강원 FC",
+              "nation": "대한민국",
+              "image": "assets/players/모재현.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "황도윤",
+              "name": "황도윤",
+              "rating": 84,
+              "position": "MF",
+              "club": "FC 서울",
+              "nation": "대한민국",
+              "image": "assets/players/황도윤.jpg",
+              "rarity": "ELITE"
+            }
+          ]
+        },
+        {
+          "id": "coldest-drops-k-league",
+          "name": "COLDEST DROPS K LEAGUE",
+          "image": "assets/packs/1_CDK.png",
+          "cardBack": "assets/packs/1_CDK_back.png",
+          "players": [
+            {
+              "id": "김주성",
+              "name": "김주성",
+              "rating": 87,
+              "position": "DF",
+              "club": "FC 서울",
+              "nation": "대한민국",
+              "image": "assets/players/김주성.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "무고사",
+              "name": "무고사",
+              "rating": 87,
+              "position": "FW",
+              "club": "인천 유나이티드",
+              "nation": "몬테네그로",
+              "image": "assets/players/무고사.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "아사니",
+              "name": "아사니",
+              "rating": 86,
+              "position": "FW",
+              "club": "광주 FC",
+              "nation": "알바니아",
+              "image": "assets/players/아사니.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "조영욱",
+              "name": "조영욱",
+              "rating": 86,
+              "position": "FW",
+              "club": "FC 서울",
+              "nation": "대한민국",
+              "image": "assets/players/조영욱.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "헤이스",
+              "name": "헤이스",
+              "rating": 86,
+              "position": "FW",
+              "club": "광주 FC",
+              "nation": "브라질",
+              "image": "assets/players/헤이스.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "김동준",
+              "name": "김동준",
+              "rating": 86,
+              "position": "GK",
+              "club": "제주 유나이티드",
+              "nation": "대한민국",
+              "image": "assets/players/김동준.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "정우영",
+              "name": "정우영",
+              "rating": 86,
+              "position": "MF",
+              "club": "울산 HD",
+              "nation": "대한민국",
+              "image": "assets/players/정우영.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "강투지",
+              "name": "강투지",
+              "rating": 85,
+              "position": "DF",
+              "club": "강원 FC",
+              "nation": "몬테네그로",
+              "image": "assets/players/강투지.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "변준수",
+              "name": "변준수",
+              "rating": 85,
+              "position": "DF",
+              "club": "광주 FC",
+              "nation": "대한민국",
+              "image": "assets/players/변준수.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "이용",
+              "name": "이용",
+              "rating": 85,
+              "position": "DF",
+              "club": "수원 FC",
+              "nation": "대한민국",
+              "image": "assets/players/이용.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "홍철",
+              "name": "홍철",
+              "rating": 85,
+              "position": "DF",
+              "club": "강원 FC",
+              "nation": "대한민국",
+              "image": "assets/players/홍철.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "티아고",
+              "name": "티아고",
+              "rating": 85,
+              "position": "FW",
+              "club": "전북 현대",
+              "nation": "브라질",
+              "image": "assets/players/티아고.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "윤빛가람",
+              "name": "윤빛가람",
+              "rating": 85,
+              "position": "MF",
+              "club": "수원 FC",
+              "nation": "대한민국",
+              "image": "assets/players/윤빛가람.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "박지수",
+              "name": "박지수",
+              "rating": 84,
+              "position": "DF",
+              "club": "전북 현대",
+              "nation": "대한민국",
+              "image": "assets/players/박지수.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "밥신",
+              "name": "밥신",
+              "rating": 84,
+              "position": "MF",
+              "club": "대전 하나시티즌",
+              "nation": "브라질",
+              "image": "assets/players/밥신.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "백성동",
+              "name": "백성동",
+              "rating": 84,
+              "position": "MF",
+              "club": "포항 스틸러스",
+              "nation": "대한민국",
+              "image": "assets/players/백성동.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "이동준",
+              "name": "이동준",
+              "rating": 84,
+              "position": "MF",
+              "club": "전북 현대",
+              "nation": "대한민국",
+              "image": "assets/players/이동준.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "정호연",
+              "name": "정호연",
+              "rating": 84,
+              "position": "MF",
+              "club": "광주 FC",
+              "nation": "대한민국",
+              "image": "assets/players/정호연.jpg",
               "rarity": "ELITE"
             }
           ]
