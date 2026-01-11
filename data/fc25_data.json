@@ -12239,6 +12239,11 @@
       "id": "match-weather",
       "name": "MATCH WEATHER",
       "poster": "assets/posters/Packs_MATCH WEATHER 포스터.png",
+       "rarityWeight": {
+            "LEGEND": 77,
+            "ICON": 22,
+            "ELITE": 35
+          },
       "packs": [
         {
           "id": "blossom-bloom-spring",
