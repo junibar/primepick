@@ -483,13 +483,13 @@
             },
           "players": [
             {
-              "id": "김주성",
+              "id": "김주성 1",
               "name": "김주성",
               "rating": 89,
               "position": "MF",
               "club": "부산 대우 로얄즈",
               "nation": "대한민국",
-              "image": "assets/players/김주성.jpg",
+              "image": "assets/players/김주성 1.jpg",
               "rarity": "ICON"
             },
             {
@@ -1508,13 +1508,13 @@
           "cardBack": "assets/packs/1_CDK_back.png",
           "players": [
             {
-              "id": "김주성",
+              "id": "김주성 2",
               "name": "김주성",
               "rating": 87,
               "position": "DF",
               "club": "FC 서울",
               "nation": "대한민국",
-              "image": "assets/players/김주성.jpg",
+              "image": "assets/players/김주성 2.jpg",
               "rarity": "ICON"
             },
             {
