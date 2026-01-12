@@ -6,8 +6,8 @@
       "poster": "assets/posters/Packs_태극전사 시리즈 포스터.png",
       "packs": [
         {
-          "id": "22",
-          "name": "태극 스탠다드 22",
+          "id": "태극-스탠다드",
+          "name": "태극 스탠다드",
           "image": "assets/packs/1_TGS.png",
           "cardBack": "assets/packs/1_TGS_back.png",
           "rarityWeight": {
@@ -37,6 +37,16 @@
               "rarity": "LEGEND"
             },
             {
+              "id": "pl-df8l31",
+              "name": "황선홍",
+              "rating": 89,
+              "position": "FW",
+              "club": "포항 스틸러스",
+              "nation": "대한민국",
+              "image": "assets/players/황선홍.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "pl-8u99n3",
               "name": "김병지",
               "rating": 88,
@@ -54,16 +64,6 @@
               "club": "울산 현대",
               "nation": "대한민국",
               "image": "assets/players/유상철.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "pl-df8l31",
-              "name": "황선홍",
-              "rating": 88,
-              "position": "FW",
-              "club": "포항 스틸러스",
-              "nation": "대한민국",
-              "image": "assets/players/황선홍.jpg",
               "rarity": "ICON"
             },
             {
@@ -209,7 +209,7 @@
             {
               "id": "pl-2h2upp",
               "name": "설영우",
-              "rating": 84,
+              "rating": 85,
               "position": "DF",
               "club": "울산 현대",
               "nation": "대한민국",
@@ -219,7 +219,7 @@
             {
               "id": "pl-48phg8",
               "name": "조규성",
-              "rating": 84,
+              "rating": 85,
               "position": "FW",
               "club": "FC 미트윌란",
               "nation": "대한민국",
@@ -229,7 +229,7 @@
             {
               "id": "pl-golv0o",
               "name": "오현규",
-              "rating": 84,
+              "rating": 85,
               "position": "FW",
               "club": "수원 삼성",
               "nation": "대한민국",
@@ -239,8 +239,8 @@
           ]
         },
         {
-          "id": "22",
-          "name": "태극 프라임 22",
+          "id": "태극-프라임",
+          "name": "태극 프라임",
           "image": "assets/packs/1_TGP.png",
           "cardBack": "assets/packs/1_TGP_back.png",
           "rarityWeight": {
@@ -442,7 +442,7 @@
             {
               "id": "pl-s3rg6m",
               "name": "박주호",
-              "rating": 84,
+              "rating": 85,
               "position": "DF",
               "club": "보루시아 도르트문트",
               "nation": "대한민국",
@@ -452,7 +452,7 @@
             {
               "id": "pl-69cn7h",
               "name": "황의조",
-              "rating": 84,
+              "rating": 85,
               "position": "FW",
               "club": "알란야스포르",
               "nation": "대한민국",
@@ -462,11 +462,477 @@
             {
               "id": "pl-7451ks",
               "name": "양민혁",
-              "rating": 84,
+              "rating": 85,
               "position": "FW",
               "club": "토트넘 홋스퍼",
               "nation": "대한민국",
               "image": "assets/players/양민혁.jpg",
+              "rarity": "ELITE"
+            }
+          ]
+        },
+        {
+          "id": "태극-클래식",
+          "name": "태극 클래식",
+          "image": "assets/packs/1_TGC.png",
+          "cardBack": "assets/packs/1_TGC_back.png",
+          "rarityWeight": {
+            "LEGEND": 0,
+            "ICON": 15,
+            "ELITE": 13
+            },
+          "players": [
+            {
+              "id": "김주성",
+              "name": "김주성",
+              "rating": 89,
+              "position": "MF",
+              "club": "부산 대우 로얄즈",
+              "nation": "대한민국",
+              "image": "assets/players/김주성.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "최용수",
+              "name": "최용수",
+              "rating": 88,
+              "position": "FW",
+              "club": "FC 서울",
+              "nation": "대한민국",
+              "image": "assets/players/최용수.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "서정원",
+              "name": "서정원",
+              "rating": 88,
+              "position": "FW",
+              "club": "수원 삼성 블루윙즈",
+              "nation": "대한민국",
+              "image": "assets/players/서정원.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "김보경",
+              "name": "김보경",
+              "rating": 87,
+              "position": "MF",
+              "club": "카디프 시티",
+              "nation": "대한민국",
+              "image": "assets/players/김보경.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "정성룡",
+              "name": "정성룡",
+              "rating": 87,
+              "position": "GK",
+              "club": "후쿠시마 유나이티드",
+              "nation": "대한민국",
+              "image": "assets/players/정성룡.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "이근호",
+              "name": "이근호",
+              "rating": 87,
+              "position": "FW",
+              "club": "대구 FC",
+              "nation": "대한민국",
+              "image": "assets/players/이근호.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "고정운",
+              "name": "고정운",
+              "rating": 87,
+              "position": "FW",
+              "club": "천안 일화 천마",
+              "nation": "대한민국",
+              "image": "assets/players/고정운.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "김두현",
+              "name": "김두현",
+              "rating": 86,
+              "position": "MF",
+              "club": "웨스트 브롬위치 알비온",
+              "nation": "대한민국",
+              "image": "assets/players/김두현.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "이정수",
+              "name": "이정수",
+              "rating": 86,
+              "position": "DF",
+              "club": "알 사드",
+              "nation": "대한민국",
+              "image": "assets/players/이정수.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "김동진",
+              "name": "김동진",
+              "rating": 86,
+              "position": "DF",
+              "club": "제니트 상트페테르부르크",
+              "nation": "대한민국",
+              "image": "assets/players/김동진.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "장현수",
+              "name": "장현수",
+              "rating": 86,
+              "position": "DF",
+              "club": "알 힐랄",
+              "nation": "대한민국",
+              "image": "assets/players/장현수.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "이범영",
+              "name": "이범영",
+              "rating": 86,
+              "position": "GK",
+              "club": "부산 아이파크",
+              "nation": "대한민국",
+              "image": "assets/players/이범영.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "이한범",
+              "name": "이한범",
+              "rating": 85,
+              "position": "DF",
+              "club": "미트윌란",
+              "nation": "대한민국",
+              "image": "assets/players/이한범.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "원두재",
+              "name": "원두재",
+              "rating": 85,
+              "position": "MF",
+              "club": "울산 HD",
+              "nation": "대한민국",
+              "image": "assets/players/원두재.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "정우영",
+              "name": "정우영",
+              "rating": 85,
+              "position": "MF",
+              "club": "우니온 베를린",
+              "nation": "대한민국",
+              "image": "assets/players/정우영.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "배준호",
+              "name": "배준호",
+              "rating": 85,
+              "position": "MF",
+              "club": "스토크 시티",
+              "nation": "대한민국",
+              "image": "assets/players/배준호.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "옌스",
+              "name": "옌스",
+              "rating": 85,
+              "position": "MF",
+              "club": "묀헨글라드바흐",
+              "nation": "대한민국",
+              "image": "assets/players/옌스.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "권경원",
+              "name": "권경원",
+              "rating": 84,
+              "position": "DF",
+              "club": "수원 FC",
+              "nation": "대한민국",
+              "image": "assets/players/권경원.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "김민수",
+              "name": "김민수",
+              "rating": 84,
+              "position": "FW",
+              "club": "지로나 FC",
+              "nation": "대한민국",
+              "image": "assets/players/김민수.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "정상빈",
+              "name": "정상빈",
+              "rating": 84,
+              "position": "FW",
+              "club": "세인트 루이스 시티",
+              "nation": "대한민국",
+              "image": "assets/players/정상빈.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "김정우",
+              "name": "김정우",
+              "rating": 84,
+              "position": "MF",
+              "club": "울산 현대 호랑이",
+              "nation": "대한민국",
+              "image": "assets/players/김정우.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "권혁규",
+              "name": "권혁규",
+              "rating": 84,
+              "position": "MF",
+              "club": "FC 낭트",
+              "nation": "대한민국",
+              "image": "assets/players/권혁규.jpg",
+              "rarity": "ELITE"
+            }
+          ]
+        },
+        {
+          "id": "태극-아너스",
+          "name": "태극 아너스",
+          "image": "assets/packs/1_TGH.png",
+          "cardBack": "assets/packs/1_TGH_back.png", 
+          "rarityWeight": {
+            "LEGEND": 0,
+            "ICON": 15,
+            "ELITE": 13
+            },
+          "players": [
+            {
+              "id": "최순호",
+              "name": "최순호",
+              "rating": 89,
+              "position": "FW",
+              "club": "포항 제철 아톰스",
+              "nation": "대한민국",
+              "image": "assets/players/최순호.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "허정무",
+              "name": "허정무",
+              "rating": 88,
+              "position": "MF",
+              "club": "아인트호벤",
+              "nation": "대한민국",
+              "image": "assets/players/허정무.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "고종수",
+              "name": "고종수",
+              "rating": 88,
+              "position": "MF",
+              "club": "수원 삼성 블루윙즈",
+              "nation": "대한민국",
+              "image": "assets/players/고종수.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "김도훈",
+              "name": "김도훈",
+              "rating": 87,
+              "position": "FW",
+              "club": "성남 일화 천마",
+              "nation": "대한민국",
+              "image": "assets/players/김도훈.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "김용대",
+              "name": "김용대",
+              "rating": 87,
+              "position": "GK",
+              "club": "FC 서울",
+              "nation": "대한민국",
+              "image": "assets/players/김용대.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "김신욱",
+              "name": "김신욱",
+              "rating": 87,
+              "position": "FW",
+              "club": "전북 현대 모터스",
+              "nation": "대한민국",
+              "image": "assets/players/김신욱.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "하석주",
+              "name": "하석주",
+              "rating": 87,
+              "position": "MF",
+              "club": "부산 대우 로얄즈",
+              "nation": "대한민국",
+              "image": "assets/players/하석주.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "염기훈",
+              "name": "염기훈",
+              "rating": 86,
+              "position": "MF",
+              "club": "수원 삼성 블루윙즈",
+              "nation": "대한민국",
+              "image": "assets/players/염기훈.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "곽태휘",
+              "name": "곽태휘",
+              "rating": 86,
+              "position": "DF",
+              "club": "알 힐랄",
+              "nation": "대한민국",
+              "image": "assets/players/곽태휘.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "조원희",
+              "name": "조원희",
+              "rating": 86,
+              "position": "DF",
+              "club": "위건 애슬래틱",
+              "nation": "대한민국",
+              "image": "assets/players/조원희.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "김진규",
+              "name": "김진규",
+              "rating": 86,
+              "position": "DF",
+              "club": "FC 서울",
+              "nation": "대한민국",
+              "image": "assets/players/김진규.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "김진현",
+              "name": "김진현",
+              "rating": 86,
+              "position": "GK",
+              "club": "세레소 오사카",
+              "nation": "대한민국",
+              "image": "assets/players/김진현.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "석현준",
+              "name": "석현준",
+              "rating": 85,
+              "position": "FW",
+              "club": "FC 포르투",
+              "nation": "대한민국",
+              "image": "assets/players/석현준.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "권창훈",
+              "name": "권창훈",
+              "rating": 85,
+              "position": "MF",
+              "club": "디종 FCO",
+              "nation": "대한민국",
+              "image": "assets/players/권창훈.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "나상호",
+              "name": "나상호",
+              "rating": 85,
+              "position": "MF",
+              "club": "FC 서울",
+              "nation": "대한민국",
+              "image": "assets/players/나상호.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "엄지성",
+              "name": "엄지성",
+              "rating": 85,
+              "position": "FW",
+              "club": "스완지 시티",
+              "nation": "대한민국",
+              "image": "assets/players/엄지성.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "양현준",
+              "name": "양현준",
+              "rating": 85,
+              "position": "FW",
+              "club": "셀틱 FC",
+              "nation": "대한민국",
+              "image": "assets/players/양현준.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "김지수",
+              "name": "김지수",
+              "rating": 84,
+              "position": "DF",
+              "club": "브렌트포드",
+              "nation": "대한민국",
+              "image": "assets/players/김지수.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "정태욱",
+              "name": "정태욱",
+              "rating": 84,
+              "position": "DF",
+              "club": "전북 현대 모터스",
+              "nation": "대한민국",
+              "image": "assets/players/정태욱.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "백지훈",
+              "name": "백지훈",
+              "rating": 84,
+              "position": "MF",
+              "club": "수원 삼성 블루윙즈",
+              "nation": "대한민국",
+              "image": "assets/players/백지훈.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "박승수",
+              "name": "박승수",
+              "rating": 84,
+              "position": "FW",
+              "club": "뉴캐슬 유나이티드",
+              "nation": "대한민국",
+              "image": "assets/players/박승수.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "조유민",
+              "name": "조유민",
+              "rating": 84,
+              "position": "DF",
+              "club": "수원 FC",
+              "nation": "대한민국",
+              "image": "assets/players/조유민.jpg",
               "rarity": "ELITE"
             }
           ]
@@ -12239,11 +12705,11 @@
       "id": "match-weather",
       "name": "MATCH WEATHER",
       "poster": "assets/posters/Packs_MATCH WEATHER 포스터.png",
-       "rarityWeight": {
-            "LEGEND": 77,
-            "ICON": 22,
-            "ELITE": 35
-          },
+      "rarityWeight": {
+        "LEGEND": 77,
+        "ICON": 22,
+        "ELITE": 35
+      },
       "packs": [
         {
           "id": "blossom-bloom-spring",
