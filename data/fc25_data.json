@@ -5273,9 +5273,9 @@
       "name": "PERSONA",
       "poster": "assets/posters/Packs_PERSONA 포스터.png",
       "rarityWeight": {
-            "LEGEND": 8,
-            "ICON": 3,
-            "ELITE": 3
+            "LEGEND": 24,
+            "ICON": 7,
+            "ELITE": 11
       },
       "packs": [
         {
