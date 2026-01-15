@@ -5272,17 +5272,17 @@
       "id": "persona",
       "name": "PERSONA",
       "poster": "assets/posters/Packs_PERSONA 포스터.png",
+      "rarityWeight": {
+            "LEGEND": 8,
+            "ICON": 3,
+            "ELITE": 3
+      },
       "packs": [
         {
           "id": "mystic-fighter-25",
           "name": "MYSTIC FIGHTER 25",
           "image": "assets/packs/7_MST.png",
           "cardBack": "assets/packs/7_MST_back.png",
-          "rarityWeight": {
-            "LEGEND": 75,
-            "ICON": 12,
-            "ELITE": 13
-          },
           "players": [
             {
               "id": "thomaz-zizinho",
@@ -5487,7 +5487,7 @@
             {
               "id": "joan-capdevila",
               "name": "Joan Capdevila",
-              "rating": 86,
+              "rating": 87,
               "position": "DF",
               "club": "Deportivo La Coruna",
               "nation": "Spain",
@@ -5541,11 +5541,6 @@
           "name": "ROGUE PITCHER 25",
           "image": "assets/packs/7_ROG.png",
           "cardBack": "assets/packs/7_ROG_back.png",
-          "rarityWeight": {
-            "LEGEND": 48,
-            "ICON": 7,
-            "ELITE": 9
-          },
           "players": [
             {
               "id": "romario",
@@ -5804,11 +5799,6 @@
           "name": "ELITE FOWER 25",
           "image": "assets/packs/7_ELT.png",
           "cardBack": "assets/packs/7_ELT_back.png",
-          "rarityWeight": {
-            "LEGEND": 48,
-            "ICON": 7,
-            "ELITE": 9
-          },
           "players": [
             {
               "id": "djalma-dos-santos",
@@ -6067,11 +6057,6 @@
           "name": "STREET LEADER 25",
           "image": "assets/packs/7_STR.png",
           "cardBack": "assets/packs/7_STR_back.png",
-          "rarityWeight": {
-            "LEGEND": 48,
-            "ICON": 7,
-            "ELITE": 9
-          },
           "players": [
             {
               "id": "nilton-santos",
