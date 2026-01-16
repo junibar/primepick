@@ -3689,7 +3689,7 @@
             {
               "id": "dean-huijsen",
               "name": "Dean Huijsen",
-              "rating": 85,
+              "rating": 86,
               "position": "DF",
               "club": "Real Madrid",
               "nation": "Netherlands",
@@ -3699,7 +3699,7 @@
             {
               "id": "lucas-bergvall",
               "name": "Lucas Bergvall",
-              "rating": 85,
+              "rating": 86,
               "position": "MF",
               "club": "Tottenham Hotspur",
               "nation": "Sweden",
@@ -3922,7 +3922,7 @@
             {
               "id": "james-trafford",
               "name": "James Trafford",
-              "rating": 85,
+              "rating": 86,
               "position": "GK",
               "club": "Manchester City",
               "nation": "England",
@@ -3932,7 +3932,7 @@
             {
               "id": "zeno-debast",
               "name": "Zeno Debast",
-              "rating": 85,
+              "rating": 86,
               "position": "DF",
               "club": "Sporting CP",
               "nation": "Belgium",
@@ -4165,7 +4165,7 @@
             {
               "id": "andrey-santos",
               "name": "Andrey Santos",
-              "rating": 85,
+              "rating": 86,
               "position": "MF",
               "club": "Chelsea FC",
               "nation": "Brazil",
@@ -5517,7 +5517,7 @@
             {
               "id": "antonio-valencia",
               "name": "Antonio Valencia",
-              "rating": 85,
+              "rating": 86,
               "position": "MF",
               "club": "Manchester United",
               "nation": "Ecuador",
@@ -5785,7 +5785,7 @@
             {
               "id": "gervinho",
               "name": "Gervinho",
-              "rating": 85,
+              "rating": 86,
               "position": "FW",
               "club": "LOSC Lille",
               "nation": "Cote d’Ivoire",
@@ -6001,6 +6001,16 @@
               "rarity": "ELITE"
             },
             {
+              "id": "diogo-jota",
+              "name": "Diogo Jota",
+              "rating": 86,
+              "position": "FW",
+              "club": "Liverpool",
+              "nation": "Portugal",
+              "image": "assets/players/Diogo Jota.jpg",
+              "rarity": "ELITE"
+            },
+            {
               "id": "andrea-barzagli",
               "name": "Andrea Barzagli",
               "rating": 86,
@@ -6028,16 +6038,6 @@
               "club": "Real Madrid",
               "nation": "Spain",
               "image": "assets/players/Michel Salgado.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "diogo-jota",
-              "name": "Diogo Jota",
-              "rating": 85,
-              "position": "FW",
-              "club": "Liverpool",
-              "nation": "Portugal",
-              "image": "assets/players/Diogo Jota.jpg",
               "rarity": "ELITE"
             },
             {
