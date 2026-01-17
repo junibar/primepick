@@ -9326,13 +9326,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "dayot-upamecano",
-              "name": "Dayot Upamecano",
-              "rating": 89,
+              "id": "marc-cucurella",
+              "name": "Marc Cucurella",
+              "rating": 87,
               "position": "DF",
-              "club": "Bayern Munich",
-              "nation": "France",
-              "image": "assets/players/Dayot Upamecano.jpg",
+              "club": "Chelsea FC",
+              "nation": "Spain",
+              "image": "assets/players/Marc Cucurella.jpg",
               "rarity": "ICON"
             },
             {
@@ -11418,6 +11418,16 @@
           "image": "assets/packs/9_PDH.png",
           "cardBack": "assets/packs/9_PDH_back.png",
           "players": [
+             {
+              "id": "dayot-upamecano",
+              "name": "Dayot Upamecano",
+              "rating": 89,
+              "position": "DF",
+              "club": "Bayern Munich",
+              "nation": "France",
+              "image": "assets/players/Dayot Upamecano.jpg",
+              "rarity": "ICON"
+            },
             {
               "id": "joe-gomez",
               "name": "Joe Gomez",
@@ -11536,16 +11546,6 @@
               "club": "FC Barcelona",
               "nation": "Spain",
               "image": "assets/players/Gavi.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "marc-cucurella",
-              "name": "Marc Cucurella",
-              "rating": 87,
-              "position": "DF",
-              "club": "Chelsea FC",
-              "nation": "Spain",
-              "image": "assets/players/Marc Cucurella.jpg",
               "rarity": "ICON"
             },
             {
