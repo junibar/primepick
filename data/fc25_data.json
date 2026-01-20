@@ -3907,7 +3907,7 @@
               "club": "Brighton & Hove Albion",
               "nation": "Gambia",
               "image": "assets/players/Yankuba Minteh.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "ethan-nwaneri",
@@ -4147,8 +4147,8 @@
               "name": "Rico Lewis",
               "rating": 86,
               "position": "DF",
-              "club": "England",
-              "nation": "Manchester City",
+              "club": "Manchester City",
+              "nation": "England",
               "image": "assets/players/Rico Lewis.jpg",
               "rarity": "ELITE"
             },
@@ -5024,7 +5024,7 @@
             {
               "id": "marek-hamsik",
               "name": "Marek Hamsik",
-              "rating": "86",
+              "rating": 86,
               "position": "MF",
               "club": "Napoli",
               "nation": "Slovakia",
@@ -5492,7 +5492,7 @@
               "club": "Deportivo La Coruna",
               "nation": "Spain",
               "image": "assets/players/Joan Capdevila.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "toby-alderweireld",
