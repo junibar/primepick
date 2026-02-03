@@ -480,7 +480,7 @@
             "LEGEND": 0,
             "ICON": 15,
             "ELITE": 13
-            },
+          },
           "players": [
             {
               "id": "김주성 1",
@@ -489,7 +489,7 @@
               "position": "MF",
               "club": "부산 대우 로얄즈",
               "nation": "대한민국",
-              "image": "assets/players/김주성 1.jpg",
+              "image": "assets/players/김주성.jpg",
               "rarity": "ICON"
             },
             {
@@ -629,7 +629,7 @@
               "position": "MF",
               "club": "우니온 베를린",
               "nation": "대한민국",
-              "image": "assets/players/정우영 2.jpg",
+              "image": "assets/players/정우영.jpg",
               "rarity": "ELITE"
             },
             {
@@ -708,12 +708,12 @@
           "id": "태극-아너스",
           "name": "태극 아너스",
           "image": "assets/packs/1_TGH.png",
-          "cardBack": "assets/packs/1_TGH_back.png", 
+          "cardBack": "assets/packs/1_TGH_back.png",
           "rarityWeight": {
             "LEGEND": 0,
             "ICON": 15,
             "ELITE": 13
-            },
+          },
           "players": [
             {
               "id": "최순호",
@@ -822,7 +822,7 @@
               "position": "DF",
               "club": "FC 서울",
               "nation": "대한민국",
-              "image": "assets/players/김진규 1.jpg",
+              "image": "assets/players/김진규.jpg",
               "rarity": "ELITE"
             },
             {
@@ -1090,7 +1090,7 @@
               "position": "MF",
               "club": "전북 현대",
               "nation": "대한민국",
-              "image": "assets/players/김진규 2.jpg",
+              "image": "assets/players/김진규.jpg",
               "rarity": "ELITE"
             },
             {
@@ -1514,7 +1514,7 @@
               "position": "DF",
               "club": "FC 서울",
               "nation": "대한민국",
-              "image": "assets/players/김주성 2.jpg",
+              "image": "assets/players/김주성.jpg",
               "rarity": "ICON"
             },
             {
@@ -1574,7 +1574,7 @@
               "position": "MF",
               "club": "울산 HD",
               "nation": "대한민국",
-              "image": "assets/players/정우영 1.jpg",
+              "image": "assets/players/정우영.jpg",
               "rarity": "ELITE"
             },
             {
@@ -3476,14 +3476,14 @@
       "poster": "assets/posters/Packs_FUTURE STARS 포스터.png",
       "packs": [
         {
-          "id": "origin-arc-22",
-          "name": "ORIGIN ARC 22",
+          "id": "origin-arc",
+          "name": "ORIGIN ARC",
           "image": "assets/packs/6_ORA.png",
           "cardBack": "assets/packs/6_ORA_back.png",
           "rarityWeight": {
             "LEGEND": 40,
-            "ICON": 32,
-            "ELITE": 75
+            "ICON": 21,
+            "ELITE": 100
           },
           "players": [
             {
@@ -3547,16 +3547,6 @@
               "rarity": "ICON"
             },
             {
-              "id": "michael-olise",
-              "name": "Michael Olise",
-              "rating": 89,
-              "position": "MF",
-              "club": "Bayern Munich",
-              "nation": "France",
-              "image": "assets/players/Michael Olise.jpg",
-              "rarity": "ICON"
-            },
-            {
               "id": "dusan-vlahovic",
               "name": "Dusan Vlahovic",
               "rating": 89,
@@ -3567,13 +3557,43 @@
               "rarity": "ICON"
             },
             {
-              "id": "bart-verbruggen",
-              "name": "Bart Verbruggen",
-              "rating": 88,
-              "position": "GK",
-              "club": "Brighton & Hove Albion",
-              "nation": "Netherlands",
-              "image": "assets/players/Bart Verbruggen.jpg",
+              "id": "nick-woltemade",
+              "name": "Nick Woltemade",
+              "rating": 89,
+              "position": "FW",
+              "club": "Newcastle United",
+              "nation": "Germany",
+              "image": "assets/players/Nick Woltemade.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "michael-olise",
+              "name": "Michael Olise",
+              "rating": 89,
+              "position": "MF",
+              "club": "Bayern Munich",
+              "nation": "France",
+              "image": "assets/players/Michael Olise.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "elliot-anderson",
+              "name": "Elliot Anderson",
+              "rating": 89,
+              "position": "MF",
+              "club": "Nottingham Forest",
+              "nation": "England",
+              "image": "assets/players/Elliot Anderson.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "diego-luna",
+              "name": "Diego Luna",
+              "rating": 89,
+              "position": "MF",
+              "club": "Real Salt Lake",
+              "nation": "United States",
+              "image": "assets/players/Diego Luna.jpg",
               "rarity": "ICON"
             },
             {
@@ -3587,23 +3607,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "eduardo-camavinga",
-              "name": "Eduardo Camavinga",
+              "id": "eduardo-quaresma",
+              "name": "Eduardo Quaresma",
               "rating": 88,
-              "position": "MF",
-              "club": "Real Madrid",
-              "nation": "France",
-              "image": "assets/players/Eduardo Camavinga.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "arda-guler",
-              "name": "Arda Guler",
-              "rating": 88,
-              "position": "MF",
-              "club": "Real Madrid",
-              "nation": "Turkey",
-              "image": "assets/players/Arda Guler.jpg",
+              "position": "DF",
+              "club": "Sporting CP",
+              "nation": "Portugal",
+              "image": "assets/players/Eduardo Quaresma.jpg",
               "rarity": "ICON"
             },
             {
@@ -3617,13 +3627,53 @@
               "rarity": "ICON"
             },
             {
-              "id": "joan-garcia",
-              "name": "Joan Garcia",
-              "rating": 87,
+              "id": "giuliano-simeone",
+              "name": "Giuliano Simeone",
+              "rating": 88,
+              "position": "FW",
+              "club": "Atletico Madrid",
+              "nation": "Argentina",
+              "image": "assets/players/Giuliano Simeone.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "yan-diomande",
+              "name": "Yan Diomande",
+              "rating": 88,
+              "position": "FW",
+              "club": "RB Leipzig",
+              "nation": "Cote d'Ivoire",
+              "image": "assets/players/Yan Diomande.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "bart-verbruggen",
+              "name": "Bart Verbruggen",
+              "rating": 88,
               "position": "GK",
-              "club": "FC Barcelona",
-              "nation": "Spain",
-              "image": "assets/players/Joan Garcia.jpg",
+              "club": "Brighton & Hove Albion",
+              "nation": "Netherlands",
+              "image": "assets/players/Bart Verbruggen.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "eduardo-camavinga",
+              "name": "Eduardo Camavinga",
+              "rating": 88,
+              "position": "MF",
+              "club": "Real Madrid",
+              "nation": "France",
+              "image": "assets/players/Eduardo Camavinga.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "rodrigo-mora",
+              "name": "Rodrigo Mora",
+              "rating": 88,
+              "position": "MF",
+              "club": "Porto",
+              "nation": "Portugal",
+              "image": "assets/players/Rodrigo Mora.jpg",
               "rarity": "ICON"
             },
             {
@@ -3637,6 +3687,36 @@
               "rarity": "ICON"
             },
             {
+              "id": "dean-huijsen",
+              "name": "Dean Huijsen",
+              "rating": 87,
+              "position": "DF",
+              "club": "Real Madrid",
+              "nation": "Netherlands",
+              "image": "assets/players/Dean Huijsen.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "joan-garcia",
+              "name": "Joan Garcia",
+              "rating": 87,
+              "position": "GK",
+              "club": "FC Barcelona",
+              "nation": "Spain",
+              "image": "assets/players/Joan Garcia.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "arda-guler",
+              "name": "Arda Guler",
+              "rating": 87,
+              "position": "MF",
+              "club": "Real Madrid",
+              "nation": "Turkey",
+              "image": "assets/players/Arda Guler.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "karim-adeyemi",
               "name": "Karim Adeyemi",
               "rating": 87,
@@ -3645,16 +3725,6 @@
               "nation": "Germany",
               "image": "assets/players/Karim Adeyemi.jpg",
               "rarity": "ICON"
-            },
-            {
-              "id": "koni-de-winter",
-              "name": "Koni De Winter",
-              "rating": 86,
-              "position": "DF",
-              "club": "AC Milan",
-              "nation": "Belgium",
-              "image": "assets/players/Koni De Winter.jpg",
-              "rarity": "ELITE"
             },
             {
               "id": "tariq-lamptey",
@@ -3667,13 +3737,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "giuliano-simeone",
-              "name": "Giuliano Simeone",
+              "id": "koni-de-winter",
+              "name": "Koni De Winter",
               "rating": 86,
-              "position": "FW",
-              "club": "Atletico Madrid",
-              "nation": "Argentina",
-              "image": "assets/players/Giuliano Simeone.jpg",
+              "position": "DF",
+              "club": "AC Milan",
+              "nation": "Belgium",
+              "image": "assets/players/Koni De Winter.jpg",
               "rarity": "ELITE"
             },
             {
@@ -3687,19 +3757,9 @@
               "rarity": "ELITE"
             },
             {
-              "id": "dean-huijsen",
-              "name": "Dean Huijsen",
-              "rating": 86,
-              "position": "DF",
-              "club": "Real Madrid",
-              "nation": "Netherlands",
-              "image": "assets/players/Dean Huijsen.jpg",
-              "rarity": "ELITE"
-            },
-            {
               "id": "lucas-bergvall",
               "name": "Lucas Bergvall",
-              "rating": 85,
+              "rating": 86,
               "position": "MF",
               "club": "Tottenham Hotspur",
               "nation": "Sweden",
@@ -3709,14 +3769,14 @@
           ]
         },
         {
-          "id": "power-up-rush-22",
-          "name": "POWER-UP RUSH 22",
+          "id": "power-up-rush",
+          "name": "POWER-UP RUSH",
           "image": "assets/packs/6_PUR.png",
           "cardBack": "assets/packs/6_PUR_back.png",
           "rarityWeight": {
-            "LEGEND": 12,
-            "ICON": 7,
-            "ELITE": 18
+            "LEGEND": 40,
+            "ICON": 21,
+            "ELITE": 100
           },
           "players": [
             {
@@ -3730,13 +3790,13 @@
               "rarity": "LEGEND"
             },
             {
-              "id": "amad-diallo",
-              "name": "Amad Diallo",
-              "rating": 90,
-              "position": "MF",
-              "club": "Manchester United",
-              "nation": "Ivory Coast",
-              "image": "assets/players/Amad Diallo.jpg",
+              "id": "nuno-mendes",
+              "name": "Nuno Mendes",
+              "rating": 91,
+              "position": "DF",
+              "club": "Paris Saint-Germain",
+              "nation": "Portugal",
+              "image": "assets/players/Nuno Mendes.jpg",
               "rarity": "LEGEND"
             },
             {
@@ -3760,23 +3820,23 @@
               "rarity": "LEGEND"
             },
             {
-              "id": "nuno-mendes",
-              "name": "Nuno Mendes",
+              "id": "amad-diallo",
+              "name": "Amad Diallo",
               "rating": 90,
-              "position": "DF",
-              "club": "Paris Saint-Germain",
-              "nation": "Portugal",
-              "image": "assets/players/Nuno Mendes.jpg",
+              "position": "MF",
+              "club": "Manchester United",
+              "nation": "Ivory Coast",
+              "image": "assets/players/Amad Diallo.jpg",
               "rarity": "LEGEND"
             },
             {
-              "id": "ryan-gravenberch",
-              "name": "Ryan Gravenberch",
+              "id": "riccardo-calafiori",
+              "name": "Riccardo Calafiori",
               "rating": 89,
-              "position": "MF",
-              "club": "Liverpool FC",
-              "nation": "Netherlands",
-              "image": "assets/players/Ryan Gravenberch.jpg",
+              "position": "DF",
+              "club": "Arsenal",
+              "nation": "Italy",
+              "image": "assets/players/Riccardo Calafiori.jpg",
               "rarity": "ICON"
             },
             {
@@ -3800,6 +3860,36 @@
               "rarity": "ICON"
             },
             {
+              "id": "ryan-gravenberch",
+              "name": "Ryan Gravenberch",
+              "rating": 89,
+              "position": "MF",
+              "club": "Liverpool FC",
+              "nation": "Netherlands",
+              "image": "assets/players/Ryan Gravenberch.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "patrick-dorgu",
+              "name": "Patrick Dorgu",
+              "rating": 89,
+              "position": "MF",
+              "club": "Manchester United",
+              "nation": "Denmark",
+              "image": "assets/players/Patrick Dorgu.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "antonio-nusa",
+              "name": "Antonio Nusa",
+              "rating": 89,
+              "position": "MF",
+              "club": "RB Leipzig",
+              "nation": "Norway",
+              "image": "assets/players/Antonio Nusa.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "goncalo-inacio",
               "name": "Goncalo Inacio",
               "rating": 88,
@@ -3810,13 +3900,33 @@
               "rarity": "ICON"
             },
             {
-              "id": "riccardo-calafiori",
-              "name": "Riccardo Calafiori",
+              "id": "jurrien-timber",
+              "name": "Jurrien Timber",
               "rating": 88,
               "position": "DF",
               "club": "Arsenal",
-              "nation": "Italy",
-              "image": "assets/players/Riccardo Calafiori.jpg",
+              "nation": "Netherlands",
+              "image": "assets/players/Jurrien Timber.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "nico-o'reilly",
+              "name": "Nico O'Reilly",
+              "rating": 88,
+              "position": "DF",
+              "club": "Manchester City",
+              "nation": "England",
+              "image": "assets/players/Nico O'Reilly.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "benjamin-sesko",
+              "name": "Benjamin Sesko",
+              "rating": 88,
+              "position": "FW",
+              "club": "Manchester United",
+              "nation": "Slovenia",
+              "image": "assets/players/Benjamin Sesko.jpg",
               "rarity": "ICON"
             },
             {
@@ -3840,13 +3950,23 @@
               "rarity": "ICON"
             },
             {
-              "id": "benjamin-sesko",
-              "name": "Benjamin Sesko",
+              "id": "marc-casado",
+              "name": "Marc Casado",
               "rating": 88,
-              "position": "FW",
-              "club": "Manchester United",
-              "nation": "Slovenia",
-              "image": "assets/players/Benjamin Sesko.jpg",
+              "position": "MF",
+              "club": "FC Barcelona",
+              "nation": "Spain",
+              "image": "assets/players/Marc Casado.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "valentin-barco",
+              "name": "Valentin Barco",
+              "rating": 88,
+              "position": "MF",
+              "club": "Strasbourg",
+              "nation": "Argentina",
+              "image": "assets/players/Valentin Barco.jpg",
               "rarity": "ICON"
             },
             {
@@ -3860,16 +3980,6 @@
               "rarity": "ICON"
             },
             {
-              "id": "takefusa-kubo",
-              "name": "Takefusa Kubo",
-              "rating": 87,
-              "position": "MF",
-              "club": "Real Sociedad",
-              "nation": "Japan",
-              "image": "assets/players/Takefusa Kubo.jpg",
-              "rarity": "ICON"
-            },
-            {
               "id": "hugo-ekitike",
               "name": "Hugo Ekitike",
               "rating": 87,
@@ -3880,24 +3990,24 @@
               "rarity": "ICON"
             },
             {
+              "id": "santiago-castro",
+              "name": "Santiago Castro",
+              "rating": 87,
+              "position": "FW",
+              "club": "Bologna",
+              "nation": "Argentina",
+              "image": "assets/players/Santiago Castro.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "guillaume-restes",
               "name": "Guillaume Restes",
-              "rating": 86,
+              "rating": 87,
               "position": "GK",
               "club": "Toulouse FC",
               "nation": "France",
               "image": "assets/players/Guillaume Restes.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "jurrien-timber",
-              "name": "Jurrien Timber",
-              "rating": 86,
-              "position": "DF",
-              "club": "Arsenal",
-              "nation": "Netherlands",
-              "image": "assets/players/Jurrien Timber.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "yankuba-minteh",
@@ -3908,6 +4018,16 @@
               "nation": "Gambia",
               "image": "assets/players/Yankuba Minteh.jpg",
               "rarity": "ICON"
+            },
+            {
+              "id": "zeno-debast",
+              "name": "Zeno Debast",
+              "rating": 86,
+              "position": "DF",
+              "club": "Sporting CP",
+              "nation": "Belgium",
+              "image": "assets/players/Zeno Debast.jpg",
+              "rarity": "ELITE"
             },
             {
               "id": "ethan-nwaneri",
@@ -3930,32 +4050,32 @@
               "rarity": "ELITE"
             },
             {
-              "id": "zeno-debast",
-              "name": "Zeno Debast",
-              "rating": 85,
-              "position": "DF",
-              "club": "Sporting CP",
-              "nation": "Belgium",
-              "image": "assets/players/Zeno Debast.jpg",
+              "id": "takefusa-kubo",
+              "name": "Takefusa Kubo",
+              "rating": 86,
+              "position": "MF",
+              "club": "Real Sociedad",
+              "nation": "Japan",
+              "image": "assets/players/Takefusa Kubo.jpg",
               "rarity": "ELITE"
             }
           ]
         },
         {
-          "id": "rival-mode-22",
-          "name": "RIVAL MODE 22",
+          "id": "rival-mode",
+          "name": "RIVAL MODE",
           "image": "assets/packs/6_RM.png",
           "cardBack": "assets/packs/6_RM_back.png",
           "rarityWeight": {
-            "LEGEND": 12,
-            "ICON": 7,
-            "ELITE": 18
+            "LEGEND": 40,
+            "ICON": 21,
+            "ELITE": 100
           },
           "players": [
             {
               "id": "cole-palmer",
               "name": "Cole Palmer",
-              "rating": 91,
+              "rating": 92,
               "position": "MF",
               "club": "Chelsea FC",
               "nation": "England",
@@ -3970,6 +4090,16 @@
               "club": "Athletic Club",
               "nation": "Spain",
               "image": "assets/players/Nico Williams.jpg",
+              "rarity": "LEGEND"
+            },
+            {
+              "id": "willian-pacho",
+              "name": "Willian Pacho",
+              "rating": 90,
+              "position": "DF",
+              "club": "Paris Saint-Germain",
+              "nation": "Ecuador",
+              "image": "assets/players/Willian Pacho.jpg",
               "rarity": "LEGEND"
             },
             {
@@ -3993,16 +4123,6 @@
               "rarity": "LEGEND"
             },
             {
-              "id": "willian-pacho",
-              "name": "Willian Pacho",
-              "rating": 90,
-              "position": "DF",
-              "club": "Paris Saint-Germain",
-              "nation": "Ecuador",
-              "image": "assets/players/Willian Pacho.jpg",
-              "rarity": "LEGEND"
-            },
-            {
               "id": "alphonso-davies",
               "name": "Alphonso Davies",
               "rating": 89,
@@ -4013,13 +4133,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "dominik-szoboszlai",
-              "name": "Dominik Szoboszlai",
+              "id": "yan-couto",
+              "name": "Yan Couto",
               "rating": 89,
-              "position": "MF",
-              "club": "Liverpool FC",
-              "nation": "Hungary",
-              "image": "assets/players/Dominik Szoboszlai.jpg",
+              "position": "DF",
+              "club": "Borussia Dortmund",
+              "nation": "Brazil",
+              "image": "assets/players/Yan Couto.jpg",
               "rarity": "ICON"
             },
             {
@@ -4033,13 +4153,33 @@
               "rarity": "ICON"
             },
             {
-              "id": "lucas-chevalier",
-              "name": "Lucas Chevalier",
-              "rating": 88,
-              "position": "GK",
-              "club": "Paris Saint-Germain",
-              "nation": "France",
-              "image": "assets/players/Lucas Chevalier.jpg",
+              "id": "dominik-szoboszlai",
+              "name": "Dominik Szoboszlai",
+              "rating": 89,
+              "position": "MF",
+              "club": "Liverpool FC",
+              "nation": "Hungary",
+              "image": "assets/players/Dominik Szoboszlai.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "morgan-rogers",
+              "name": "Morgan Rogers",
+              "rating": 89,
+              "position": "MF",
+              "club": "Aston Villa FC",
+              "nation": "England",
+              "image": "assets/players/Morgan Rogers.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "francisco-conceicao",
+              "name": "Francisco Conceicao",
+              "rating": 89,
+              "position": "MF",
+              "club": "Juventus",
+              "nation": "Portugal",
+              "image": "assets/players/Francisco Conceicao.jpg",
               "rarity": "ICON"
             },
             {
@@ -4053,23 +4193,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "kenan-yildiz",
-              "name": "Kenan Yildiz",
+              "id": "rico-lewis",
+              "name": "Rico Lewis",
               "rating": 88,
-              "position": "MF",
-              "club": "Juventus FC",
-              "nation": "Turkey/Italy",
-              "image": "assets/players/Kenan Yildiz.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "morgan-rogers",
-              "name": "Morgan Rogers",
-              "rating": 88,
-              "position": "MF",
-              "club": "Aston Villa FC",
+              "position": "DF",
+              "club": "Manchester City",
               "nation": "England",
-              "image": "assets/players/Morgan Rogers.jpg",
+              "image": "assets/players/Rico Lewis.jpg",
               "rarity": "ICON"
             },
             {
@@ -4083,6 +4213,56 @@
               "rarity": "ICON"
             },
             {
+              "id": "estevao",
+              "name": "Estevao",
+              "rating": 88,
+              "position": "FW",
+              "club": "Chelsea FC",
+              "nation": "Brazil",
+              "image": "assets/players/Estevao.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "lucas-chevalier",
+              "name": "Lucas Chevalier",
+              "rating": 88,
+              "position": "GK",
+              "club": "Paris Saint-Germain",
+              "nation": "France",
+              "image": "assets/players/Lucas Chevalier.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "senne-lammens",
+              "name": "Senne Lammens",
+              "rating": 88,
+              "position": "GK",
+              "club": "Manchester United",
+              "nation": "Belgium",
+              "image": "assets/players/Senne Lammens.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "kenan-yildiz",
+              "name": "Kenan Yildiz",
+              "rating": 88,
+              "position": "MF",
+              "club": "Juventus FC",
+              "nation": "Turkey/Italy",
+              "image": "assets/players/Kenan Yildiz.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "mateus-mane",
+              "name": "Mateus Mane",
+              "rating": 88,
+              "position": "MF",
+              "club": "Wolverhampton Wanderers",
+              "nation": "England",
+              "image": "assets/players/Mateus Mane.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "ousmane-diomande",
               "name": "Ousmane Diomande",
               "rating": 87,
@@ -4093,13 +4273,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "joao-gomes",
-              "name": "Joao Gomes",
+              "id": "malick-thiaw",
+              "name": "Malick Thiaw",
               "rating": 87,
-              "position": "MF",
-              "club": "Wolverhampton Wanderers",
-              "nation": "Brazil",
-              "image": "assets/players/Joao Gomes.jpg",
+              "position": "DF",
+              "club": "Newcastle United",
+              "nation": "Germany",
+              "image": "assets/players/Malick Thiaw.jpg",
               "rarity": "ICON"
             },
             {
@@ -4113,59 +4293,59 @@
               "rarity": "ICON"
             },
             {
-              "id": "senne-lammens",
-              "name": "Senne Lammens",
-              "rating": 86,
-              "position": "GK",
-              "club": "Manchester United",
-              "nation": "Belgium",
-              "image": "assets/players/Senne Lammens.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "yan-couto",
-              "name": "Yan Couto",
-              "rating": 86,
-              "position": "DF",
-              "club": "Borussia Dortmund",
+              "id": "joao-gomes",
+              "name": "Joao Gomes",
+              "rating": 87,
+              "position": "MF",
+              "club": "Wolverhampton Wanderers",
               "nation": "Brazil",
-              "image": "assets/players/Yan Couto.jpg",
-              "rarity": "ELITE"
+              "image": "assets/players/Joao Gomes.jpg",
+              "rarity": "ICON"
             },
             {
-              "id": "malick-thiaw",
-              "name": "Malick Thiaw",
+              "id": "ibrahim-maza",
+              "name": "Ibrahim Maza",
+              "rating": 87,
+              "position": "MF",
+              "club": "Leverkusen",
+              "nation": "Algeria",
+              "image": "assets/players/Ibrahim Maza.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "victor-reis",
+              "name": "Victor Reis",
               "rating": 86,
               "position": "DF",
-              "club": "Newcastle United",
-              "nation": "Germany",
-              "image": "assets/players/Malick Thiaw.jpg",
+              "club": "Girona FC",
+              "nation": "Brazil",
+              "image": "assets/players/Victor Reis.jpg",
               "rarity": "ELITE"
             },
             {
-              "id": "rico-lewis",
-              "name": "Rico Lewis",
+              "id": "danilho-doekhi",
+              "name": "Danilho Doekhi",
               "rating": 86,
               "position": "DF",
-              "club": "Manchester City",
-              "nation": "England",
-              "image": "assets/players/Rico Lewis.jpg",
+              "club": "Union Berlin",
+              "nation": "Netherlands",
+              "image": "assets/players/Danilho Doekhi.jpg",
               "rarity": "ELITE"
             },
             {
-              "id": "estevao",
-              "name": "Estevao",
+              "id": "afonso-moreira",
+              "name": "Afonso Moreira",
               "rating": 86,
               "position": "FW",
-              "club": "Chelsea FC",
-              "nation": "Brazil",
-              "image": "assets/players/Estevao.jpg",
+              "club": "Olympique de Lyonnais",
+              "nation": "Portugal",
+              "image": "assets/players/Afonso Moreira.jpg",
               "rarity": "ELITE"
             },
             {
               "id": "andrey-santos",
               "name": "Andrey Santos",
-              "rating": 85,
+              "rating": 86,
               "position": "MF",
               "club": "Chelsea FC",
               "nation": "Brazil",
@@ -4175,14 +4355,14 @@
           ]
         },
         {
-          "id": "final-form-22",
-          "name": "FINAL FORM 22",
+          "id": "final-form",
+          "name": "FINAL FORM",
           "image": "assets/packs/6_FF.png",
           "cardBack": "assets/packs/6_FF_back.png",
           "rarityWeight": {
-            "LEGEND": 44,
-            "ICON": 32,
-            "ELITE": 99
+            "LEGEND": 40,
+            "ICON": 21,
+            "ELITE": 100
           },
           "players": [
             {
@@ -4216,16 +4396,6 @@
               "rarity": "LEGEND"
             },
             {
-              "id": "jamal-musiala",
-              "name": "Jamal Musiala",
-              "rating": 90,
-              "position": "MF",
-              "club": "Bayern Munich",
-              "nation": "Germany",
-              "image": "assets/players/Jamal Musiala.jpg",
-              "rarity": "LEGEND"
-            },
-            {
               "id": "rodrygo",
               "name": "Rodrygo",
               "rating": 90,
@@ -4233,6 +4403,16 @@
               "club": "Real Madrid",
               "nation": "Brazil",
               "image": "assets/players/Rodrygo.jpg",
+              "rarity": "LEGEND"
+            },
+            {
+              "id": "jamal-musiala",
+              "name": "Jamal Musiala",
+              "rating": 90,
+              "position": "MF",
+              "club": "Bayern Munich",
+              "nation": "Germany",
+              "image": "assets/players/Jamal Musiala.jpg",
               "rarity": "LEGEND"
             },
             {
@@ -4256,13 +4436,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "kobbie-mainoo",
-              "name": "Kobbie Mainoo",
+              "id": "alvaro-carreras",
+              "name": "Alvaro Carreras",
               "rating": 89,
-              "position": "MF",
-              "club": "Manchester United",
-              "nation": "England",
-              "image": "assets/players/Kobbie Mainoo.jpg",
+              "position": "DF",
+              "club": "Real Madrid",
+              "nation": "Spain",
+              "image": "assets/players/Alvaro Carreras.jpg",
               "rarity": "ICON"
             },
             {
@@ -4276,23 +4456,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "micky-van-de-ven",
-              "name": "Micky van de Ven",
-              "rating": 88,
-              "position": "DF",
-              "club": "Tottenham Hotspur",
-              "nation": "Netherlands",
-              "image": "assets/players/Micky van de Ven.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "conor-bradley",
-              "name": "Conor Bradley",
-              "rating": 88,
-              "position": "DF",
-              "club": "Liverpool FC",
-              "nation": "Northern Ireland",
-              "image": "assets/players/Conor Bradley.jpg",
+              "id": "kobbie-mainoo",
+              "name": "Kobbie Mainoo",
+              "rating": 89,
+              "position": "MF",
+              "club": "Manchester United",
+              "nation": "England",
+              "image": "assets/players/Kobbie Mainoo.jpg",
               "rarity": "ICON"
             },
             {
@@ -4306,13 +4476,33 @@
               "rarity": "ICON"
             },
             {
-              "id": "mason-greenwood",
-              "name": "Mason Greenwood",
+              "id": "conor-bradley",
+              "name": "Conor Bradley",
               "rating": 88,
-              "position": "MF",
-              "club": "Olympique de Marseille",
+              "position": "DF",
+              "club": "Liverpool FC",
+              "nation": "Northern Ireland",
+              "image": "assets/players/Conor Bradley.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "micky-van-de-ven",
+              "name": "Micky van de Ven",
+              "rating": 88,
+              "position": "DF",
+              "club": "Tottenham Hotspur",
+              "nation": "Netherlands",
+              "image": "assets/players/Micky van de Ven.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "lewis-hall",
+              "name": "Lewis Hall",
+              "rating": 88,
+              "position": "DF",
+              "club": "Newcastle United",
               "nation": "England",
-              "image": "assets/players/Mason Greenwood.jpg",
+              "image": "assets/players/Lewis Hall.jpg",
               "rarity": "ICON"
             },
             {
@@ -4326,6 +4516,46 @@
               "rarity": "ICON"
             },
             {
+              "id": "anatoliy-trubin",
+              "name": "Anatoliy Trubin",
+              "rating": 88,
+              "position": "GK",
+              "club": "SL Benfica",
+              "nation": "Ukraine",
+              "image": "assets/players/Anatoliy Trubin.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "mason-greenwood",
+              "name": "Mason Greenwood",
+              "rating": 88,
+              "position": "MF",
+              "club": "Olympique de Marseille",
+              "nation": "England",
+              "image": "assets/players/Mason Greenwood.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "charles-de-ketelaere",
+              "name": "Charles De Ketelaere",
+              "rating": 88,
+              "position": "MF",
+              "club": "Atalanta BC",
+              "nation": "Belgium",
+              "image": "assets/players/Charles De Ketelaere.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "adam-wharton",
+              "name": "Adam Wharton",
+              "rating": 88,
+              "position": "MF",
+              "club": "Crystal Palace",
+              "nation": "England",
+              "image": "assets/players/Adam Wharton.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "antonio-silva",
               "name": "Antonio Silva",
               "rating": 87,
@@ -4333,6 +4563,36 @@
               "club": "SL Benfica",
               "nation": "Portugal",
               "image": "assets/players/Antonio Silva.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "charlie-cresswell",
+              "name": "Charlie Cresswell",
+              "rating": 87,
+              "position": "DF",
+              "club": "Toulouse FC",
+              "nation": "England",
+              "image": "assets/players/Charlie Cresswell.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "troy-parrott",
+              "name": "Troy Parrott",
+              "rating": 87,
+              "position": "FW",
+              "club": "AZ",
+              "nation": "Republic of Ireland",
+              "image": "assets/players/Troy Parrott.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "giorgi-mamardashvili",
+              "name": "Giorgi Mamardashvili",
+              "rating": 87,
+              "position": "GK",
+              "club": "Liverpool FC",
+              "nation": "Georgia",
+              "image": "assets/players/Giorgi Mamardashvili.jpg",
               "rarity": "ICON"
             },
             {
@@ -4348,51 +4608,11 @@
             {
               "id": "liam-delap",
               "name": "Liam Delap",
-              "rating": 87,
+              "rating": 86,
               "position": "FW",
               "club": "Chelsea FC",
               "nation": "England",
               "image": "assets/players/Liam Delap.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "giorgi-mamardashvili",
-              "name": "Giorgi Mamardashvili",
-              "rating": 86,
-              "position": "GK",
-              "club": "Liverpool FC",
-              "nation": "Georgia",
-              "image": "assets/players/Giorgi Mamardashvili.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "anatoliy-trubin",
-              "name": "Anatoliy Trubin",
-              "rating": 86,
-              "position": "GK",
-              "club": "SL Benfica",
-              "nation": "Ukraine",
-              "image": "assets/players/Anatoliy Trubin.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "lewis-hall",
-              "name": "Lewis Hall",
-              "rating": 86,
-              "position": "DF",
-              "club": "Newcastle United",
-              "nation": "England",
-              "image": "assets/players/Lewis Hall.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "charles-de-ketelaere",
-              "name": "Charles De Ketelaere",
-              "rating": 86,
-              "position": "MF",
-              "club": "Atalanta BC",
-              "nation": "Belgium",
-              "image": "assets/players/Charles De Ketelaere.jpg",
               "rarity": "ELITE"
             },
             {
@@ -4403,6 +4623,26 @@
               "club": "Aston Villa",
               "nation": "Colombia",
               "image": "assets/players/Jhon Duran.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "quinten-timber",
+              "name": "Quinten Timber",
+              "rating": 86,
+              "position": "MF",
+              "club": "Feyenoord",
+              "nation": "Netherlands",
+              "image": "assets/players/Quinten Timber.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "crysencio-summerville",
+              "name": "Crysencio Summerville",
+              "rating": 86,
+              "position": "MF",
+              "club": "West Ham",
+              "nation": "Netherlands",
+              "image": "assets/players/Crysencio Summerville.jpg",
               "rarity": "ELITE"
             }
           ]
@@ -5273,9 +5513,9 @@
       "name": "PERSONA",
       "poster": "assets/posters/Packs_PERSONA 포스터.png",
       "rarityWeight": {
-            "LEGEND": 24,
-            "ICON": 7,
-            "ELITE": 11
+        "LEGEND": 24,
+        "ICON": 7,
+        "ELITE": 11
       },
       "packs": [
         {
@@ -7060,16 +7300,6 @@
               "rarity": "ICON"
             },
             {
-              "id": "adam-wharton",
-              "name": "Adam Wharton",
-              "rating": 88,
-              "position": "MF",
-              "club": "Crystal Palace",
-              "nation": "England",
-              "image": "assets/players/Adam Wharton.jpg",
-              "rarity": "ICON"
-            },
-            {
               "id": "kevin-schade",
               "name": "Kevin Schade",
               "rating": 88,
@@ -7087,6 +7317,16 @@
               "club": "AC Milan",
               "nation": "England",
               "image": "assets/players/Ruben Loftus-Cheek.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "enzo-le-fee",
+              "name": "Enzo Le Fee",
+              "rating": 88,
+              "position": "MF",
+              "club": "Sunderland",
+              "nation": "France",
+              "image": "assets/players/Enzo Le Fee.jpg",
               "rarity": "ICON"
             },
             {
@@ -7150,6 +7390,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "unai-lopez",
+              "name": "Unai Lopez",
+              "rating": 87,
+              "position": "MF",
+              "club": "Rayo Vallecano",
+              "nation": "Spain",
+              "image": "assets/players/Unai Lopez.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "daniel-ballard",
               "name": "Daniel Ballard",
               "rating": 86,
@@ -7187,16 +7437,6 @@
               "club": "Al Nassr",
               "nation": "Croatia",
               "image": "assets/players/Marcelo Brozovic.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "elliot-anderson",
-              "name": "Elliot Anderson",
-              "rating": 86,
-              "position": "MF",
-              "club": "Nottingham Forest",
-              "nation": "England",
-              "image": "assets/players/Elliot Anderson.jpg",
               "rarity": "ELITE"
             },
             {
@@ -7488,16 +7728,6 @@
               "rarity": "ELITE"
             },
             {
-              "id": "alvaro-carreras",
-              "name": "Alvaro Carreras",
-              "rating": 86,
-              "position": "DF",
-              "club": "Real Madrid",
-              "nation": "Spain",
-              "image": "assets/players/Alvaro Carreras.jpg",
-              "rarity": "ELITE"
-            },
-            {
               "id": "ismaila-sarr",
               "name": "Ismaila Sarr",
               "rating": 86,
@@ -7525,6 +7755,16 @@
               "club": "Leeds United",
               "nation": "Wales",
               "image": "assets/players/Daniel James.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "ayyoub-bouaddi",
+              "name": "Ayyoub Bouaddi",
+              "rating": 86,
+              "position": "MF",
+              "club": "LOSC Lille",
+              "nation": "France",
+              "image": "assets/players/Ayyoub Bouaddi.jpg",
               "rarity": "ELITE"
             },
             {
@@ -7568,6 +7808,16 @@
               "rarity": "ELITE"
             },
             {
+              "id": "guela-doue",
+              "name": "Guela Doue",
+              "rating": 84,
+              "position": "DF",
+              "club": "Strasbourg",
+              "nation": "Cote d'Ivoire",
+              "image": "assets/players/Guela Doue.jpg",
+              "rarity": "ELITE"
+            },
+            {
               "id": "vincenzo-grifo",
               "name": "Vincenzo Grifo",
               "rating": 84,
@@ -7575,16 +7825,6 @@
               "club": "SC Freiburg",
               "nation": "Italy",
               "image": "assets/players/Vincenzo Grifo.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "patrick-dorgu",
-              "name": "Patrick Dorgu",
-              "rating": 84,
-              "position": "MF",
-              "club": "Manchester United",
-              "nation": "Denmark",
-              "image": "assets/players/Patrick Dorgu.jpg",
               "rarity": "ELITE"
             }
           ]
@@ -7766,6 +8006,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "ferran-torres",
+              "name": "Ferran Torres",
+              "rating": 87,
+              "position": "FW",
+              "club": "FC Barcelona",
+              "nation": "Spain",
+              "image": "assets/players/Ferran Torres.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "alex-oxlade-chamberlain",
               "name": "Alex Oxlade-Chamberlain",
               "rating": 87,
@@ -7803,16 +8053,6 @@
               "club": "Inter Milan",
               "nation": "Brazil",
               "image": "assets/players/Carlos Augusto.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "ferran-torres",
-              "name": "Ferran Torres",
-              "rating": 86,
-              "position": "FW",
-              "club": "FC Barcelona",
-              "nation": "Spain",
-              "image": "assets/players/Ferran Torres.jpg",
               "rarity": "ELITE"
             },
             {
@@ -8252,6 +8492,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "reece-james",
+              "name": "Reece James",
+              "rating": 89,
+              "position": "DF",
+              "club": "Chelsea FC",
+              "nation": "England",
+              "image": "assets/players/Reece James.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "luis-diaz",
               "name": "Luis Diaz",
               "rating": 89,
@@ -8282,16 +8532,6 @@
               "rarity": "ICON"
             },
             {
-              "id": "reece-james",
-              "name": "Reece James",
-              "rating": 88,
-              "position": "DF",
-              "club": "Chelsea FC",
-              "nation": "England",
-              "image": "assets/players/Reece James.jpg",
-              "rarity": "ICON"
-            },
-            {
               "id": "ainsley-maitland-niles",
               "name": "Ainsley Maitland-Niles",
               "rating": 88,
@@ -8309,6 +8549,16 @@
               "club": "Villarreal CF",
               "nation": "Spain",
               "image": "assets/players/Dani Parejo.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "marc-guehi",
+              "name": "Marc Guehi",
+              "rating": 88,
+              "position": "DF",
+              "club": "Crystal Palace",
+              "nation": "England",
+              "image": "assets/players/Marc Guehi.jpg",
               "rarity": "ICON"
             },
             {
@@ -8369,16 +8619,6 @@
               "club": "Atletico Madrid",
               "nation": "Spain",
               "image": "assets/players/Robin Le Normand.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "marc-guehi",
-              "name": "Marc Guehi",
-              "rating": 87,
-              "position": "DF",
-              "club": "Crystal Palace",
-              "nation": "England",
-              "image": "assets/players/Marc Guehi.jpg",
               "rarity": "ICON"
             },
             {
@@ -8840,16 +9080,6 @@
               "rarity": "ELITE"
             },
             {
-              "id": "rodrigo-mora",
-              "name": "Rodrigo Mora",
-              "rating": 85,
-              "position": "MF",
-              "club": "Porto",
-              "nation": "Portugal",
-              "image": "assets/players/Rodrigo Mora.jpg",
-              "rarity": "ELITE"
-            },
-            {
               "id": "daniel-svensson",
               "name": "Daniel Svensson",
               "rating": 84,
@@ -8857,6 +9087,16 @@
               "club": "Borussia Dortmund",
               "nation": "Sweden",
               "image": "assets/players/Daniel Svensson.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "roony-bardghji",
+              "name": "Roony Bardghji",
+              "rating": 84,
+              "position": "MF",
+              "club": "FC Barcelona",
+              "nation": "Sweden",
+              "image": "assets/players/Roony Bardghji.jpg",
               "rarity": "ELITE"
             }
           ]
@@ -8875,6 +9115,16 @@
               "club": "LOSC Lille",
               "nation": "Brazil",
               "image": "assets/players/Alexsandro.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "eric-garcia",
+              "name": "Eric Garcia",
+              "rating": 89,
+              "position": "DF",
+              "club": "FC Barcelona",
+              "nation": "Spain",
+              "image": "assets/players/Eric Garcia.jpg",
               "rarity": "ICON"
             },
             {
@@ -9166,16 +9416,6 @@
               "nation": "Austria",
               "image": "assets/players/Kevin Danso.jpg",
               "rarity": "ELITE"
-            },
-            {
-              "id": "guela-doue",
-              "name": "Guela Doue",
-              "rating": 84,
-              "position": "DF",
-              "club": "Strasbourg",
-              "nation": "Cote d'Ivoire",
-              "image": "assets/players/Guela Doue.jpg",
-              "rarity": "ELITE"
             }
           ]
         },
@@ -9203,6 +9443,16 @@
               "club": "OGC Nice",
               "nation": "Brazil",
               "image": "assets/players/Dante.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "dayot-upamecano",
+              "name": "Dayot Upamecano",
+              "rating": 89,
+              "position": "DF",
+              "club": "Bayern Munich",
+              "nation": "France",
+              "image": "assets/players/Dayot Upamecano.jpg",
               "rarity": "ICON"
             },
             {
@@ -9236,13 +9486,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "gregor-kobel",
-              "name": "Gregor Kobel",
-              "rating": 89,
-              "position": "GK",
-              "club": "Borussia Dortmund",
-              "nation": "Switzerland",
-              "image": "assets/players/Gregor Kobel.jpg",
+              "id": "alfonso-espino",
+              "name": "Alfonso Espino",
+              "rating": 88,
+              "position": "DF",
+              "club": "Rayo Vallecano",
+              "nation": "Uruguay",
+              "image": "assets/players/Alfonso Espino.jpg",
               "rarity": "ICON"
             },
             {
@@ -9266,16 +9516,6 @@
               "rarity": "ICON"
             },
             {
-              "id": "jonathan-clauss",
-              "name": "Jonathan Clauss",
-              "rating": 88,
-              "position": "DF",
-              "club": "OGC Nice",
-              "nation": "France",
-              "image": "assets/players/Jonathan Clauss.jpg",
-              "rarity": "ICON"
-            },
-            {
               "id": "nathen-ake",
               "name": "Nathen Ake",
               "rating": 88,
@@ -9283,6 +9523,16 @@
               "club": "Manchester City",
               "nation": "Netherlands",
               "image": "assets/players/Nathen Ake.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "joao-moutinho",
+              "name": "Joao Moutinho",
+              "rating": 88,
+              "position": "MF",
+              "club": "SC Braga",
+              "nation": "Portugal",
+              "image": "assets/players/Joao Moutinho.jpg",
               "rarity": "ICON"
             },
             {
@@ -9306,13 +9556,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "scott-mctominay",
-              "name": "Scott McTominay",
+              "id": "jonathan-clauss",
+              "name": "Jonathan Clauss",
               "rating": 88,
-              "position": "MF",
-              "club": "Napoli",
-              "nation": "Scotland",
-              "image": "assets/players/Scott McTominay.jpg",
+              "position": "DF",
+              "club": "OGC Nice",
+              "nation": "France",
+              "image": "assets/players/Jonathan Clauss.jpg",
               "rarity": "ICON"
             },
             {
@@ -9323,16 +9573,6 @@
               "club": "Bayern Munich",
               "nation": "Portugal",
               "image": "assets/players/Raphael Guerreiro.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "dayot-upamecano",
-              "name": "Dayot Upamecano",
-              "rating": 87,
-              "position": "DF",
-              "club": "Bayern Munich",
-              "nation": "France",
-              "image": "assets/players/Dayot Upamecano.jpg",
               "rarity": "ICON"
             },
             {
@@ -9356,13 +9596,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "nick-woltemade",
-              "name": "Nick Woltemade",
+              "id": "peter-gulacsi",
+              "name": "Peter Gulacsi",
               "rating": 87,
-              "position": "FW",
-              "club": "Newcastle United",
-              "nation": "Germany",
-              "image": "assets/players/Nick Woltemade.jpg",
+              "position": "GK",
+              "club": "RB Leipzig",
+              "nation": "Hungary",
+              "image": "assets/players/Peter Gulacsi.jpg",
               "rarity": "ICON"
             },
             {
@@ -9521,6 +9761,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "benjamin-white",
+              "name": "Benjamin White",
+              "rating": 89,
+              "position": "DF",
+              "club": "Arsenal FC",
+              "nation": "England",
+              "image": "assets/players/Benjamin White.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "ollie-watkins",
               "name": "Ollie Watkins",
               "rating": 89,
@@ -9581,16 +9831,6 @@
               "rarity": "ICON"
             },
             {
-              "id": "benjamin-white",
-              "name": "Benjamin White",
-              "rating": 88,
-              "position": "DF",
-              "club": "Arsenal FC",
-              "nation": "England",
-              "image": "assets/players/Benjamin White.jpg",
-              "rarity": "ICON"
-            },
-            {
               "id": "jorrel-hato",
               "name": "Jorrel Hato",
               "rating": 88,
@@ -9631,6 +9871,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "fabio-carvalho",
+              "name": "Fabio Carvalho",
+              "rating": 88,
+              "position": "MF",
+              "club": "Brentford",
+              "nation": "Portugal",
+              "image": "assets/players/Fabio Carvalho.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "yann-aurel-bisseck",
               "name": "Yann Aurel Bisseck",
               "rating": 87,
@@ -9648,6 +9898,16 @@
               "club": "Athletic Club",
               "nation": "Spain",
               "image": "assets/players/Yuri Berchiche.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "jakub-kiwior",
+              "name": "Jakub Kiwior",
+              "rating": 87,
+              "position": "DF",
+              "club": "Porto",
+              "nation": "Poland",
+              "image": "assets/players/Jakub Kiwior.jpg",
               "rarity": "ICON"
             },
             {
@@ -9681,16 +9941,6 @@
               "rarity": "ICON"
             },
             {
-              "id": "fabio-carvalho",
-              "name": "Fabio Carvalho",
-              "rating": 87,
-              "position": "MF",
-              "club": "Brentford",
-              "nation": "Portugal",
-              "image": "assets/players/Fabio Carvalho.jpg",
-              "rarity": "ICON"
-            },
-            {
               "id": "matteo-guendouzi",
               "name": "Matteo Guendouzi",
               "rating": 87,
@@ -9721,13 +9971,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "jakub-kiwior",
-              "name": "Jakub Kiwior",
+              "id": "timothy-weah",
+              "name": "Timothy Weah",
               "rating": 86,
               "position": "DF",
-              "club": "Porto",
-              "nation": "Poland",
-              "image": "assets/players/Jakub Kiwior.jpg",
+              "club": "Olympique de Marseille",
+              "nation": "United States",
+              "image": "assets/players/Timothy Weah.jpg",
               "rarity": "ELITE"
             },
             {
@@ -9748,16 +9998,6 @@
               "club": "Benfica",
               "nation": "Belgium",
               "image": "assets/players/Dodi Lukebakio.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "timothy-weah",
-              "name": "Timothy Weah",
-              "rating": 85,
-              "position": "DF",
-              "club": "Olympique de Marseille",
-              "nation": "United States",
-              "image": "assets/players/Timothy Weah.jpg",
               "rarity": "ELITE"
             },
             {
@@ -9849,6 +10089,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "mohamed-simakan",
+              "name": "Mohamed Simakan",
+              "rating": 89,
+              "position": "DF",
+              "club": "Al Nassr",
+              "nation": "France",
+              "image": "assets/players/Mohamed Simakan.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "mike-maignan",
               "name": "Mike Maignan",
               "rating": 89,
@@ -9896,16 +10146,6 @@
               "club": "AC Milan",
               "nation": "England",
               "image": "assets/players/Fikayo Tomori.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "mohamed-simakan",
-              "name": "Mohamed Simakan",
-              "rating": 88,
-              "position": "DF",
-              "club": "Al Nassr",
-              "nation": "France",
-              "image": "assets/players/Mohamed Simakan.jpg",
               "rarity": "ICON"
             },
             {
@@ -10197,6 +10437,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "granit-xhaka",
+              "name": "Granit Xhaka",
+              "rating": 89,
+              "position": "MF",
+              "club": "Sunderland FC",
+              "nation": "Switzerland",
+              "image": "assets/players/Granit Xhaka.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "malo-gusto",
               "name": "Malo Gusto",
               "rating": 88,
@@ -10237,16 +10487,6 @@
               "rarity": "ICON"
             },
             {
-              "id": "granit-xhaka",
-              "name": "Granit Xhaka",
-              "rating": 88,
-              "position": "MF",
-              "club": "Sunderland FC",
-              "nation": "Switzerland",
-              "image": "assets/players/Granit Xhaka.jpg",
-              "rarity": "ICON"
-            },
-            {
               "id": "james-maddison",
               "name": "James Maddison",
               "rating": 88,
@@ -10274,6 +10514,16 @@
               "club": "Bayern Munich",
               "nation": "Austria",
               "image": "assets/players/Konrad Laimer.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "eric-dier",
+              "name": "Eric Dier",
+              "rating": 87,
+              "position": "DF",
+              "club": "AS Monaco",
+              "nation": "England",
+              "image": "assets/players/Eric Dier.jpg",
               "rarity": "ICON"
             },
             {
@@ -10344,16 +10594,6 @@
               "club": "Al Ahli",
               "nation": "Brazil",
               "image": "assets/players/Ibanez.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "eric-dier",
-              "name": "Eric Dier",
-              "rating": 86,
-              "position": "DF",
-              "club": "AS Monaco",
-              "nation": "England",
-              "image": "assets/players/Eric Dier.jpg",
               "rarity": "ELITE"
             },
             {
@@ -10485,16 +10725,6 @@
               "rarity": "ICON"
             },
             {
-              "id": "timo-werner",
-              "name": "Timo Werner",
-              "rating": 89,
-              "position": "FW",
-              "club": "RB Leipzig",
-              "nation": "Germany",
-              "image": "assets/players/Timo Werner.jpg",
-              "rarity": "ICON"
-            },
-            {
               "id": "anderson-talisca",
               "name": "Anderson Talisca",
               "rating": 89,
@@ -10522,6 +10752,16 @@
               "club": "Athletic Club",
               "nation": "Ghana",
               "image": "assets/players/Inaki Williams.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "fabinho",
+              "name": "Fabinho",
+              "rating": 89,
+              "position": "MF",
+              "club": "Al Ittihad",
+              "nation": "Brazil",
+              "image": "assets/players/Fabinho.jpg",
               "rarity": "ICON"
             },
             {
@@ -10582,16 +10822,6 @@
               "club": "Paris Saint-Germain",
               "nation": "Spain",
               "image": "assets/players/Fabian Ruiz.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "fabinho",
-              "name": "Fabinho",
-              "rating": 88,
-              "position": "MF",
-              "club": "Al Ittihad",
-              "nation": "Brazil",
-              "image": "assets/players/Fabinho.jpg",
               "rarity": "ICON"
             },
             {
@@ -10665,6 +10895,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "jauregizar",
+              "name": "Jauregizar",
+              "rating": 87,
+              "position": "MF",
+              "club": "Athletic Club",
+              "nation": "Spain",
+              "image": "assets/players/Jauregizar.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "gorosabel",
               "name": "Gorosabel",
               "rating": 86,
@@ -10672,6 +10912,16 @@
               "club": "Athletic Club",
               "nation": "Spain",
               "image": "assets/players/Gorosabel.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "timo-werner",
+              "name": "Timo Werner",
+              "rating": 86,
+              "position": "FW",
+              "club": "RB Leipzig",
+              "nation": "Germany",
+              "image": "assets/players/Timo Werner.jpg",
               "rarity": "ELITE"
             },
             {
@@ -10745,16 +10995,6 @@
               "rarity": "ELITE"
             },
             {
-              "id": "jauregizar",
-              "name": "Jauregizar",
-              "rating": 85,
-              "position": "MF",
-              "club": "Athletic Club",
-              "nation": "Spain",
-              "image": "assets/players/Jauregizar.jpg",
-              "rarity": "ELITE"
-            },
-            {
               "id": "ulisses-garcia",
               "name": "Ulisses Garcia",
               "rating": 84,
@@ -10790,6 +11030,16 @@
               "club": "Chelsea FC",
               "nation": "England",
               "image": "assets/players/Tosin Adarabioyo.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "trent-alexander-arnold",
+              "name": "Trent Alexander-Arnold",
+              "rating": 89,
+              "position": "DF",
+              "club": "Real Madrid",
+              "nation": "England",
+              "image": "assets/players/Trent Alexander-Arnold.jpg",
               "rarity": "ICON"
             },
             {
@@ -10843,16 +11093,6 @@
               "rarity": "ICON"
             },
             {
-              "id": "trent-alexander-arnold",
-              "name": "Trent Alexander-Arnold",
-              "rating": 88,
-              "position": "DF",
-              "club": "Real Madrid",
-              "nation": "England",
-              "image": "assets/players/Trent Alexander-Arnold.jpg",
-              "rarity": "ICON"
-            },
-            {
               "id": "lorenzo-lucca",
               "name": "Lorenzo Lucca",
               "rating": 88,
@@ -10900,6 +11140,16 @@
               "club": "Manchester City",
               "nation": "Netherlands",
               "image": "assets/players/Tijjani Reijnders.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "aleksandar-pavlovic",
+              "name": "Aleksandar Pavlovic",
+              "rating": 88,
+              "position": "MF",
+              "club": "Bayern Munich",
+              "nation": "Germany",
+              "image": "assets/players/Aleksandar Pavlovic.jpg",
               "rarity": "ICON"
             },
             {
@@ -10953,6 +11203,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "inigo-martinez",
+              "name": "Inigo Martinez",
+              "rating": 87,
+              "position": "DF",
+              "club": "Al Nassr",
+              "nation": "Spain",
+              "image": "assets/players/Inigo Martinez.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "yacine-adli",
               "name": "Yacine Adli",
               "rating": 87,
@@ -10963,16 +11223,6 @@
               "rarity": "ICON"
             },
             {
-              "id": "aleksandar-pavlovic",
-              "name": "Aleksandar Pavlovic",
-              "rating": 87,
-              "position": "MF",
-              "club": "Bayern Munich",
-              "nation": "Germany",
-              "image": "assets/players/Aleksandar Pavlovic.jpg",
-              "rarity": "ICON"
-            },
-            {
               "id": "alexander-bah",
               "name": "Alexander Bah",
               "rating": 86,
@@ -10980,16 +11230,6 @@
               "club": "Benfica",
               "nation": "Denmark",
               "image": "assets/players/Alexander Bah.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "inigo-martinez",
-              "name": "Inigo Martinez",
-              "rating": 86,
-              "position": "DF",
-              "club": "Al Nassr",
-              "nation": "Spain",
-              "image": "assets/players/Inigo Martinez.jpg",
               "rarity": "ELITE"
             },
             {
@@ -11251,6 +11491,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "benedict-hollerbach",
+              "name": "Benedict Hollerbach",
+              "rating": 87,
+              "position": "FW",
+              "club": "FSV Mainz",
+              "nation": "Germany",
+              "image": "assets/players/Benedict Hollerbach.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "lucas-paqueta",
               "name": "Lucas Paqueta",
               "rating": 87,
@@ -11289,16 +11539,6 @@
               "nation": "Argentina",
               "image": "assets/players/Matias Soule.jpg",
               "rarity": "ICON"
-            },
-            {
-              "id": "benedict-hollerbach",
-              "name": "Benedict Hollerbach",
-              "rating": 86,
-              "position": "FW",
-              "club": "FSV Mainz",
-              "nation": "Germany",
-              "image": "assets/players/Benedict Hollerbach.jpg",
-              "rarity": "ELITE"
             },
             {
               "id": "dango-ouattara",
@@ -11418,7 +11658,7 @@
           "image": "assets/packs/9_PDH.png",
           "cardBack": "assets/packs/9_PDH_back.png",
           "players": [
-             {
+            {
               "id": "joe-gomez",
               "name": "Joe Gomez",
               "rating": 89,
@@ -11449,6 +11689,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "gregor-kobel",
+              "name": "Gregor Kobel",
+              "rating": 89,
+              "position": "GK",
+              "club": "Borussia Dortmund",
+              "nation": "Switzerland",
+              "image": "assets/players/Gregor Kobel.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "bruno-fernandes",
               "name": "Bruno Fernandes",
               "rating": 89,
@@ -11466,6 +11716,16 @@
               "club": "Manchester United",
               "nation": "England",
               "image": "assets/players/Mason Mount.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "scott-mctominay",
+              "name": "Scott McTominay",
+              "rating": 89,
+              "position": "MF",
+              "club": "Napoli",
+              "nation": "Scotland",
+              "image": "assets/players/Scott McTominay.jpg",
               "rarity": "ICON"
             },
             {
@@ -11516,16 +11776,6 @@
               "club": "Besiktas",
               "nation": "England",
               "image": "assets/players/Tammy Abraham.jpg",
-              "rarity": "ICON"
-            },
-            {
-              "id": "antonio-nusa",
-              "name": "Antonio Nusa",
-              "rating": 88,
-              "position": "MF",
-              "club": "RB Leipzig",
-              "nation": "Norway",
-              "image": "assets/players/Antonio Nusa.jpg",
               "rarity": "ICON"
             },
             {
@@ -11636,16 +11886,6 @@
               "club": "AFC Bournemouth",
               "nation": "England",
               "image": "assets/players/Marcus Tavernier.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "francisco-conceicao",
-              "name": "Francisco Conceicao",
-              "rating": 86,
-              "position": "MF",
-              "club": "Juventus",
-              "nation": "Portugal",
-              "image": "assets/players/Francisco Conceicao.jpg",
               "rarity": "ELITE"
             },
             {
@@ -12225,6 +12465,16 @@
               "rarity": "ICON"
             },
             {
+              "id": "federico-chiesa",
+              "name": "Federico Chiesa",
+              "rating": 87,
+              "position": "FW",
+              "club": "Liverpool",
+              "nation": "Italy",
+              "image": "assets/players/Federico Chiesa.jpg",
+              "rarity": "ICON"
+            },
+            {
               "id": "exequiel-palacios",
               "name": "Exequiel Palacios",
               "rating": 87,
@@ -12275,16 +12525,6 @@
               "rarity": "ELITE"
             },
             {
-              "id": "federico-chiesa",
-              "name": "Federico Chiesa",
-              "rating": 86,
-              "position": "FW",
-              "club": "Liverpool",
-              "nation": "Italy",
-              "image": "assets/players/Federico Chiesa.jpg",
-              "rarity": "ELITE"
-            },
-            {
               "id": "dennis-man",
               "name": "Dennis Man",
               "rating": 86,
@@ -12302,6 +12542,16 @@
               "club": "Fiorentina",
               "nation": "Italy",
               "image": "assets/players/Cher Ndour.jpg",
+              "rarity": "ELITE"
+            },
+            {
+              "id": "moleiro",
+              "name": "Moleiro",
+              "rating": 86,
+              "position": "MF",
+              "club": "Villarreal CF",
+              "nation": "Spain",
+              "image": "assets/players/Moleiro.jpg",
               "rarity": "ELITE"
             },
             {
@@ -12353,16 +12603,6 @@
               "nation": "Greece",
               "image": "assets/players/Konstantinos Mavropanos.jpg",
               "rarity": "ELITE"
-            },
-            {
-              "id": "moleiro",
-              "name": "Moleiro",
-              "rating": 84,
-              "position": "MF",
-              "club": "Villarreal CF",
-              "nation": "Spain",
-              "image": "assets/players/Moleiro.jpg",
-              "rarity": "ELITE"
             }
           ]
         },
@@ -12380,6 +12620,16 @@
               "club": "Tottenham Hotspur",
               "nation": "Spain",
               "image": "assets/players/Pedro Porro.jpg",
+              "rarity": "ICON"
+            },
+            {
+              "id": "maximilian-beier",
+              "name": "Maximilian Beier",
+              "rating": 89,
+              "position": "FW",
+              "club": "Borussia Dortmund",
+              "nation": "Germany",
+              "image": "assets/players/Maximilian Beier.jpg",
               "rarity": "ICON"
             },
             {
@@ -12503,13 +12753,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "maximilian-beier",
-              "name": "Maximilian Beier",
+              "id": "benjamin-pavard",
+              "name": "Benjamin Pavard",
               "rating": 87,
-              "position": "FW",
-              "club": "Borussia Dortmund",
-              "nation": "Germany",
-              "image": "assets/players/Maximilian Beier.jpg",
+              "position": "DF",
+              "club": "Olympique de Marseille",
+              "nation": "France",
+              "image": "assets/players/Benjamin Pavard.jpg",
               "rarity": "ICON"
             },
             {
@@ -12570,16 +12820,6 @@
               "club": "Paris Saint-Germain",
               "nation": "Brazil",
               "image": "assets/players/Lucas Beraldo.jpg",
-              "rarity": "ELITE"
-            },
-            {
-              "id": "benjamin-pavard",
-              "name": "Benjamin Pavard",
-              "rating": 86,
-              "position": "DF",
-              "club": "Olympique de Marseille",
-              "nation": "France",
-              "image": "assets/players/Benjamin Pavard.jpg",
               "rarity": "ELITE"
             },
             {
@@ -12673,13 +12913,13 @@
               "rarity": "ELITE"
             },
             {
-              "id": "yan-diomande",
-              "name": "Yan Diomande",
+              "id": "gonzalo",
+              "name": "Gonzalo",
               "rating": 84,
               "position": "FW",
-              "club": "RB Leipzig",
-              "nation": "Cote d'Ivoire",
-              "image": "assets/players/Yan Diomande.jpg",
+              "club": "Real Madrid",
+              "nation": "Spain",
+              "image": "assets/players/Gonzalo.jpg",
               "rarity": "ELITE"
             }
           ]
