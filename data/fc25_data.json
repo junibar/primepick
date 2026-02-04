@@ -4506,13 +4506,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "ansu-fati",
-              "name": "Ansu Fati",
+              "id": "etta-eyong",
+              "name": "Etta Eyong",
               "rating": 88,
               "position": "FW",
-              "club": "AS Monaco",
-              "nation": "Spain",
-              "image": "assets/players/Ansu Fati.jpg",
+              "club": "Levante UD",
+              "nation": "Cameroon",
+              "image": "assets/players/Etta Eyong.jpg",
               "rarity": "ICON"
             },
             {
@@ -9178,13 +9178,13 @@
               "rarity": "ICON"
             },
             {
-              "id": "duvan-zapata",
-              "name": "Duvan Zapata",
+              "id": "ansu-fati",
+              "name": "Ansu Fati",
               "rating": 88,
               "position": "FW",
-              "club": "Torino",
-              "nation": "Colombia",
-              "image": "assets/players/Duvan Zapata.jpg",
+              "club": "AS Monaco",
+              "nation": "Spain",
+              "image": "assets/players/Ansu Fati.jpg",
               "rarity": "ICON"
             },
             {
