@@ -9738,10 +9738,10 @@
           ]
         },
         {
-          "id": "amber-ember",
-          "name": "AMBER EMBER",
-          "image": "assets/packs/8_ABE.png",
-          "cardBack": "assets/packs/8_ABE_back.png",
+          "id": "amber-fire",
+          "name": "AMBER FIRE",
+          "image": "assets/packs/8_ABF.png",
+          "cardBack": "assets/packs/8_ABF_back.png",
           "players": [
             {
               "id": "ben-chilwell",
