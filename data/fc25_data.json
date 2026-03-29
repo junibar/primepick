@@ -11,9 +11,9 @@
           "image": "assets/packs/1_TGS.png",
           "cardBack": "assets/packs/1_TGS_back.png",
           "rarityWeight": {
-            "LEGEND": 16,
-            "ICON": 7,
-            "ELITE": 6
+            "LEGEND": 15,
+            "ICON": 8,
+            "ELITE": 9
           },
           "players": [
             {
@@ -59,7 +59,7 @@
             {
               "id": "pl-zchf6e",
               "name": "유상철",
-              "rating": 88,
+              "rating": 89,
               "position": "MF",
               "club": "울산 현대",
               "nation": "대한민국",
@@ -69,7 +69,7 @@
             {
               "id": "pl-72ney3",
               "name": "이영표",
-              "rating": 87,
+              "rating": 88,
               "position": "DF",
               "club": "토트넘 홋스퍼",
               "nation": "대한민국",
@@ -89,7 +89,7 @@
             {
               "id": "pl-b53wm2",
               "name": "이강인",
-              "rating": 87,
+              "rating": 88,
               "position": "MF",
               "club": "파리 생제르맹",
               "nation": "대한민국",
@@ -119,22 +119,22 @@
             {
               "id": "pl-gq9hhl",
               "name": "조현우",
-              "rating": 86,
+              "rating": 87,
               "position": "GK",
               "club": "울산 현대",
               "nation": "대한민국",
               "image": "assets/players/조현우.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "pl-wonkwn",
               "name": "최진철",
-              "rating": 86,
+              "rating": 87,
               "position": "DF",
               "club": "전북 현대",
               "nation": "대한민국",
               "image": "assets/players/최진철.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "pl-govmwi",
@@ -244,9 +244,9 @@
           "image": "assets/packs/1_TGP.png",
           "cardBack": "assets/packs/1_TGP_back.png",
           "rarityWeight": {
-            "LEGEND": 16,
-            "ICON": 7,
-            "ELITE": 6
+            "LEGEND": 15,
+            "ICON": 8,
+            "ELITE": 9
           },
           "players": [
             {
@@ -302,7 +302,7 @@
             {
               "id": "pl-5hfsvz",
               "name": "기성용",
-              "rating": 87,
+              "rating": 88,
               "position": "MF",
               "club": "스완지 시티",
               "nation": "대한민국",
@@ -372,7 +372,7 @@
             {
               "id": "pl-33wzh3",
               "name": "황인범",
-              "rating": 86,
+              "rating": 87,
               "position": "MF",
               "club": "페예노르트",
               "nation": "대한민국",
@@ -392,7 +392,7 @@
             {
               "id": "pl-fvpas8",
               "name": "김영권",
-              "rating": 85,
+              "rating": 86,
               "position": "DF",
               "club": "울산 현대",
               "nation": "대한민국",
@@ -432,7 +432,7 @@
             {
               "id": "pl-x7layn",
               "name": "이을용",
-              "rating": 85,
+              "rating": 86,
               "position": "MF",
               "club": "제주 유나이티드",
               "nation": "대한민국",
@@ -1702,8 +1702,8 @@
           "image": "assets/packs/2_FM.png",
           "cardBack": "assets/packs/2_FM_back.png",
           "rarityWeight": {
-            "LEGEND": 1,
-            "ICON": 1,
+            "LEGEND": 12,
+            "ICON": 17,
             "ELITE": 0
           },
           "players": [
@@ -1800,7 +1800,7 @@
             {
               "id": "clarence-seedorf",
               "name": "Clarence Seedorf",
-              "rating": 87,
+              "rating": 89,
               "position": "MF",
               "club": "AC Milan",
               "nation": "Netherlands",
@@ -1815,8 +1815,8 @@
           "image": "assets/packs/2_PP.png",
           "cardBack": "assets/packs/2_PP_back.png",
           "rarityWeight": {
-            "LEGEND": 12,
-            "ICON": 7,
+            "LEGEND": 9,
+            "ICON": 8,
             "ELITE": 27
           },
           "players": [
@@ -1883,7 +1883,7 @@
             {
               "id": "steven-gerrard",
               "name": "Steven Gerrard",
-              "rating": 88,
+              "rating": 89,
               "position": "MF",
               "club": "Liverpool",
               "nation": "England",
@@ -1893,7 +1893,7 @@
             {
               "id": "yaya-toure",
               "name": "Yaya Toure",
-              "rating": 87,
+              "rating": 88,
               "position": "MF",
               "club": "Manchester City",
               "nation": "Cote d'Ivoire",
@@ -1928,9 +1928,9 @@
           "image": "assets/packs/2_IC.png",
           "cardBack": "assets/packs/2_IC_back.png",
           "rarityWeight": {
-            "LEGEND": 10,
-            "ICON": 5,
-            "ELITE": 45
+            "LEGEND": 12,
+            "ICON": 17,
+            "ELITE": 0
           },
           "players": [
             {
@@ -2026,12 +2026,12 @@
             {
               "id": "ashley-cole",
               "name": "Ashley Cole",
-              "rating": 86,
+              "rating": 88,
               "position": "DF",
               "club": "Chelsea",
               "nation": "England",
               "image": "assets/players/Ashley Cole.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             }
           ]
         },
@@ -2041,9 +2041,9 @@
           "image": "assets/packs/2_ER.png",
           "cardBack": "assets/packs/2_ER_back.png",
           "rarityWeight": {
-            "LEGEND": 80,
-            "ICON": 28,
-            "ELITE": 45
+            "LEGEND": 1,
+            "ICON": 1,
+            "ELITE": 1
           },
           "players": [
             {
@@ -2069,7 +2069,7 @@
             {
               "id": "claude-makelele",
               "name": "Claude Makelele",
-              "rating": 87,
+              "rating": 88,
               "position": "MF",
               "club": "Chelsea",
               "nation": "France",
@@ -2099,12 +2099,12 @@
             {
               "id": "gilberto-silva",
               "name": "Gilberto Silva",
-              "rating": 86,
+              "rating": 87,
               "position": "MF",
               "club": "Arsenal",
               "nation": "Brazil",
               "image": "assets/players/Gilberto Silva.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "javier-mascherano",
@@ -2139,12 +2139,12 @@
             {
               "id": "sol-campbell",
               "name": "Sol Campbell",
-              "rating": 86,
+              "rating": 87,
               "position": "DF",
               "club": "Arsenal",
               "nation": "England",
               "image": "assets/players/Sol Campbell.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             }
           ]
         }
@@ -2264,7 +2264,7 @@
             {
               "id": "thomas-muller",
               "name": "Thomas Muller",
-              "rating": 88,
+              "rating": 89,
               "position": "MF",
               "club": "Bayern Munich",
               "nation": "Germany",
@@ -2472,7 +2472,7 @@
             {
               "id": "thiago-silva",
               "name": "Thiago Silva",
-              "rating": 88,
+              "rating": 89,
               "position": "DF",
               "club": "Paris Saint-Germain",
               "nation": "Brazil",
@@ -2833,7 +2833,7 @@
             {
               "id": "frank-lampard",
               "name": "Frank Lampard",
-              "rating": 87,
+              "rating": 89,
               "position": "MF",
               "club": "Chelsea",
               "nation": "England",
@@ -3088,9 +3088,9 @@
           "image": "assets/packs/4_TR.png",
           "cardBack": "assets/packs/4_TR_back.png",
           "rarityWeight": {
-            "LEGEND": 32,
-            "ICON": 49,
-            "ELITE": 168
+            "LEGEND": 11,
+            "ICON": 15,
+            "ELITE": 87
           },
           "players": [
             {
@@ -3256,12 +3256,12 @@
             {
               "id": "roy-keane",
               "name": "Roy Keane",
-              "rating": 86,
+              "rating": 88,
               "position": "MF",
               "club": "Manchester United",
               "nation": "Republic of Ireland",
               "image": "assets/players/Roy Keane.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "jamie-carragher",
@@ -3409,7 +3409,7 @@
             {
               "id": "frank-rijkaard",
               "name": "Frank Rijkaard",
-              "rating": 87,
+              "rating": 88,
               "position": "MF",
               "club": "AC Milan",
               "nation": "Netherlands",
@@ -4660,9 +4660,9 @@
           "image": "assets/packs/5_BLP.png",
           "cardBack": "assets/packs/5_BLP_back.png",
           "rarityWeight": {
-            "LEGEND": 88,
-            "ICON": 42,
-            "ELITE": 99
+            "LEGEND": 42,
+            "ICON": 17,
+            "ELITE": 71
           },
           "players": [
             {
@@ -4808,22 +4808,22 @@
             {
               "id": "guti",
               "name": "Guti",
-              "rating": 86,
+              "rating": 87,
               "position": "MF",
               "club": "Real Madrid",
               "nation": "Spain",
               "image": "assets/players/Guti.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "pablo-aimar",
               "name": "Pablo Aimar",
-              "rating": 86,
+              "rating": 87,
               "position": "MF",
               "club": "Valencia",
               "nation": "Argentina",
               "image": "assets/players/Pablo Aimar.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "shinji-kagawa",
@@ -5086,9 +5086,9 @@
           "image": "assets/packs/5_MNT.png",
           "cardBack": "assets/packs/5_MNT_back.png",
           "rarityWeight": {
-            "LEGEND": 88,
-            "ICON": 42,
-            "ELITE": 99
+            "LEGEND": 52,
+            "ICON": 21,
+            "ELITE": 88
           },
           "players": [
             {
@@ -5174,7 +5174,7 @@
             {
               "id": "gabriel-batistuta",
               "name": "Gabriel Batistuta",
-              "rating": 88,
+              "rating": 89,
               "position": "FW",
               "club": "Fiorentina",
               "nation": "Argentina",
@@ -5224,7 +5224,7 @@
             {
               "id": "xabi-alonso",
               "name": "Xabi Alonso",
-              "rating": 87,
+              "rating": 88,
               "position": "MF",
               "club": "Real Madrid",
               "nation": "Spain",
@@ -5264,7 +5264,7 @@
             {
               "id": "marek-hamsik",
               "name": "Marek Hamsik",
-              "rating": 86,
+              "rating": 87,
               "position": "MF",
               "club": "Napoli",
               "nation": "Slovakia",
@@ -5274,7 +5274,7 @@
             {
               "id": "patrice-evra",
               "name": "Patrice Evra",
-              "rating": 86,
+              "rating": 87,
               "position": "DF",
               "club": "Manchester United",
               "nation": "France",
@@ -5387,7 +5387,7 @@
             {
               "id": "deco",
               "name": "Deco",
-              "rating": 87,
+              "rating": 88,
               "position": "MF",
               "club": "Porto",
               "nation": "Portugal",
@@ -5407,7 +5407,7 @@
             {
               "id": "denis-irwin",
               "name": "Denis Irwin",
-              "rating": 87,
+              "rating": 88,
               "position": "DF",
               "club": "Manchester United",
               "nation": "Republic of Ireland",
@@ -5757,12 +5757,12 @@
             {
               "id": "antonio-valencia",
               "name": "Antonio Valencia",
-              "rating": 86,
+              "rating": 87,
               "position": "MF",
               "club": "Manchester United",
               "nation": "Ecuador",
               "image": "assets/players/Antonio Valencia.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "jack-wilshere",
@@ -5915,12 +5915,12 @@
             {
               "id": "esteban-cambiasso",
               "name": "Esteban Cambiasso",
-              "rating": 86,
+              "rating": 87,
               "position": "MF",
               "club": "Inter Milan",
               "nation": "Argentina",
               "image": "assets/players/Esteban Cambiasso.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "lassana-diarra",
@@ -6039,6 +6039,11 @@
           "name": "ELITE FOWER 25",
           "image": "assets/packs/7_ELT.png",
           "cardBack": "assets/packs/7_ELT_back.png",
+          "rarityWeight": {
+           "LEGEND": 20,
+           "ICON": 7,
+           "ELITE": 9
+             },
           "players": [
             {
               "id": "djalma-dos-santos",
@@ -6123,7 +6128,7 @@
             {
               "id": "michael-ballack",
               "name": "Michael Ballack",
-              "rating": 87,
+              "rating": 88,
               "position": "MF",
               "club": "Chelsea",
               "nation": "Germany",
@@ -6341,7 +6346,7 @@
             {
               "id": "patrick-vieira",
               "name": "Patrick Vieira",
-              "rating": 88,
+              "rating": 89,
               "position": "MF",
               "club": "Arsenal",
               "nation": "France",
@@ -6431,12 +6436,12 @@
             {
               "id": "daniele-de-rossi",
               "name": "Daniele De Rossi",
-              "rating": 86,
+              "rating": 87,
               "position": "MF",
               "club": "AS Roma",
               "nation": "Italy",
               "image": "assets/players/Daniele De Rossi.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "dele-alli",
@@ -16418,7 +16423,7 @@
             {
               "id": "rui-costa",
               "name": "Rui Costa",
-              "rating": 86,
+              "rating": 88,
               "position": "MF",
               "club": "Fiorentina",
               "nation": "Portugal",
