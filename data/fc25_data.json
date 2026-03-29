@@ -377,7 +377,7 @@
               "club": "페예노르트",
               "nation": "대한민국",
               "image": "assets/players/황인범.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "pl-wx3bho",
@@ -3063,12 +3063,12 @@
             {
               "id": "michael-essien",
               "name": "Michael Essien",
-              "rating": 86,
+              "rating": 87,
               "position": "MF",
               "club": "Chelsea FC",
               "nation": "Ghana",
               "image": "assets/players/Michael Essien.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             },
             {
               "id": "hernan-crespo",
@@ -3459,12 +3459,12 @@
             {
               "id": "juan-sebastian-veron",
               "name": "Juan Sebastian Veron",
-              "rating": 86,
+              "rating": 87,
               "position": "MF",
               "club": "SSC Lazio",
               "nation": "Argentina",
               "image": "assets/players/Juan Sebastian Veron.jpg",
-              "rarity": "ELITE"
+              "rarity": "ICON"
             }
           ]
         }
@@ -16423,7 +16423,7 @@
             {
               "id": "rui-costa",
               "name": "Rui Costa",
-              "rating": 88,
+              "rating": 87,
               "position": "MF",
               "club": "Fiorentina",
               "nation": "Portugal",
