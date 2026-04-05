@@ -10,11 +10,6 @@
           "name": "태극 스탠다드",
           "image": "assets/packs/1_TGS.png",
           "cardBack": "assets/packs/1_TGS_back.png",
-          "rarityWeight": {
-            "LEGEND": 15,
-            "ICON": 8,
-            "ELITE": 9
-          },
           "players": [
             {
               "id": "pl-2v5soy",
@@ -243,11 +238,6 @@
           "name": "태극 프라임",
           "image": "assets/packs/1_TGP.png",
           "cardBack": "assets/packs/1_TGP_back.png",
-          "rarityWeight": {
-            "LEGEND": 15,
-            "ICON": 8,
-            "ELITE": 9
-          },
           "players": [
             {
               "id": "pl-9fnlx2",
@@ -476,11 +466,6 @@
           "name": "태극 클래식",
           "image": "assets/packs/1_TGC.png",
           "cardBack": "assets/packs/1_TGC_back.png",
-          "rarityWeight": {
-            "LEGEND": 0,
-            "ICON": 15,
-            "ELITE": 13
-          },
           "players": [
             {
               "id": "김주성 1",
@@ -709,11 +694,6 @@
           "name": "태극 아너스",
           "image": "assets/packs/1_TGH.png",
           "cardBack": "assets/packs/1_TGH_back.png",
-          "rarityWeight": {
-            "LEGEND": 0,
-            "ICON": 15,
-            "ELITE": 13
-          },
           "players": [
             {
               "id": "최순호",
@@ -1701,11 +1681,6 @@
           "name": "FLAIR MASTERS 10",
           "image": "assets/packs/2_FM.png",
           "cardBack": "assets/packs/2_FM_back.png",
-          "rarityWeight": {
-            "LEGEND": 12,
-            "ICON": 17,
-            "ELITE": 0
-          },
           "players": [
             {
               "id": "ronaldinho",
@@ -1814,11 +1789,6 @@
           "name": "POWER & PACE",
           "image": "assets/packs/2_PP.png",
           "cardBack": "assets/packs/2_PP_back.png",
-          "rarityWeight": {
-            "LEGEND": 9,
-            "ICON": 8,
-            "ELITE": 27
-          },
           "players": [
             {
               "id": "thierry-henry",
@@ -1927,11 +1897,6 @@
           "name": "IRON CURTAIN 10",
           "image": "assets/packs/2_IC.png",
           "cardBack": "assets/packs/2_IC_back.png",
-          "rarityWeight": {
-            "LEGEND": 12,
-            "ICON": 17,
-            "ELITE": 0
-          },
           "players": [
             {
               "id": "gianluigi-buffon",
@@ -2040,11 +2005,6 @@
           "name": "ENGINE ROOM 10",
           "image": "assets/packs/2_ER.png",
           "cardBack": "assets/packs/2_ER_back.png",
-          "rarityWeight": {
-            "LEGEND": 1,
-            "ICON": 1,
-            "ELITE": 1
-          },
           "players": [
             {
               "id": "andrea-pirlo",
@@ -2154,22 +2114,12 @@
       "id": "newtro-icons",
       "name": "NEWTRO ICONS",
       "poster": "assets/posters/Packs_NEWTRO ICONS 포스터.png",
-      "rarityWeight": {
-        "LEGEND": 13,
-        "ICON": 16,
-        "ELITE": 0
-      },
       "packs": [
         {
           "id": "vhs-flair-17",
           "name": "VHS FLAIR 17",
           "image": "assets/packs/3_VHS.png",
           "cardBack": "assets/packs/3_VHS_back.png",
-          "rarityWeight": {
-            "LEGEND": 7,
-            "ICON": 6,
-            "ELITE": 0
-          },
           "players": [
             {
               "id": "lionel-messi",
@@ -2704,11 +2654,6 @@
           "name": "SYNTHWAVE ARCHITECTS 17",
           "image": "assets/packs/3_SA.png",
           "cardBack": "assets/packs/3_SA_back.png",
-          "rarityWeight": {
-            "LEGEND": 3,
-            "ICON": 5,
-            "ELITE": 0
-          },
           "players": [
             {
               "id": "roberto-baggio",
@@ -2894,11 +2839,6 @@
           "name": "SOLAR EMBER 18",
           "image": "assets/packs/4_SE.png",
           "cardBack": "assets/packs/4_SE_back.png",
-          "rarityWeight": {
-            "LEGEND": 4,
-            "ICON": 7,
-            "ELITE": 36
-          },
           "players": [
             {
               "id": "diego-maradona",
@@ -3087,11 +3027,6 @@
           "name": "TIDE RIFT 18",
           "image": "assets/packs/4_TR.png",
           "cardBack": "assets/packs/4_TR_back.png",
-          "rarityWeight": {
-            "LEGEND": 11,
-            "ICON": 15,
-            "ELITE": 87
-          },
           "players": [
             {
               "id": "pele",
@@ -3280,11 +3215,6 @@
           "name": "TEMPEST WING 18",
           "image": "assets/packs/4_TW.png",
           "cardBack": "assets/packs/4_TW_back.png",
-          "rarityWeight": {
-            "LEGEND": 1,
-            "ICON": 2,
-            "ELITE": 6
-          },
           "players": [
             {
               "id": "ronaldo",
@@ -3480,11 +3410,6 @@
           "name": "ORIGIN ARC",
           "image": "assets/packs/6_ORA.png",
           "cardBack": "assets/packs/6_ORA_back.png",
-          "rarityWeight": {
-            "LEGEND": 40,
-            "ICON": 21,
-            "ELITE": 100
-          },
           "players": [
             {
               "id": "lamine-yamal",
@@ -3773,11 +3698,6 @@
           "name": "POWER-UP RUSH",
           "image": "assets/packs/6_PUR.png",
           "cardBack": "assets/packs/6_PUR_back.png",
-          "rarityWeight": {
-            "LEGEND": 40,
-            "ICON": 21,
-            "ELITE": 100
-          },
           "players": [
             {
               "id": "jude-bellingham",
@@ -4066,11 +3986,6 @@
           "name": "RIVAL MODE",
           "image": "assets/packs/6_RM.png",
           "cardBack": "assets/packs/6_RM_back.png",
-          "rarityWeight": {
-            "LEGEND": 40,
-            "ICON": 21,
-            "ELITE": 100
-          },
           "players": [
             {
               "id": "cole-palmer",
@@ -4359,11 +4274,6 @@
           "name": "FINAL FORM",
           "image": "assets/packs/6_FF.png",
           "cardBack": "assets/packs/6_FF_back.png",
-          "rarityWeight": {
-            "LEGEND": 40,
-            "ICON": 21,
-            "ELITE": 100
-          },
           "players": [
             {
               "id": "vinicius-junior",
@@ -4659,11 +4569,6 @@
           "name": "BLUEPRINT 20",
           "image": "assets/packs/5_BLP.png",
           "cardBack": "assets/packs/5_BLP_back.png",
-          "rarityWeight": {
-            "LEGEND": 42,
-            "ICON": 17,
-            "ELITE": 71
-          },
           "players": [
             {
               "id": "giuseppe-meazza",
@@ -4872,11 +4777,6 @@
           "name": "ARCHITECTURE 20",
           "image": "assets/packs/5_ARC.png",
           "cardBack": "assets/packs/5_ARC_back.png",
-          "rarityWeight": {
-            "LEGEND": 24,
-            "ICON": 7,
-            "ELITE": 18
-          },
           "players": [
             {
               "id": "alfredo-di-stefano",
@@ -5085,11 +4985,6 @@
           "name": "MONUMENTS 20",
           "image": "assets/packs/5_MNT.png",
           "cardBack": "assets/packs/5_MNT_back.png",
-          "rarityWeight": {
-            "LEGEND": 52,
-            "ICON": 21,
-            "ELITE": 88
-          },
           "players": [
             {
               "id": "raul-gonzalez",
@@ -5298,11 +5193,6 @@
           "name": "MODULAR 20",
           "image": "assets/packs/5_MOD.png",
           "cardBack": "assets/packs/5_MOD_back.png",
-          "rarityWeight": {
-            "LEGEND": 154,
-            "ICON": 49,
-            "ELITE": 99
-          },
           "players": [
             {
               "id": "michel-platini",
@@ -5512,11 +5402,6 @@
       "id": "persona",
       "name": "PERSONA",
       "poster": "assets/posters/Packs_PERSONA 포스터.png",
-      "rarityWeight": {
-        "LEGEND": 24,
-        "ICON": 7,
-        "ELITE": 11
-      },
       "packs": [
         {
           "id": "mystic-fighter-25",
@@ -6039,11 +5924,6 @@
           "name": "ELITE FOWER 25",
           "image": "assets/packs/7_ELT.png",
           "cardBack": "assets/packs/7_ELT_back.png",
-          "rarityWeight": {
-           "LEGEND": 20,
-           "ICON": 7,
-           "ELITE": 9
-             },
           "players": [
             {
               "id": "djalma-dos-santos",
@@ -13889,11 +13769,6 @@
       "id": "match-weather",
       "name": "MATCH WEATHER",
       "poster": "assets/posters/Packs_MATCH WEATHER 포스터.png",
-      "rarityWeight": {
-        "LEGEND": 77,
-        "ICON": 22,
-        "ELITE": 35
-      },
       "packs": [
         {
           "id": "blossom-bloom-spring",
