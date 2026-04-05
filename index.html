@@ -398,51 +398,81 @@ function setupOpenStage(pack){
   qs('#btnBackToPacks').onclick = ()=> showScreen('#screenPacks');
 }
 
-/* weighted pick (player.weight > rarityWeights > default) */
-function rarityKey(s){ return String(s || '').toUpperCase(); }
-
-const DEFAULT_RW = { LEGEND: 16, ICON: 28, ELITE: 36, CORE: 0, COMMON: 0 }; // 4:7:9(≈20/35/45)
-
-function getRarityWeights(pack, series){
-  // 단수/복수 키 모두 허용
-  const packRW   = pack?.rarityWeights   || pack?.rarityWeight;
-  const seriesRW = series?.rarityWeights || series?.rarityWeight;
-
-  // 선택: 팩 > 시리즈 > 디폴트
-  const base = packRW || seriesRW || DEFAULT_RW;
-
-  // 키 대소문자 정규화 + 숫자화
-  const norm = {};
-  for (const [k, v] of Object.entries(base)) {
-    norm[rarityKey(k)] = Number(v) || 0;
-  }
-  return norm;
+function rarityKey(s){ 
+  return String(s || '').toUpperCase(); 
 }
 
-function pickWeightedPlayer(pack, series){   // ← series를 인자로 넘기거나 내부에서 조회
+const GLOBAL_RARITY_PROB = {
+  LEGEND: 15,
+  ICON: 35,
+  ELITE: 50
+};
+
+function weightedPick(weightMap) {
+  const entries = Object.entries(weightMap);
+  const total = entries.reduce((sum, [, value]) => sum + value, 0);
+
+  if (total <= 0) return null;
+
+  let roll = Math.random() * total;
+
+  for (const [key, value] of entries) {
+    roll -= value;
+    if (roll < 0) return key;
+  }
+
+  return entries[entries.length - 1][0];
+}
+
+function getNormalizedRarityProb(pack) {
   const players = pack?.players || [];
   if (!players.length) return null;
 
-  const rw = getRarityWeights(pack, series);
+  // 이 팩에 실제 존재하는 rarity만 추출
+  const available = new Set(
+    players
+      .map(p => rarityKey(p.rarity || rarityFromRating(p.rating)))
+      .filter(Boolean)
+  );
 
-  // 가중치 합
-  let total = 0;
-  const weights = players.map(p => {
-    const r = rarityKey(p.rarity);
-    const w = Number(p.weight) || rw[r] || 0;  // 선수별 weight가 있으면 우선
-    total += w;
-    return w;
-  });
-  if (!total) return null;
+  // 전역 확률에서 존재하는 rarity만 남김
+  const filtered = Object.fromEntries(
+    Object.entries(GLOBAL_RARITY_PROB).filter(([rarity]) => available.has(rarity))
+  );
 
-  // 가중 랜덤
-  let t = Math.random() * total;
-  for (let i = 0; i < players.length; i++) {
-    t -= weights[i];
-    if (t <= 0) return players[i];
-  }
-  return players.at(-1);
+  const total = Object.values(filtered).reduce((sum, value) => sum + value, 0);
+  if (total <= 0) return null;
+
+  // 남은 rarity만 재정규화
+  return Object.fromEntries(
+    Object.entries(filtered).map(([rarity, value]) => [rarity, value / total])
+  );
 }
+
+function pickWeightedPlayer(pack) {
+  const players = pack?.players || [];
+  if (!players.length) return null;
+
+  // 1) 팩에 있는 rarity만 기준으로 확률 재계산
+  const rarityProb = getNormalizedRarityProb(pack);
+  if (!rarityProb) return null;
+
+  // 2) rarity 먼저 선택
+  const selectedRarity = weightedPick(rarityProb);
+  if (!selectedRarity) return null;
+
+  // 3) 해당 rarity 선수만 후보
+  const candidates = players.filter(p => {
+    const rarity = rarityKey(p.rarity || rarityFromRating(p.rating));
+    return rarity === selectedRarity;
+  });
+
+  if (!candidates.length) return null;
+
+  // 4) 같은 rarity 안에서는 균등 추첨
+  const index = Math.floor(Math.random() * candidates.length);
+  return candidates[index];
+}  
 
 /* confetti */
 function confettiBurst(){
@@ -474,7 +504,7 @@ function openPack(){
   pd.classList.add('shine');
 
   // pick
-  const player = pickWeightedPlayer(currentPack,currentSeries);
+  const player = pickWeightedPlayer(currentPack);
   if(!player){ toast('이 팩에 선수가 없습니다. DATA.players를 채워주세요.'); return; }
   const rarity = player.rarity ? String(player.rarity).toUpperCase() : rarityFromRating(player.rating);
 
